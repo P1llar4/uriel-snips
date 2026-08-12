@@ -1,0 +1,1765 @@
+# UrielSnips — Complete Claude/Codex Build Prompt Set
+
+Yes. For **UrielSnips**, the architecture should be much smaller than Uriel Studio.
+
+The goal is a **standalone VS Code extension containing the complete Uriel writing/snippet toolkit**, while remaining architecturally clean enough that Uriel Studio can consume the same snippet definitions later.
+
+**Repository:**
+
+```text
+https://github.com/P1llar4/uriel-snips.git
+```
+
+**Package:**
+
+```text
+uriel-snips
+```
+
+**Extension ID:**
+
+```text
+uriel-snips
+```
+
+**Display name:**
+
+```text
+Uriel Snips
+```
+
+The prompts below are written so they can be given to either **Codex or Claude Code**.
+
+---
+
+# PHASE 0 — FOUNDATION
+
+## Prompt 01 — Repository Audit
+
+```text
+You are the lead engineer building Uriel Snips.
+
+Repository:
+https://github.com/P1llar4/uriel-snips.git
+
+Project:
+Uriel Snips
+
+Purpose:
+Build a professional VS Code extension containing a comprehensive writing toolkit for authors, novelists, worldbuilders, lore designers, and storytellers.
+
+Uriel Snips is NOT the full Uriel Studio application.
+
+Uriel Snips should focus on:
+
+- snippets
+- writing templates
+- AI writing prompts
+- manuscript structures
+- character templates
+- worldbuilding templates
+- lore templates
+- poetry
+- prophecy
+- planning
+- revision
+- continuity
+- author workflows
+
+Before changing anything:
+
+1. Inspect the entire repository.
+2. Inspect package.json.
+3. Inspect all source files.
+4. Inspect existing snippets.
+5. Inspect language definitions.
+6. Inspect VS Code configuration.
+7. Inspect TypeScript configuration.
+8. Inspect tests.
+9. Inspect README.
+10. Inspect Git status.
+11. Identify broken imports.
+12. Identify incorrect package names.
+13. Identify duplicate snippets.
+14. Identify missing functionality.
+
+Do not delete useful existing work.
+
+Do not rewrite the repository unnecessarily.
+
+Do not publish or push changes.
+
+Return an audit containing:
+
+CURRENT STRUCTURE
+BUILD STATUS
+TYPECHECK STATUS
+TEST STATUS
+EXISTING SNIPPETS
+MISSING SNIPPETS
+DUPLICATES
+ARCHITECTURAL PROBLEMS
+RECOMMENDED BUILD ORDER
+```
+
+---
+
+# PHASE 1 — NPM FOUNDATION
+
+## Prompt 02 — Correct package.json
+
+```text
+Build the foundational package configuration for Uriel Snips.
+
+Package name:
+
+uriel-snips
+
+Version:
+
+0.1.0
+
+Description:
+
+A comprehensive VS Code writing toolkit for authors, worldbuilders, storytellers, and lore designers.
+
+Repository:
+
+https://github.com/P1llar4/uriel-snips.git
+
+Keywords:
+
+vscode
+writing
+author
+novel
+worldbuilding
+storytelling
+lore
+fantasy
+poetry
+prophecy
+ai
+creative-writing
+manuscript
+codex
+
+Author:
+
+Kadi Heinz
+
+License:
+
+MIT
+
+Use TypeScript.
+
+Use the VS Code extension API.
+
+Use the package manager already established by the repository.
+
+Correct any malformed package.json fields.
+
+Do not add dependencies unless they are actually required.
+
+The extension must eventually compile to:
+
+out/extension.js
+```
+
+### Important correction from the earlier `npm init`
+
+The previous package had:
+
+```json
+"type": " module"
+```
+
+That space is wrong.
+
+For the VS Code extension architecture we are building, **do not blindly preserve that setting**. Let the implementation determine whether CommonJS or ESM is appropriate, and keep the VS Code extension configuration internally consistent.
+
+---
+
+# PHASE 2 — EXTENSION SCAFFOLD
+
+## Prompt 03 — Build the Extension
+
+```text
+Create the minimal functional Uriel Snips VS Code extension.
+
+Requirements:
+
+Extension name:
+uriel-snips
+
+Display name:
+Uriel Snips
+
+Publisher:
+P1llar4
+
+Version:
+0.1.0
+
+Create:
+
+src/extension.ts
+
+The extension must:
+
+1. Activate successfully.
+2. Register the snippet system.
+3. Register a basic command:
+   Uriel Snips: Open Toolkit
+4. Register Uriel language support if the repository already contains it.
+5. Load without activation errors.
+
+Keep extension.ts small.
+
+Use modular files.
+
+Do not put the complete snippet library into extension.ts.
+
+The first milestone is:
+
+F5 → Extension Development Host → Uriel Snips activates successfully.
+```
+
+---
+
+# PHASE 3 — SNIPPET ARCHITECTURE
+
+## Prompt 04 — Build a Real Snippet Library
+
+```text
+Create a maintainable snippet architecture.
+
+Do not place all snippets directly into extension.ts.
+
+Create a snippet library such as:
+
+snippets/
+├── uriel.json
+├── markdown.json
+├── ai.json
+├── manuscript.json
+├── characters.json
+├── worldbuilding.json
+├── lore.json
+├── poetry.json
+├── planning.json
+├── revision.json
+└── publishing.json
+
+If VS Code requires language-specific snippet files, structure them accordingly.
+
+Use JSON-compatible VS Code snippet syntax.
+
+Every snippet must have:
+
+name
+prefix
+body
+description
+
+Avoid duplicate prefixes.
+
+Use descriptive prefixes.
+
+Document the snippet architecture.
+```
+
+---
+
+# PHASE 4 — CORE AI SNIPPETS
+
+## Prompt 05 — Add the Original AI Snippets
+
+```text
+Implement the complete original Uriel AI snippet collection.
+
+Include exactly these snippets:
+
+AI Emotion
+prefix: aie
+
+AI Line
+prefix: ai
+
+AI Note
+prefix: ain
+
+AI Question
+prefix: aiq
+
+AI Suggest
+prefix: ais
+
+AI Thought
+prefix: aith
+
+AI Warning
+prefix: aiw
+
+User Line
+prefix: user
+
+Use these structures:
+
+AI_EMOTION: ${1:Emotion text}
+
+AI: ${1:Response}
+
+AI_NOTE: ${1:Note text}
+
+AI_ASKS: ${1:Your question}
+
+AI_SUGGEST: ${1:Suggestion text}
+
+AI_THOUGHT: ${1:Internal reasoning}
+
+AI_WARNING: ${1:Warning text}
+
+USER: ${1:Your message}
+
+Do not modify the semantic meaning of these blocks.
+```
+
+---
+
+# PHASE 5 — AI STORY PROMPTS
+
+## Prompt 06 — Add AI Authoring Prompts
+
+```text
+Add the complete Uriel AI story prompt collection.
+
+Include:
+
+AI Story Prompt: Tone Enforcement
+prefix: aistyle
+
+AI Story Prompt: Scene Generation
+prefix: aiscene
+
+AI Story Prompt: Lore Expansion
+prefix: ailore
+
+AI Conversation Archive
+prefix: ailog
+
+AI Log: Single Exchange
+prefix: aiexchange
+
+The Tone Enforcement prompt must preserve:
+
+- epic tone
+- mythic tone
+- prophetic voice
+- authoritative diction
+- ancient justice
+- elevated language
+- rhythmic structure
+- elemental contrasts
+- symbolic objects
+
+The Scene Generation prompt must support:
+
+subject/event
+element 1
+element 2
+symbol
+
+The Lore Expansion prompt must support:
+
+lore fragment
+ancient laws
+prophecies
+rhythmic meter
+
+The Conversation Archive must contain:
+
+Chronicle
+Inquiry
+Decree
+Unanswered Riddles
+Labors to Complete
+Omens & Truths
+
+The Single Exchange must contain:
+
+Seeker
+Oracle
+```
+
+---
+
+# PHASE 6 — MYTHIC / PROPHETIC SNIPPETS
+
+## Prompt 07 — Add Mythic Writing Toolkit
+
+```text
+Add the foundational Uriel mythic writing snippets.
+
+Include:
+
+Ancient Judgment
+prefix: judgment
+
+Canticle Block
+prefix: canticle
+
+Chanted Meter
+prefix: chant
+
+Elemental Contrast
+prefix: element
+
+Poem Block
+prefix: poem
+
+Prophecy Block
+prefix: prophecy
+
+Prophetic Decree
+prefix: decree
+
+Preserve the existing Uriel aesthetic:
+
+- mythic
+- prophetic
+- symbolic
+- ritualistic
+- literary
+
+Do not make the snippets excessively decorative when plain text would be more useful.
+
+Preserve existing sigil characters in the Poem Block.
+```
+
+---
+
+# PHASE 7 — KNOWLEDGE / CODEX SNIPPETS
+
+## Prompt 08 — Add Knowledge Link Toolkit
+
+```text
+Add the complete Knowledge Link snippet collection.
+
+Include:
+
+Knowledge Link: Standard Entity
+prefix: klink
+
+Knowledge Link: Relational Tie
+prefix: krel
+
+Knowledge Link: Prophetic Reference
+prefix: kprophecy
+
+Standard Entity must create:
+
+[[Entity_Name]]
+Type
+Status
+Description
+
+Relational Tie must create:
+
+[[Source_Entity]] =[Relation]=> [[Target_Entity]]
+
+Prophetic Reference must create:
+
+PROPHECY REF
+quote
+related entity
+
+Preserve the existing syntax exactly where possible.
+
+These snippets should eventually be compatible with Uriel Studio's future Codex system.
+```
+
+---
+
+# PHASE 8 — WRITING WORKFLOW
+
+## Prompt 09 — Add Writing Session Toolkit
+
+```text
+Add the writing workflow snippets.
+
+Include:
+
+Daily Writing Session
+prefix: writingday
+
+Creative Spark
+prefix: spark
+
+The Daily Writing Session must contain:
+
+Writing Session
+Date
+Current Objective
+Scene Written
+New Discoveries
+Next Session
+
+The Creative Spark must contain:
+
+Creative Spark
+Image
+Emotion
+Possible Story Use
+
+Use tab stops in logical order.
+
+End with $0.
+```
+
+---
+
+# PHASE 9 — MASTER AUTHOR COMMAND
+
+## Prompt 10 — Add Master Command
+
+```text
+Add:
+
+Final Author Command
+
+prefix:
+
+mastercommand
+
+The snippet must contain:
+
+MASTER WRITING DIRECTIVE
+
+Create a passage from the Uriel Chronicles.
+
+Required:
+
+Mythic scale
+Strong symbolism
+Emotional depth
+Internal consistency
+Memorable imagery
+
+Subject
+
+Desired outcome
+
+Use tab stops.
+
+This should function as the universal Uriel writing command.
+```
+
+---
+
+# PHASE 10 — CHARACTER TOOLKIT
+
+## Prompt 11 — Build Character Snippets
+
+```text
+Expand Uriel Snips with a complete character-writing toolkit.
+
+Add snippets for:
+
+Character Profile
+Character Introduction
+Character Arc
+Character Goal
+Character Fear
+Character Desire
+Character Secret
+Character Wound
+Character Strength
+Character Flaw
+Character Voice
+Character Relationship
+Character Conflict
+Character Revelation
+Character Death
+Character Transformation
+Character Backstory
+Character Motivation
+Character Contradiction
+Character Scene Presence
+
+Use clear prefixes such as:
+
+char
+charintro
+chararc
+charg
+charfear
+chardesire
+charsecret
+charwound
+charstrength
+charflaw
+charvoice
+charrel
+charconflict
+charreveal
+chardeath
+chartransform
+charback
+charmotive
+charcontradiction
+charscene
+
+Do not create duplicate prefixes.
+
+Keep snippets practical and fast to invoke.
+```
+
+---
+
+# PHASE 11 — SCENE TOOLKIT
+
+## Prompt 12 — Build Scene Snippets
+
+```text
+Create a complete scene-writing toolkit.
+
+Include:
+
+Scene Header
+Scene Objective
+Scene Opening
+Scene Ending
+Scene Conflict
+Scene Turning Point
+Scene Stakes
+Scene Setting
+Scene Sensory Detail
+Scene Action
+Scene Dialogue
+Scene Internal Thought
+Scene Revelation
+Scene Foreshadowing
+Scene Transition
+Scene Revision
+Scene Summary
+
+Prefixes should begin with:
+
+scene
+
+Avoid collisions with existing prefixes.
+
+Every snippet should be useful during actual manuscript writing.
+```
+
+---
+
+# PHASE 12 — CHAPTER / MANUSCRIPT TOOLKIT
+
+## Prompt 13 — Build Manuscript Structure
+
+```text
+Add manuscript organization snippets.
+
+Include:
+
+Book Header
+Book Part
+Act
+Chapter
+Chapter Summary
+Chapter Goal
+Chapter Opening
+Chapter Ending
+Chapter Conflict
+Chapter Turning Point
+Scene List
+Chapter Revision Notes
+Manuscript Note
+Author Note
+
+Use practical Markdown-compatible structures.
+
+Do not force users into one manuscript methodology.
+
+The toolkit should support:
+
+three-act structure
+five-act structure
+nonlinear fiction
+episodic fiction
+poetry/prose hybrids
+experimental structures
+```
+
+---
+
+# PHASE 13 — WORLDBUILDING TOOLKIT
+
+## Prompt 14 — Build Worldbuilding Snippets
+
+```text
+Create a complete worldbuilding toolkit.
+
+Include snippets for:
+
+World Profile
+Location
+Region
+City
+Kingdom
+Empire
+Faction
+Organization
+Culture
+Religion
+Deity
+Language
+Calendar
+Technology
+Magic System
+Magic Rule
+Magic Limitation
+Social System
+Political System
+Economy
+Military
+Custom
+Tradition
+Festival
+Law
+Taboo
+Artifact
+Weapon
+Clothing
+Food
+Architecture
+
+Use a consistent structure.
+
+Worldbuilding entries should support:
+
+Name
+Type
+Description
+History
+Relationships
+Status
+Notes
+```
+
+---
+
+# PHASE 14 — LORE TOOLKIT
+
+## Prompt 15 — Build Lore System
+
+```text
+Create the Uriel lore toolkit.
+
+Include:
+
+Lore Entry
+Ancient Lore
+Historical Event
+Myth
+Legend
+Origin Story
+Creation Myth
+Forbidden Knowledge
+Sacred Text
+Lost Text
+Prophecy
+Decree
+Law
+Curse
+Blessing
+Oath
+Pact
+Ritual
+Riddle
+Secret
+Canonical Fact
+Noncanonical Fact
+
+Each snippet should make it easy to distinguish structured lore from ordinary prose.
+
+Maintain compatibility with the future Uriel Codex.
+```
+
+---
+
+# PHASE 15 — TIMELINE TOOLKIT
+
+## Prompt 16 — Build Timeline Snippets
+
+```text
+Create timeline and chronology snippets.
+
+Include:
+
+Timeline Entry
+Historical Event
+Era
+Age
+Date
+Approximate Date
+Before/After Relationship
+Flashback
+Flashforward
+Chronological Conflict
+Event Cause
+Event Consequence
+
+Support uncertain dates.
+
+Example concepts:
+
+DATE:
+BEFORE:
+AFTER:
+CAUSE:
+CONSEQUENCE:
+STATUS:
+
+Do not assume every fictional world uses Earth-style dates.
+```
+
+---
+
+# PHASE 16 — RELATIONSHIP TOOLKIT
+
+## Prompt 17 — Build Relationship Snippets
+
+```text
+Create relationship-management snippets.
+
+Include:
+
+Character Relationship
+Faction Relationship
+Political Relationship
+Family Relationship
+Romantic Relationship
+Rivalry
+Alliance
+Betrayal
+Mentorship
+Enemy
+Protector
+Master/Apprentice
+Creator/Creation
+Cause/Effect
+
+Use a consistent directional syntax where possible.
+
+Prefer compatibility with:
+
+[[Source]] =[relation]=> [[Target]]
+```
+
+---
+
+# PHASE 17 — POETRY TOOLKIT
+
+## Prompt 18 — Build Poetry System
+
+```text
+Create a comprehensive poetry toolkit.
+
+Include:
+
+Poem Block
+Verse
+Couplet
+Quatrain
+Stanza
+Chant
+Refrain
+Invocation
+Elegy
+Hymn
+Lament
+Oath
+Prophetic Verse
+Epigraph
+Song
+Riddle Verse
+
+Preserve the existing Poem Block and Chanted Meter snippets.
+
+Do not require all poetry to follow one meter.
+```
+
+---
+
+# PHASE 18 — REVISION TOOLKIT
+
+## Prompt 19 — Build Revision Snippets
+
+```text
+Create revision-focused snippets.
+
+Include:
+
+Revision Note
+Continuity Check
+Character Consistency
+Timeline Check
+Lore Check
+Dialogue Check
+Pacing Check
+Description Check
+Show Don't Tell
+Repetition Check
+Weak Sentence
+Strong Image
+Cut This
+Expand This
+Rewrite This
+Alternative Version
+Author Question
+Reader Question
+Unresolved Thread
+Payoff Required
+
+These snippets should help an author identify work rather than automatically rewrite it.
+```
+
+---
+
+# PHASE 19 — STORY STRUCTURE TOOLKIT
+
+## Prompt 20 — Build Plot Toolkit
+
+```text
+Create plot-development snippets.
+
+Include:
+
+Story Premise
+Logline
+Theme
+Central Question
+Conflict
+External Conflict
+Internal Conflict
+Character Arc
+Plot Point
+Inciting Incident
+First Turning Point
+Midpoint
+Crisis
+Climax
+Resolution
+Subplot
+Plot Thread
+Foreshadowing
+Payoff
+Mystery
+Reveal
+Twist
+False Victory
+False Defeat
+Stakes
+Escalation
+
+Keep structures concise enough to use during drafting.
+```
+
+---
+
+# PHASE 20 — RESEARCH TOOLKIT
+
+## Prompt 21 — Build Research Snippets
+
+```text
+Create research and reference snippets.
+
+Include:
+
+Research Note
+Source
+Citation
+Question
+Hypothesis
+Fact
+Unverified Fact
+Primary Source
+Secondary Source
+Historical Note
+Reference
+Research Gap
+Research Task
+Source Conflict
+Author Interpretation
+
+Clearly distinguish fact from interpretation and speculation.
+```
+
+---
+
+# PHASE 21 — PUBLISHING TOOLKIT
+
+## Prompt 22 — Build Publishing Snippets
+
+```text
+Create publishing workflow snippets.
+
+Include:
+
+Title Page
+Copyright
+Dedication
+Epigraph
+Table of Contents
+Author Note
+Acknowledgments
+Chapter Metadata
+Book Metadata
+Series Metadata
+Edition Note
+Revision History
+Publication Note
+Back Matter
+End Note
+
+Keep the snippets format-neutral where practical.
+```
+
+---
+
+# PHASE 22 — AI CONTEXT / PROMPT ENGINEERING
+
+## Prompt 23 — Expand AI Prompt Toolkit
+
+```text
+Create advanced AI writing snippets.
+
+Include:
+
+AI Brainstorm
+AI Rewrite
+AI Expand
+AI Condense
+AI Summarize
+AI Critique
+AI Continue
+AI Dialogue
+AI Description
+AI Character Analysis
+AI Scene Analysis
+AI Lore Analysis
+AI Timeline Analysis
+AI Continuity Check
+AI Canon Check
+AI Voice Match
+AI Tone Match
+AI Symbolism Analysis
+AI Theme Analysis
+AI Foreshadowing
+AI Payoff
+AI Alternative
+AI Research Question
+AI Outline
+AI Chapter Plan
+AI Scene Plan
+
+Use clear prefixes beginning with:
+
+aibrain
+airewrite
+aiexpand
+aicondense
+aisummary
+aicritique
+aicontinue
+aidialogue
+aidescribe
+aichar
+aiscenecheck
+ailorecheck
+aitimeline
+aicontinuity
+aicanon
+aivoice
+aitone
+aisymbol
+aitheme
+aiforeshadow
+aipayoff
+aialternative
+airesearch
+aioutline
+aichapter
+aisceneplan
+
+Do not conflict with:
+
+aie
+ai
+ain
+aiq
+ais
+aith
+aiw
+aistyle
+aiscene
+ailore
+ailog
+aiexchange
+```
+
+---
+
+# PHASE 23 — Uriel-Specific SYMBOLIC TOOLKIT
+
+## Prompt 24 — Build Mythic Symbolism System
+
+```text
+Create a specialized Uriel symbolic writing toolkit.
+
+Include:
+
+Symbol
+Motif
+Element
+Fire
+Shadow
+Light
+Iron
+Tower
+Scroll
+Scales
+Crown
+Sword
+Star
+Moon
+Sun
+Dawn
+Ash
+Blood
+Throne
+Gate
+Key
+Chain
+Mirror
+Flame
+Serpent
+Eye
+Wing
+Seal
+Sigil
+
+Each snippet should allow:
+
+symbol
+meaning
+appearance
+associated character
+associated faction
+associated event
+narrative function
+
+Do not imply that a symbol has one universal meaning.
+
+The author must remain able to define its meaning within the fictional world.
+```
+
+---
+
+# PHASE 24 — Uriel CANON / SACRED TEXT TOOLKIT
+
+## Prompt 25 — Build Sacred-Text Structures
+
+```text
+Create specialized Uriel mythic structures.
+
+Include:
+
+Book of the Watchers
+Chronicle
+Canticle
+Scroll
+Decree
+Judgment
+Oracle
+Prophecy
+Vision
+Revelation
+Testament
+Covenant
+Litany
+Invocation
+Apocalypse
+Final Decree
+Sacred Law
+Cosmic Law
+Forbidden Law
+
+Use fictional-world framing.
+
+These are writing templates, not claims about real-world religious authority.
+
+Maintain a consistent literary format.
+```
+
+---
+
+# PHASE 25 — MASTER AUTHORING TOOLKIT
+
+## Prompt 26 — Build Universal Author Snippets
+
+```text
+Create universal author workflow snippets.
+
+Include:
+
+Idea
+Question
+Problem
+Decision
+Option A
+Option B
+Decision Log
+Author Intent
+Scene Intent
+Character Intent
+Reader Experience
+Emotional Beat
+Narrative Beat
+Image
+Metaphor
+Motif
+Theme
+Discovery
+Breakthrough
+Concern
+Reminder
+TODO
+FIXME
+Canon Decision
+Continuity Decision
+Revision Decision
+
+Prefixes should be short and memorable.
+
+Avoid collisions with existing snippets.
+```
+
+---
+
+# PHASE 26 — COMPLETE SNIPPET INVENTORY
+
+## Prompt 27 — Inventory Everything
+
+```text
+Audit the entire Uriel Snips snippet library.
+
+Create a master inventory.
+
+Every snippet must have:
+
+Name
+Prefix
+Category
+Description
+Body
+Status
+
+Categories:
+
+AI
+AI Prompts
+Writing
+Manuscript
+Scene
+Character
+Worldbuilding
+Lore
+Timeline
+Relationships
+Poetry
+Plot
+Revision
+Research
+Publishing
+Symbolism
+Mythic
+Planning
+Author Workflow
+
+Identify:
+
+duplicate names
+duplicate prefixes
+missing descriptions
+invalid JSON
+invalid VS Code snippet syntax
+broken tab stops
+broken placeholders
+unused snippet files
+inconsistent naming
+
+Do not remove snippets simply because they are similar.
+
+Report conflicts first.
+
+Then fix genuine problems.
+```
+
+---
+
+# PHASE 27 — SNIPPET VALIDATION
+
+## Prompt 28 — Automated Validation
+
+```text
+Build automated validation for the Uriel Snips library.
+
+Validate:
+
+JSON syntax
+snippet structure
+prefix uniqueness
+required fields
+body validity
+placeholder syntax
+choice syntax
+tab stop syntax
+description presence
+
+The validator should detect malformed constructs such as:
+
+${1:
+$1
+$0
+${1|A,B,C|}
+${1:placeholder}
+
+without breaking valid VS Code syntax.
+
+Add a test command such as:
+
+pnpm validate:snippets
+
+The command must fail if the snippet library is invalid.
+```
+
+---
+
+# PHASE 28 — CATEGORY ORGANIZATION
+
+## Prompt 29 — Make the Toolkit Discoverable
+
+```text
+Organize Uriel Snips so the library is easy to understand.
+
+Use categories:
+
+01-ai
+02-writing
+03-manuscript
+04-character
+05-scene
+06-worldbuilding
+07-lore
+08-timeline
+09-relationships
+10-poetry
+11-plot
+12-revision
+13-research
+14-publishing
+15-symbolism
+16-mythic
+17-planning
+
+Do not necessarily use these directories directly if VS Code's snippet loading model requires another structure.
+
+The conceptual organization must remain visible.
+
+Update documentation with a snippet catalog.
+```
+
+---
+
+# PHASE 29 — README
+
+## Prompt 30 — Build the UrielSnips README
+
+```text
+Rewrite README.md for Uriel Snips.
+
+Explain:
+
+What Uriel Snips is.
+
+Who it is for.
+
+Installation.
+
+How to trigger snippets.
+
+Prefix examples.
+
+Categories.
+
+AI writing toolkit.
+
+Worldbuilding toolkit.
+
+Lore toolkit.
+
+Character toolkit.
+
+Manuscript toolkit.
+
+Poetry toolkit.
+
+Revision toolkit.
+
+Publishing toolkit.
+
+Uriel mythic toolkit.
+
+Explain that Uriel Snips is intentionally separate from Uriel Studio.
+
+Explain that future shared snippet/schema packages may allow Uriel Studio to consume the same library.
+
+Do not claim features that are not implemented.
+```
+
+---
+
+# PHASE 30 — VS CODE TEST
+
+## Prompt 31 — Extension Integration Test
+
+```text
+Test Uriel Snips as a real VS Code extension.
+
+Verify:
+
+1. npm/pnpm install succeeds.
+2. TypeScript compilation succeeds.
+3. Extension activates.
+4. Snippets load.
+5. Prefix completion works.
+6. Tab stops work.
+7. Markdown snippets work.
+8. Uriel snippets work.
+9. AI snippets work.
+10. No duplicate-prefix problems occur.
+11. Extension host produces no startup errors.
+
+Test representative snippets from every category.
+
+Document any VS Code-specific limitations.
+```
+
+---
+
+# PHASE 31 — CI
+
+## Prompt 32 — GitHub Actions
+
+```text
+Create GitHub Actions CI for Uriel Snips.
+
+Run:
+
+install
+lint
+typecheck
+test
+validate:snippets
+build
+
+The workflow must fail on:
+
+invalid JSON
+invalid snippets
+TypeScript errors
+test failures
+build failures
+
+Do not automatically publish to the VS Code Marketplace.
+
+Use the existing lockfile and package manager.
+```
+
+---
+
+# PHASE 32 — FINAL AUDIT
+
+## Prompt 33 — Final UrielSnips Release Audit
+
+```text
+Perform a complete release-readiness audit of Uriel Snips.
+
+Repository:
+
+https://github.com/P1llar4/uriel-snips.git
+
+Do not push.
+Do not publish.
+
+Run:
+
+git status
+install
+lint
+typecheck
+test
+validate:snippets
+build
+
+Audit:
+
+PACKAGE
+EXTENSION
+SNIPPETS
+LANGUAGES
+SNIPPET PREFIXES
+TESTS
+DOCUMENTATION
+CI
+SECURITY
+BUILD
+PACKAGING
+
+Return:
+
+URIEL SNIPS RELEASE AUDIT
+
+BUILD:
+PASS/FAIL
+
+TYPECHECK:
+PASS/FAIL
+
+TESTS:
+PASS/FAIL
+
+SNIPPET VALIDATION:
+PASS/FAIL
+
+LINT:
+PASS/FAIL
+
+EXTENSION:
+PASS/FAIL
+
+TOTAL SNIPPETS:
+<number>
+
+AI SNIPPETS:
+<number>
+
+WRITING SNIPPETS:
+<number>
+
+MANUSCRIPT SNIPPETS:
+<number>
+
+CHARACTER SNIPPETS:
+<number>
+
+SCENE SNIPPETS:
+<number>
+
+WORLDBUILDING SNIPPETS:
+<number>
+
+LORE SNIPPETS:
+<number>
+
+TIMELINE SNIPPETS:
+<number>
+
+POETRY SNIPPETS:
+<number>
+
+REVISION SNIPPETS:
+<number>
+
+PLOT SNIPPETS:
+<number>
+
+RESEARCH SNIPPETS:
+<number>
+
+PUBLISHING SNIPPETS:
+<number>
+
+MYTHIC SNIPPETS:
+<number>
+
+DUPLICATE PREFIXES:
+<list>
+
+INVALID SNIPPETS:
+<list>
+
+FILES ADDED:
+<list>
+
+FILES MODIFIED:
+<list>
+
+REMAINING ISSUES:
+<list>
+
+RECOMMENDED NEXT STEP:
+<one concrete recommendation>
+```
+
+---
+
+# The Original Snippets Must Be Preserved
+
+The following are the **legacy Uriel snippets already created** and should remain in the final toolkit:
+
+```text
+aie          AI Emotion
+ai           AI Line
+ain          AI Note
+aiq          AI Question
+ais          AI Suggest
+aith         AI Thought
+aiw          AI Warning
+
+aistyle      AI Story Prompt: Tone Enforcement
+aiscene      AI Story Prompt: Scene Generation
+ailore       AI Story Prompt: Lore Expansion
+ailog        AI Conversation Archive
+aiexchange   AI Log: Single Exchange
+
+judgment     Ancient Judgment
+canticle     Canticle Block
+chant        Chanted Meter
+element      Elemental Contrast
+
+klink        Knowledge Link: Standard Entity
+krel         Knowledge Link: Relational Tie
+kprophecy    Knowledge Link: Prophetic Reference
+
+poem         Poem Block
+prophecy     Prophecy Block
+decree       Prophetic Decree
+
+user         User Line
+
+writingday   Daily Writing Session
+spark        Creative Spark
+mastercommand Final Author Command
+```
+
+These should **not be accidentally replaced** when the larger toolkit is generated.
+
+---
+
+# Final UrielSnips Architecture
+
+The finished standalone repository should look approximately like:
+
+```text
+uriel-snips/
+│
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+│
+├── docs/
+│   ├── architecture.md
+│   ├── installation.md
+│   ├── snippets.md
+│   └── contributing.md
+│
+├── src/
+│   ├── extension.ts
+│   ├── commands/
+│   ├── services/
+│   └── validation/
+│
+├── snippets/
+│   ├── ai/
+│   ├── writing/
+│   ├── manuscript/
+│   ├── characters/
+│   ├── scenes/
+│   ├── worldbuilding/
+│   ├── lore/
+│   ├── timeline/
+│   ├── relationships/
+│   ├── poetry/
+│   ├── plot/
+│   ├── revision/
+│   ├── research/
+│   ├── publishing/
+│   ├── symbolism/
+│   ├── mythic/
+│   └── planning/
+│
+├── tests/
+│   ├── snippets/
+│   ├── validation/
+│   └── extension/
+│
+├── package.json
+├── tsconfig.json
+├── .vscodeignore
+├── .gitignore
+├── README.md
+└── LICENSE
+```
+
+## Relationship to Uriel Studio
+
+The two repositories should ultimately work like this:
+
+```text
+P1llar4/
+│
+├── uriel-snips
+│   │
+│   ├── 200+ writing snippets
+│   ├── AI prompts
+│   ├── character templates
+│   ├── worldbuilding templates
+│   ├── lore templates
+│   ├── poetry
+│   ├── revision
+│   └── author workflow
+│
+│
+└── uriel-studio
+    │
+    ├── manuscript editor
+    ├── Uriel language
+    ├── parser
+    ├── Codex
+    ├── characters
+    ├── worldbuilding
+    ├── timeline
+    ├── AI context
+    ├── LSP
+    ├── UI
+    └── export
+```
+
+The important part is that **UrielSnips remains independently useful**. It should not require Uriel Studio to work.
+
+Later, if the shared definitions become substantial enough, a third repository can be introduced:
+
+```text
+P1llar4/
+├── uriel-snips
+├── uriel-studio
+└── uriel-core
+```
+
+But **do not create `uriel-core` yet**. Build the standalone snippet extension first, validate the data model, and extract genuinely shared code only when there is real duplication to solve.
