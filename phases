@@ -1,0 +1,334 @@
+The next step is to stop treating this as a writing project and start treating it like a real software product.
+
+Based on your earlier **Sprint 0: Genesis** plan, here's the roadmap I'd recommend.
+
+---
+
+# Uriel Studio Repository
+
+```text
+uriel-platform/
+│
+├── apps/
+│   ├── studio/                  # VS Code Extension
+│   ├── docs/                    # Documentation website
+│   └── website/                 # Marketing site
+│
+├── packages/
+│   ├── core/
+│   ├── snippets/
+│   ├── templates/
+│   ├── parser/
+│   ├── grammar/
+│   ├── lsp/
+│   ├── codex/
+│   ├── exporter/
+│   ├── ai/
+│   ├── theme/
+│   ├── icons/
+│   └── shared/
+│
+├── scripts/
+├── examples/
+├── tests/
+├── .github/
+└── docs/
+```
+
+---
+
+# Phase 1 — Foundation
+
+Goal: make the extension genuinely useful before adding advanced features.
+
+### Deliverables
+
+* ✅ VS Code extension
+* ✅ Custom activity bar icon
+* ✅ Tree View
+* ✅ Commands
+* ✅ Snippet installer
+* ✅ Project generator
+* ✅ Templates
+
+Commands:
+
+```text
+Uriel: New Project
+
+Uriel: New Character
+
+Uriel: New Chapter
+
+Uriel: New Scene
+
+Uriel: New Prophecy
+
+Uriel: Export
+```
+
+---
+
+# Phase 2 — Codex
+
+Instead of manually organizing notes:
+
+```text
+[[Uriel]]
+
+[[Michael]]
+
+[[Seven Keys]]
+```
+
+becomes
+
+```text
+Codex
+
+Characters
+
+Artifacts
+
+Realms
+
+Events
+
+Laws
+
+Symbols
+```
+
+generated automatically.
+
+---
+
+# Phase 3 — Parser
+
+A Markdown parser that understands custom syntax like
+
+```text
+@character Uriel
+
+@artifact CrownOfDawn
+
+@realm First Heaven
+
+@law Seventh Covenant
+
+@symbol Flame
+```
+
+This is much easier to validate than relying on plain text.
+
+---
+
+# Phase 4 — Language Server (LSP)
+
+The extension can provide:
+
+* autocomplete
+* hover documentation
+* go to definition
+* find references
+* rename symbols
+* diagnostics
+
+Example:
+
+Typing
+
+```text
+@character Ur
+```
+
+suggests
+
+```text
+Uriel
+```
+
+Hovering displays
+
+```text
+Uriel
+
+Titles
+
+Appears in 28 chapters
+
+Artifacts
+
+Relationships
+```
+
+---
+
+# Phase 5 — Visual Graph
+
+Think of an interactive lore map.
+
+```text
+            Michael
+                │
+                │
+Lucifer ─── Uriel ─── Raphael
+                │
+                │
+        Crown of Dawn
+                │
+          Seven Keys
+```
+
+Nodes become clickable.
+
+---
+
+# Phase 6 — Timeline
+
+The extension reads events:
+
+```text
+@event
+
+The First War
+
+Year 0
+```
+
+and automatically builds
+
+```text
+Timeline
+
+Creation
+
+↓
+
+First War
+
+↓
+
+Exile
+
+↓
+
+Restoration
+```
+
+---
+
+# Phase 7 — Consistency Engine
+
+Checks things like:
+
+* duplicate names
+* impossible timelines
+* conflicting descriptions
+* missing references
+* orphaned artifacts
+* unresolved plot threads
+
+Example:
+
+```text
+⚠ Character age conflict
+
+Uriel
+
+Chapter 5
+
+Appears as immortal
+
+Chapter 21
+
+States age 412
+```
+
+---
+
+# Phase 8 — AI Workspace
+
+Instead of opening a browser:
+
+```
+AI Workspace
+
+Prompt
+
+Response
+
+Save to Codex
+
+Save to Chapter
+
+Save as Character
+
+Save as Prophecy
+```
+
+Everything stays inside the extension.
+
+---
+
+# Phase 9 — Exporter
+
+One click generates:
+
+```
+PDF
+
+DOCX
+
+EPUB
+
+HTML
+
+Markdown Bundle
+
+Character Encyclopedia
+
+Timeline
+
+Lore Bible
+```
+
+---
+
+# Phase 10 — Release
+
+Package:
+
+```
+Uriel Studio
+
+↓
+
+VSIX
+
+↓
+
+VS Marketplace
+
+↓
+
+GitHub Release
+
+↓
+
+Documentation Website
+```
+
+---
+
+# Stretch Goals
+
+After a stable v1.0, consider features that would differentiate Uriel Studio from general-purpose editors:
+
+* **Interactive relationship graphs** for characters, artifacts, and locations.
+* **Codex search** with filters (e.g., show every prophecy mentioning a given artifact).
+* **Writing statistics** (POV balance, chapter lengths, recurring symbols).
+* **Multiple series support** so one workspace can contain several connected novels.
+* **Plugin API** that lets users add custom snippet packs, validators, or exporters.
+
+With this roadmap, the project grows in layers: first a productive writing environment, then a knowledge management system, and finally a specialized authoring platform. Each phase delivers a usable product while laying the groundwork for the next.
