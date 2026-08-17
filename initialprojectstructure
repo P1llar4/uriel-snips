@@ -1,0 +1,15 @@
+uriel-studio/
+├── src/
+│   ├── extension.ts
+│   ├── commands/
+│   ├── providers/
+│   ├── views/
+│   └── utils/
+├── media/
+├── snippets/
+├── templates/
+├── out/
+├── package.json
+├── tsconfig.json
+├── .gitignore
+└── README.md
