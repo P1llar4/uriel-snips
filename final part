@@ -1,0 +1,340 @@
+## Uriel Writing Toolkit — Part XII: **Publisher & Professional Author Suite**
+
+Append these entries inside the same `.code-snippets` JSON object.
+
+```json id="1p8dvr"
+{
+	"Word Count Tracker": {
+		"prefix": "wordcount",
+		"body": [
+			"# Word Count Tracker",
+			"",
+			"Project:",
+			"${1:Title}",
+			"",
+			"Target Word Count:",
+			"${2:Target}",
+			"",
+			"Current Word Count:",
+			"${3:Current}",
+			"",
+			"Remaining:",
+			"${4:Remaining}",
+			"",
+			"Completion Percentage:",
+			"${5:Percentage}",
+			"$0"
+		],
+		"description": "Tracks manuscript progress"
+	},
+
+	"Chapter Submission Format": {
+		"prefix": "submissionchapter",
+		"body": [
+			"# ${1:Chapter Title}",
+			"",
+			"Chapter Number:",
+			"${2:Number}",
+			"",
+			"Word Count:",
+			"${3:Count}",
+			"",
+			"Synopsis:",
+			"${4:Summary}",
+			"",
+			"Manuscript Text:",
+			"${5:Text}",
+			"$0"
+		],
+		"description": "Formats chapters for submission"
+	},
+
+	"Novel Synopsis": {
+		"prefix": "synopsis",
+		"body": [
+			"# Synopsis: ${1:Title}",
+			"",
+			"Opening Situation:",
+			"${2:Beginning}",
+			"",
+			"Central Conflict:",
+			"${3:Conflict}",
+			"",
+			"Major Turning Point:",
+			"${4:Turning point}",
+			"",
+			"Climax:",
+			"${5:Final confrontation}",
+			"",
+			"Resolution:",
+			"${6:Ending}",
+			"$0"
+		],
+		"description": "Creates a professional synopsis"
+	},
+
+	"One Sentence Hook": {
+		"prefix": "hook",
+		"body": [
+			"${1:Title} is a ${2:genre} story about ${3:protagonist} who must ${4:goal} before ${5:stakes}.",
+			"$0"
+		],
+		"description": "Creates a query-style hook"
+	},
+
+	"Pitch Deck": {
+		"prefix": "pitchdeck",
+		"body": [
+			"# Pitch Deck: ${1:Title}",
+			"",
+			"## Concept",
+			"${2:Concept}",
+			"",
+			"## Audience",
+			"${3:Audience}",
+			"",
+			"## Comparable Works",
+			"${4:Comparisons}",
+			"",
+			"## Unique Selling Point",
+			"${5:Difference}",
+			"",
+			"## Series Potential",
+			"${6:Future books}",
+			"$0"
+		],
+		"description": "Creates publishing pitch material"
+	},
+
+	"Beta Reader Feedback": {
+		"prefix": "betareader",
+		"body": [
+			"# Beta Reader Notes",
+			"",
+			"Reader:",
+			"${1:Name}",
+			"",
+			"Strongest Element:",
+			"${2:Feedback}",
+			"",
+			"Confusing Areas:",
+			"${3:Feedback}",
+			"",
+			"Favorite Scene:",
+			"${4:Scene}",
+			"",
+			"Suggested Changes:",
+			"${5:Changes}",
+			"$0"
+		],
+		"description": "Organizes beta reader feedback"
+	},
+
+	"Editing Pass": {
+		"prefix": "editingpass",
+		"body": [
+			"# Editing Pass",
+			"",
+			"Section:",
+			"${1:Chapter/Scene}",
+			"",
+			"Grammar:",
+			"${2:Notes}",
+			"",
+			"Structure:",
+			"${3:Notes}",
+			"",
+			"Character:",
+			"${4:Notes}",
+			"",
+			"Final Revision:",
+			"${5:Changes}",
+			"$0"
+		],
+		"description": "Creates editing workflow notes"
+	},
+
+	"Book Metadata": {
+		"prefix": "bookmeta",
+		"body": [
+			"# Book Metadata",
+			"",
+			"Title:",
+			"${1:Title}",
+			"",
+			"Author:",
+			"${2:Author}",
+			"",
+			"Genre:",
+			"${3:Genre}",
+			"",
+			"Word Count:",
+			"${4:Count}",
+			"",
+			"Status:",
+			"${5:Draft/Revision/Complete}",
+			"$0"
+		],
+		"description": "Creates publishing metadata"
+	}
+}
+```
+
+---
+
+# Part XIII — Ultimate Uriel Master File System
+
+This is the recommended VS Code project structure.
+
+```
+URIEL_CHRONICLES/
+│
+├── 00_MASTER_CONTROL/
+│   ├── project-dashboard.md
+│   ├── timeline.md
+│   ├── word-count.md
+│   └── revision-log.md
+│
+├── 01_MANUSCRIPT/
+│   ├── prologue.md
+│   ├── act-i/
+│   ├── act-ii/
+│   ├── act-iii/
+│   └── epilogue.md
+│
+├── 02_CHARACTERS/
+│   ├── uriel.md
+│   ├── archangels/
+│   ├── allies/
+│   └── adversaries/
+│
+├── 03_WORLDBUILDING/
+│   ├── realms/
+│   ├── kingdoms/
+│   ├── celestial-orders/
+│   ├── laws-of-creation/
+│   └── timelines/
+│
+├── 04_LORE_ARCHIVE/
+│   ├── prophecies/
+│   ├── scrolls/
+│   ├── artifacts/
+│   ├── seals/
+│   └── grimoires/
+│
+├── 05_SYMBOL_LIBRARY/
+│   ├── elements.md
+│   ├── colors.md
+│   ├── numbers.md
+│   └── motifs.md
+│
+├── 06_PUBLISHING/
+│   ├── synopsis.md
+│   ├── query-letter.md
+│   ├── pitch-deck.md
+│   └── submission-package.md
+│
+└── snippets/
+    └── uriel.code-snippets
+```
+
+---
+
+## Part XIV — Final Master Automation Layer
+
+```json id="3q9vnm"
+{
+	"Daily Writing Session": {
+		"prefix": "writingday",
+		"body": [
+			"# Writing Session",
+			"",
+			"Date:",
+			"${1:Date}",
+			"",
+			"Current Objective:",
+			"${2:Goal}",
+			"",
+			"Scene Written:",
+			"${3:Scene}",
+			"",
+			"New Discoveries:",
+			"${4:Ideas}",
+			"",
+			"Next Session:",
+			"${5:Next step}",
+			"$0"
+		],
+		"description": "Tracks writing sessions"
+	},
+
+	"Creative Spark": {
+		"prefix": "spark",
+		"body": [
+			"# Creative Spark",
+			"",
+			"Image:",
+			"${1:Vision}",
+			"",
+			"Emotion:",
+			"${2:Feeling}",
+			"",
+			"Possible Story Use:",
+			"${3:Application}",
+			"$0"
+		],
+		"description": "Captures sudden ideas"
+	},
+
+	"Final Author Command": {
+		"prefix": "mastercommand",
+		"body": [
+			"**MASTER WRITING DIRECTIVE**",
+			"",
+			"Create a passage from the Uriel Chronicles.",
+			"",
+			"Required:",
+			"- Mythic scale",
+			"- Strong symbolism",
+			"- Emotional depth",
+			"- Internal consistency",
+			"- Memorable imagery",
+			"",
+			"Subject:",
+			"${1:Topic}",
+			"",
+			"Desired outcome:",
+			"${2:Scene purpose}",
+			"$0"
+		],
+		"description": "Universal Uriel writing command"
+	}
+}
+```
+
+## Final Toolkit Coverage
+
+The completed system now contains:
+
+* **Uriel narrative voice**
+* **Sacred text formatting**
+* **Prophecy creation**
+* **Revelation-style events**
+* **Seven Seals framework**
+* **Cosmic history**
+* **Character psychology**
+* **Relationship mapping**
+* **Faction building**
+* **Artifact archives**
+* **Seal and sigil records**
+* **Grimoire formatting**
+* **World encyclopedia**
+* **Chapter planning**
+* **Scene generation**
+* **AI writing prompts**
+* **Revision workflows**
+* **Publisher materials**
+* **Series planning**
+* **VS Code organization**
+
+This creates a complete manuscript production environment for *The Sovereign Schism / Uriel Chronicles* project.
