@@ -1,0 +1,345 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Uriel Writing Toolkit — Part VII: **Grimoire, Seal, Sigil & Sacred Archive System**
+
+Append these entries inside the same `.code-snippets` JSON object.
+
+```json id="5x8qmw"
+{
+	"Grimoire Page": {
+		"prefix": "grimoire",
+		"body": [
+			"=== GRIMOIRE ENTRY ${1:Number} ===",
+			"",
+			"Name:",
+			"${2:Title}",
+			"",
+			"Classification:",
+			"${3:Seal/Spell/Ritual/Artifact/Law}",
+			"",
+			"Origin:",
+			"${4:Source}",
+			"",
+			"Description:",
+			"${5:Text}",
+			"",
+			"Symbolic Meaning:",
+			"${6:Meaning}",
+			"",
+			"=== END GRIMOIRE ENTRY ===",
+			"$0"
+		],
+		"description": "Creates an ancient grimoire-style record"
+	},
+
+	"Archangel Seal Record": {
+		"prefix": "archseal",
+		"body": [
+			"## Seal of ${1:Archangel}",
+			"",
+			"Celestial Office:",
+			"${2:Office}",
+			"",
+			"Divine Attribute:",
+			"${3:Attribute}",
+			"",
+			"Element:",
+			"${4:Element}",
+			"",
+			"Planetary Correspondence:",
+			"${5:Planet}",
+			"",
+			"Color Symbolism:",
+			"${6:Color}",
+			"",
+			"Sacred Geometry:",
+			"${7:Geometry}",
+			"",
+			"Meaning:",
+			"${8:Interpretation}",
+			"$0"
+		],
+		"description": "Creates archangel seal documentation"
+	},
+
+	"Sigil Construction Record": {
+		"prefix": "sigilbuild",
+		"body": [
+			"## Sigil Construction: ${1:Name}",
+			"",
+			"Intent:",
+			"${2:Purpose}",
+			"",
+			"Primary Glyph:",
+			"${3:Glyph description}",
+			"",
+			"Hidden Letters:",
+			"${4:Letters or symbols}",
+			"",
+			"Geometric Foundation:",
+			"${5:Pattern}",
+			"",
+			"Activation Meaning:",
+			"${6:Symbolic process}",
+			"$0"
+		],
+		"description": "Creates fictional sigil design records"
+	},
+
+	"Sacred Symbol Dictionary": {
+		"prefix": "symboldict",
+		"body": [
+			"## Symbol: ${1:Name}",
+			"",
+			"Appearance:",
+			"${2:Visual description}",
+			"",
+			"Element:",
+			"${3:Element}",
+			"",
+			"Associated Concepts:",
+			"- ${4:Concept}",
+			"",
+			"Positive Meaning:",
+			"${5:Meaning}",
+			"",
+			"Shadow Meaning:",
+			"${6:Opposing meaning}",
+			"$0"
+		],
+		"description": "Creates a symbolic reference entry"
+	},
+
+	"Planetary Correspondence": {
+		"prefix": "planet",
+		"body": [
+			"## Planetary Correspondence: ${1:Planet}",
+			"",
+			"Sphere:",
+			"${2:Sphere}",
+			"",
+			"Element:",
+			"${3:Element}",
+			"",
+			"Archetype:",
+			"${4:Archetype}",
+			"",
+			"Associated Forces:",
+			"- ${5:Force}",
+			"",
+			"Mythic Interpretation:",
+			"${6:Meaning}",
+			"$0"
+		],
+		"description": "Creates fictional cosmological correspondence entries"
+	},
+
+	"Ancient Language Fragment": {
+		"prefix": "ancientlang",
+		"body": [
+			"## Ancient Text Fragment",
+			"",
+			"Original Script:",
+			"${1:Text}",
+			"",
+			"Translation:",
+			"${2:Meaning}",
+			"",
+			"Historical Context:",
+			"${3:Context}",
+			"",
+			"Hidden Interpretation:",
+			"${4:Secret meaning}",
+			"$0"
+		],
+		"description": "Creates ancient manuscript language notes"
+	},
+
+	"Illuminated Manuscript Page": {
+		"prefix": "illuminated",
+		"body": [
+			"╔════════════════════════════╗",
+			"        ${1:MANUSCRIPT TITLE}",
+			"╚════════════════════════════╝",
+			"",
+			"✦ Symbol:",
+			"${2:Symbol}",
+			"",
+			"✦ Inscription:",
+			"\"${3:Sacred passage}\"",
+			"",
+			"✦ Commentary:",
+			"${4:Explanation}",
+			"",
+			"✦ Hidden Layer:",
+			"${5:Secret meaning}",
+			"$0"
+		],
+		"description": "Creates illuminated manuscript entries"
+	},
+
+	"Ritual Manuscript Page": {
+		"prefix": "ritualpage",
+		"body": [
+			"## Rite of ${1:Name}",
+			"",
+			"Purpose:",
+			"${2:Intention}",
+			"",
+			"Symbolic Elements:",
+			"- ${3:Element}",
+			"",
+			"Invocation Text:",
+			"\"${4:Words}\"",
+			"",
+			"Meaning Within Lore:",
+			"${5:Explanation}",
+			"$0"
+		],
+		"description": "Creates fictional ritual lore pages"
+	},
+
+	"Artifact Grimoire Entry": {
+		"prefix": "artifactgrimoire",
+		"body": [
+			"## Relic of the Archive: ${1:Name}",
+			"",
+			"Created During:",
+			"${2:Era}",
+			"",
+			"Bearer:",
+			"${3:Name}",
+			"",
+			"Appearance:",
+			"${4:Description}",
+			"",
+			"Power:",
+			"${5:Ability}",
+			"",
+			"Curse or Limitation:",
+			"${6:Restriction}",
+			"$0"
+		],
+		"description": "Creates magical archive entries"
+	},
+
+	"Hidden Archive Vault": {
+		"prefix": "vault",
+		"body": [
+			"=== ARCHIVE VAULT ${1:Designation} ===",
+			"",
+			"Access Level:",
+			"${2:Restricted/Open/Forbidden}",
+			"",
+			"Stored Knowledge:",
+			"${3:Contents}",
+			"",
+			"Guardian:",
+			"${4:Protector}",
+			"",
+			"Warning:",
+			"${5:Warning text}",
+			"",
+			"=== END VAULT RECORD ===",
+			"$0"
+		],
+		"description": "Creates secret archive locations"
+	},
+
+	"Prophetic Seal Inscription": {
+		"prefix": "sealinscription",
+		"body": [
+			"Upon the seal is written:",
+			"",
+			"\"${1:Inscription}\"",
+			"",
+			"The mark signifies:",
+			"${2:Meaning}",
+			"",
+			"The bearer shall know:",
+			"${3:Revelation}",
+			"$0"
+		],
+		"description": "Creates inscriptions for seals"
+	},
+
+	"Cosmic Map Entry": {
+		"prefix": "cosmicmap",
+		"body": [
+			"## Cosmic Map: ${1:Region}",
+			"",
+			"Position:",
+			"${2:Location}",
+			"",
+			"Connected Realms:",
+			"- ${3:Realm}",
+			"",
+			"Guardian Forces:",
+			"${4:Entities}",
+			"",
+			"Hidden Passage:",
+			"${5:Secret}",
+			"$0"
+		],
+		"description": "Creates celestial map records"
+	}
+}
+```
+
+Added system layer:
+
+* Grimoire pages
+* Archangel seal records
+* Sigil documentation
+* Symbol encyclopedia
+* Planetary lore
+* Ancient manuscript fragments
+* Illuminated pages
+* Ritual lore formatting
+* Artifact archives
+* Hidden vaults
+* Seal inscriptions
+* Cosmic maps
+
+Next section:
+
+**Part VIII — The Sovereign Schism Narrative Engine**
+
+* Full chapter generator
+* Uriel first-person chronicle mode
+* Antagonist confrontation engine
+* Revelation dialogue
+* Battle choreography
+* Emotional turning points
+* Prophetic dream sequences
+* Final manuscript assembly templates
