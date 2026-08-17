@@ -1,0 +1,470 @@
+{
+  "AI Brainstorm": {
+    "prefix": "aibrain",
+    "body": [
+      "AI BRAINSTORM:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai brainstorm template."
+  },
+  "AI Rewrite": {
+    "prefix": "airewrite",
+    "body": [
+      "AI REWRITE:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai rewrite template."
+  },
+  "AI Expand": {
+    "prefix": "aiexpand",
+    "body": [
+      "AI EXPAND:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai expand template."
+  },
+  "AI Condense": {
+    "prefix": "aicondense",
+    "body": [
+      "AI CONDENSE:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai condense template."
+  },
+  "AI Summarize": {
+    "prefix": "aisummary",
+    "body": [
+      "AI SUMMARIZE:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai summarize template."
+  },
+  "AI Critique": {
+    "prefix": "aicritique",
+    "body": [
+      "AI CRITIQUE:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai critique template."
+  },
+  "AI Continue": {
+    "prefix": "aicontinue",
+    "body": [
+      "AI CONTINUE:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai continue template."
+  },
+  "AI Dialogue": {
+    "prefix": "aidialogue",
+    "body": [
+      "AI DIALOGUE:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai dialogue template."
+  },
+  "AI Description": {
+    "prefix": "aidescribe",
+    "body": [
+      "AI DESCRIPTION:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai description template."
+  },
+  "AI Character Analysis": {
+    "prefix": "aichar",
+    "body": [
+      "AI CHARACTER ANALYSIS:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai character analysis template."
+  },
+  "AI Scene Analysis": {
+    "prefix": "aiscenecheck",
+    "body": [
+      "AI SCENE ANALYSIS:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai scene analysis template."
+  },
+  "AI Lore Analysis": {
+    "prefix": "ailorecheck",
+    "body": [
+      "AI LORE ANALYSIS:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai lore analysis template."
+  },
+  "AI Timeline Analysis": {
+    "prefix": "aitimeline",
+    "body": [
+      "AI TIMELINE ANALYSIS:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai timeline analysis template."
+  },
+  "AI Continuity Check": {
+    "prefix": "aicontinuity",
+    "body": [
+      "AI CONTINUITY CHECK:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai continuity check template."
+  },
+  "AI Canon Check": {
+    "prefix": "aicanon",
+    "body": [
+      "AI CANON CHECK:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai canon check template."
+  },
+  "AI Voice Match": {
+    "prefix": "aivoice",
+    "body": [
+      "AI VOICE MATCH:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai voice match template."
+  },
+  "AI Tone Match": {
+    "prefix": "aitone",
+    "body": [
+      "AI TONE MATCH:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai tone match template."
+  },
+  "AI Symbolism Analysis": {
+    "prefix": "aisymbol",
+    "body": [
+      "AI SYMBOLISM ANALYSIS:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai symbolism analysis template."
+  },
+  "AI Theme Analysis": {
+    "prefix": "aitheme",
+    "body": [
+      "AI THEME ANALYSIS:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai theme analysis template."
+  },
+  "AI Foreshadowing": {
+    "prefix": "aiforeshadow",
+    "body": [
+      "AI FORESHADOWING:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai foreshadowing template."
+  },
+  "AI Payoff": {
+    "prefix": "aipayoff",
+    "body": [
+      "AI PAYOFF:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai payoff template."
+  },
+  "AI Alternative": {
+    "prefix": "aialternative",
+    "body": [
+      "AI ALTERNATIVE:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai alternative template."
+  },
+  "AI Research Question": {
+    "prefix": "airesearch",
+    "body": [
+      "AI RESEARCH QUESTION:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai research question template."
+  },
+  "AI Outline": {
+    "prefix": "aioutline",
+    "body": [
+      "AI OUTLINE:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai outline template."
+  },
+  "AI Chapter Plan": {
+    "prefix": "aichapter",
+    "body": [
+      "AI CHAPTER PLAN:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai chapter plan template."
+  },
+  "AI Scene Plan": {
+    "prefix": "aisceneplan",
+    "body": [
+      "AI SCENE PLAN:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai scene plan template."
+  },
+  "AI Emotion": {
+    "prefix": "aie",
+    "body": [
+      "AI EMOTION:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai emotion template."
+  },
+  "AI Line": {
+    "prefix": "ai",
+    "body": [
+      "AI LINE:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai line template."
+  },
+  "AI Note": {
+    "prefix": "ain",
+    "body": [
+      "AI NOTE:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai note template."
+  },
+  "AI Question": {
+    "prefix": "aiq",
+    "body": [
+      "AI QUESTION:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai question template."
+  },
+  "AI Suggest": {
+    "prefix": "ais",
+    "body": [
+      "AI SUGGEST:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai suggest template."
+  },
+  "AI Thought": {
+    "prefix": "aith",
+    "body": [
+      "AI THOUGHT:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai thought template."
+  },
+  "AI Warning": {
+    "prefix": "aiw",
+    "body": [
+      "AI WARNING:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai warning template."
+  },
+  "User Line": {
+    "prefix": "user",
+    "body": [
+      "USER LINE:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a user line template."
+  },
+  "AI Story Prompt: Tone Enforcement": {
+    "prefix": "aistyle",
+    "body": [
+      "AI STORY PROMPT: TONE ENFORCEMENT:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai story prompt: tone enforcement template."
+  },
+  "AI Story Prompt: Scene Generation": {
+    "prefix": "aiscene",
+    "body": [
+      "AI STORY PROMPT: SCENE GENERATION:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai story prompt: scene generation template."
+  },
+  "AI Story Prompt: Lore Expansion": {
+    "prefix": "ailore",
+    "body": [
+      "AI STORY PROMPT: LORE EXPANSION:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai story prompt: lore expansion template."
+  },
+  "AI Conversation Archive": {
+    "prefix": "ailog",
+    "body": [
+      "AI CONVERSATION ARCHIVE:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai conversation archive template."
+  },
+  "AI Log: Single Exchange": {
+    "prefix": "aiexchange",
+    "body": [
+      "AI LOG: SINGLE EXCHANGE:",
+      "Context: ${1:context}",
+      "Task: ${2:task}",
+      "Constraints: ${3:constraints}",
+      "Output: ${4:output}",
+      "$0"
+    ],
+    "description": "Create a ai log: single exchange template."
+  }
+}

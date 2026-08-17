@@ -1,0 +1,3026 @@
+{
+  "Character Profile": {
+    "prefix": "charcharacterprofile",
+    "body": [
+      "## Character Profile: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character profile template."
+  },
+  "Character Introduction": {
+    "prefix": "charcharacterintroduction",
+    "body": [
+      "## Character Introduction: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character introduction template."
+  },
+  "Character Arc": {
+    "prefix": "charcharacterarc",
+    "body": [
+      "## Character Arc: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character arc template."
+  },
+  "Character Goal": {
+    "prefix": "charcharactergoal",
+    "body": [
+      "## Character Goal: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character goal template."
+  },
+  "Character Fear": {
+    "prefix": "charcharacterfear",
+    "body": [
+      "## Character Fear: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character fear template."
+  },
+  "Character Desire": {
+    "prefix": "charcharacterdesire",
+    "body": [
+      "## Character Desire: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character desire template."
+  },
+  "Character Secret": {
+    "prefix": "charcharactersecret",
+    "body": [
+      "## Character Secret: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character secret template."
+  },
+  "Character Wound": {
+    "prefix": "charcharacterwound",
+    "body": [
+      "## Character Wound: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character wound template."
+  },
+  "Character Strength": {
+    "prefix": "charcharacterstrength",
+    "body": [
+      "## Character Strength: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character strength template."
+  },
+  "Character Flaw": {
+    "prefix": "charcharacterflaw",
+    "body": [
+      "## Character Flaw: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character flaw template."
+  },
+  "Character Voice": {
+    "prefix": "charcharactervoice",
+    "body": [
+      "## Character Voice: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character voice template."
+  },
+  "Character Relationship": {
+    "prefix": "charcharacterrelationship",
+    "body": [
+      "## Character Relationship: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character relationship template."
+  },
+  "Character Conflict": {
+    "prefix": "charcharacterconflict",
+    "body": [
+      "## Character Conflict: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character conflict template."
+  },
+  "Character Revelation": {
+    "prefix": "charcharacterrevelation",
+    "body": [
+      "## Character Revelation: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character revelation template."
+  },
+  "Character Death": {
+    "prefix": "charcharacterdeath",
+    "body": [
+      "## Character Death: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character death template."
+  },
+  "Character Transformation": {
+    "prefix": "charcharactertransformation",
+    "body": [
+      "## Character Transformation: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character transformation template."
+  },
+  "Character Backstory": {
+    "prefix": "charcharacterbackstory",
+    "body": [
+      "## Character Backstory: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character backstory template."
+  },
+  "Character Motivation": {
+    "prefix": "charcharactermotivation",
+    "body": [
+      "## Character Motivation: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character motivation template."
+  },
+  "Character Contradiction": {
+    "prefix": "charcharactercontradiction",
+    "body": [
+      "## Character Contradiction: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character contradiction template."
+  },
+  "Character Scene Presence": {
+    "prefix": "charcharacterscenepresence",
+    "body": [
+      "## Character Scene Presence: ${1:name}",
+      "Role: ${2:role}",
+      "Goals: ${3:goals}",
+      "Conflict: ${4:conflict}",
+      "Arc: ${5:arc}",
+      "$0"
+    ],
+    "description": "Create a character scene presence template."
+  },
+  "Scene Header": {
+    "prefix": "scensceneheader",
+    "body": [
+      "## Scene Header: ${1:title}",
+      "Objective: ${2:objective}",
+      "Conflict: ${3:conflict}",
+      "Stakes: ${4:stakes}",
+      "$0"
+    ],
+    "description": "Create a scene header template."
+  },
+  "Scene Objective": {
+    "prefix": "scensceneobjective",
+    "body": [
+      "## Scene Objective: ${1:title}",
+      "Objective: ${2:objective}",
+      "Conflict: ${3:conflict}",
+      "Stakes: ${4:stakes}",
+      "$0"
+    ],
+    "description": "Create a scene objective template."
+  },
+  "Scene Opening": {
+    "prefix": "scensceneopening",
+    "body": [
+      "## Scene Opening: ${1:title}",
+      "Objective: ${2:objective}",
+      "Conflict: ${3:conflict}",
+      "Stakes: ${4:stakes}",
+      "$0"
+    ],
+    "description": "Create a scene opening template."
+  },
+  "Scene Ending": {
+    "prefix": "scensceneending",
+    "body": [
+      "## Scene Ending: ${1:title}",
+      "Objective: ${2:objective}",
+      "Conflict: ${3:conflict}",
+      "Stakes: ${4:stakes}",
+      "$0"
+    ],
+    "description": "Create a scene ending template."
+  },
+  "Scene Conflict": {
+    "prefix": "scensceneconflict",
+    "body": [
+      "## Scene Conflict: ${1:title}",
+      "Objective: ${2:objective}",
+      "Conflict: ${3:conflict}",
+      "Stakes: ${4:stakes}",
+      "$0"
+    ],
+    "description": "Create a scene conflict template."
+  },
+  "Scene Turning Point": {
+    "prefix": "scensceneturningpoint",
+    "body": [
+      "## Scene Turning Point: ${1:title}",
+      "Objective: ${2:objective}",
+      "Conflict: ${3:conflict}",
+      "Stakes: ${4:stakes}",
+      "$0"
+    ],
+    "description": "Create a scene turning point template."
+  },
+  "Scene Stakes": {
+    "prefix": "scenscenestakes",
+    "body": [
+      "## Scene Stakes: ${1:title}",
+      "Objective: ${2:objective}",
+      "Conflict: ${3:conflict}",
+      "Stakes: ${4:stakes}",
+      "$0"
+    ],
+    "description": "Create a scene stakes template."
+  },
+  "Scene Setting": {
+    "prefix": "scenscenesetting",
+    "body": [
+      "## Scene Setting: ${1:title}",
+      "Objective: ${2:objective}",
+      "Conflict: ${3:conflict}",
+      "Stakes: ${4:stakes}",
+      "$0"
+    ],
+    "description": "Create a scene setting template."
+  },
+  "Scene Sensory Detail": {
+    "prefix": "scenscenesensorydetail",
+    "body": [
+      "## Scene Sensory Detail: ${1:title}",
+      "Objective: ${2:objective}",
+      "Conflict: ${3:conflict}",
+      "Stakes: ${4:stakes}",
+      "$0"
+    ],
+    "description": "Create a scene sensory detail template."
+  },
+  "Scene Action": {
+    "prefix": "scensceneaction",
+    "body": [
+      "## Scene Action: ${1:title}",
+      "Objective: ${2:objective}",
+      "Conflict: ${3:conflict}",
+      "Stakes: ${4:stakes}",
+      "$0"
+    ],
+    "description": "Create a scene action template."
+  },
+  "Scene Dialogue": {
+    "prefix": "scenscenedialogue",
+    "body": [
+      "## Scene Dialogue: ${1:title}",
+      "Objective: ${2:objective}",
+      "Conflict: ${3:conflict}",
+      "Stakes: ${4:stakes}",
+      "$0"
+    ],
+    "description": "Create a scene dialogue template."
+  },
+  "Scene Internal Thought": {
+    "prefix": "scensceneinternalthought",
+    "body": [
+      "## Scene Internal Thought: ${1:title}",
+      "Objective: ${2:objective}",
+      "Conflict: ${3:conflict}",
+      "Stakes: ${4:stakes}",
+      "$0"
+    ],
+    "description": "Create a scene internal thought template."
+  },
+  "Scene Revelation": {
+    "prefix": "scenscenerevelation",
+    "body": [
+      "## Scene Revelation: ${1:title}",
+      "Objective: ${2:objective}",
+      "Conflict: ${3:conflict}",
+      "Stakes: ${4:stakes}",
+      "$0"
+    ],
+    "description": "Create a scene revelation template."
+  },
+  "Scene Foreshadowing": {
+    "prefix": "scensceneforeshadowing",
+    "body": [
+      "## Scene Foreshadowing: ${1:title}",
+      "Objective: ${2:objective}",
+      "Conflict: ${3:conflict}",
+      "Stakes: ${4:stakes}",
+      "$0"
+    ],
+    "description": "Create a scene foreshadowing template."
+  },
+  "Scene Transition": {
+    "prefix": "scenscenetransition",
+    "body": [
+      "## Scene Transition: ${1:title}",
+      "Objective: ${2:objective}",
+      "Conflict: ${3:conflict}",
+      "Stakes: ${4:stakes}",
+      "$0"
+    ],
+    "description": "Create a scene transition template."
+  },
+  "Scene Revision": {
+    "prefix": "scenscenerevision",
+    "body": [
+      "## Scene Revision: ${1:title}",
+      "Objective: ${2:objective}",
+      "Conflict: ${3:conflict}",
+      "Stakes: ${4:stakes}",
+      "$0"
+    ],
+    "description": "Create a scene revision template."
+  },
+  "Scene Summary": {
+    "prefix": "scenscenesummary",
+    "body": [
+      "## Scene Summary: ${1:title}",
+      "Objective: ${2:objective}",
+      "Conflict: ${3:conflict}",
+      "Stakes: ${4:stakes}",
+      "$0"
+    ],
+    "description": "Create a scene summary template."
+  },
+  "Book Header": {
+    "prefix": "manubookheader",
+    "body": [
+      "## Book Header",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a book header template."
+  },
+  "Book Part": {
+    "prefix": "manubookpart",
+    "body": [
+      "## Book Part",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a book part template."
+  },
+  "Act": {
+    "prefix": "manuact",
+    "body": [
+      "## Act",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a act template."
+  },
+  "Chapter": {
+    "prefix": "manuchapter",
+    "body": [
+      "## Chapter",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a chapter template."
+  },
+  "Chapter Summary": {
+    "prefix": "manuchaptersummary",
+    "body": [
+      "## Chapter Summary",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a chapter summary template."
+  },
+  "Chapter Goal": {
+    "prefix": "manuchaptergoal",
+    "body": [
+      "## Chapter Goal",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a chapter goal template."
+  },
+  "Chapter Opening": {
+    "prefix": "manuchapteropening",
+    "body": [
+      "## Chapter Opening",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a chapter opening template."
+  },
+  "Chapter Ending": {
+    "prefix": "manuchapterending",
+    "body": [
+      "## Chapter Ending",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a chapter ending template."
+  },
+  "Chapter Conflict": {
+    "prefix": "manuchapterconflict",
+    "body": [
+      "## Chapter Conflict",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a chapter conflict template."
+  },
+  "Chapter Turning Point": {
+    "prefix": "manuchapterturningpoint",
+    "body": [
+      "## Chapter Turning Point",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a chapter turning point template."
+  },
+  "Scene List": {
+    "prefix": "manuscenelist",
+    "body": [
+      "## Scene List",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a scene list template."
+  },
+  "Chapter Revision Notes": {
+    "prefix": "manuchapterrevisionnotes",
+    "body": [
+      "## Chapter Revision Notes",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a chapter revision notes template."
+  },
+  "Manuscript Note": {
+    "prefix": "manumanuscriptnote",
+    "body": [
+      "## Manuscript Note",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a manuscript note template."
+  },
+  "Author Note": {
+    "prefix": "manuauthornote",
+    "body": [
+      "## Author Note",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a author note template."
+  },
+  "World Profile": {
+    "prefix": "worlworldprofile",
+    "body": [
+      "## World Profile: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a world profile template."
+  },
+  "Location": {
+    "prefix": "worllocation",
+    "body": [
+      "## Location: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a location template."
+  },
+  "Region": {
+    "prefix": "worlregion",
+    "body": [
+      "## Region: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a region template."
+  },
+  "City": {
+    "prefix": "worlcity",
+    "body": [
+      "## City: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a city template."
+  },
+  "Kingdom": {
+    "prefix": "worlkingdom",
+    "body": [
+      "## Kingdom: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a kingdom template."
+  },
+  "Empire": {
+    "prefix": "worlempire",
+    "body": [
+      "## Empire: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a empire template."
+  },
+  "Faction": {
+    "prefix": "worlfaction",
+    "body": [
+      "## Faction: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a faction template."
+  },
+  "Organization": {
+    "prefix": "worlorganization",
+    "body": [
+      "## Organization: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a organization template."
+  },
+  "Culture": {
+    "prefix": "worlculture",
+    "body": [
+      "## Culture: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a culture template."
+  },
+  "Religion": {
+    "prefix": "worlreligion",
+    "body": [
+      "## Religion: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a religion template."
+  },
+  "Deity": {
+    "prefix": "worldeity",
+    "body": [
+      "## Deity: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a deity template."
+  },
+  "Language": {
+    "prefix": "worllanguage",
+    "body": [
+      "## Language: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a language template."
+  },
+  "Calendar": {
+    "prefix": "worlcalendar",
+    "body": [
+      "## Calendar: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a calendar template."
+  },
+  "Technology": {
+    "prefix": "worltechnology",
+    "body": [
+      "## Technology: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a technology template."
+  },
+  "Magic System": {
+    "prefix": "worlmagicsystem",
+    "body": [
+      "## Magic System: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a magic system template."
+  },
+  "Magic Rule": {
+    "prefix": "worlmagicrule",
+    "body": [
+      "## Magic Rule: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a magic rule template."
+  },
+  "Magic Limitation": {
+    "prefix": "worlmagiclimitation",
+    "body": [
+      "## Magic Limitation: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a magic limitation template."
+  },
+  "Social System": {
+    "prefix": "worlsocialsystem",
+    "body": [
+      "## Social System: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a social system template."
+  },
+  "Political System": {
+    "prefix": "worlpoliticalsystem",
+    "body": [
+      "## Political System: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a political system template."
+  },
+  "Economy": {
+    "prefix": "worleconomy",
+    "body": [
+      "## Economy: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a economy template."
+  },
+  "Military": {
+    "prefix": "worlmilitary",
+    "body": [
+      "## Military: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a military template."
+  },
+  "Custom": {
+    "prefix": "worlcustom",
+    "body": [
+      "## Custom: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a custom template."
+  },
+  "Tradition": {
+    "prefix": "worltradition",
+    "body": [
+      "## Tradition: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a tradition template."
+  },
+  "Festival": {
+    "prefix": "worlfestival",
+    "body": [
+      "## Festival: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a festival template."
+  },
+  "Law": {
+    "prefix": "worllaw",
+    "body": [
+      "## Law: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a law template."
+  },
+  "Taboo": {
+    "prefix": "worltaboo",
+    "body": [
+      "## Taboo: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a taboo template."
+  },
+  "Artifact": {
+    "prefix": "worlartifact",
+    "body": [
+      "## Artifact: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a artifact template."
+  },
+  "Weapon": {
+    "prefix": "worlweapon",
+    "body": [
+      "## Weapon: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a weapon template."
+  },
+  "Clothing": {
+    "prefix": "worlclothing",
+    "body": [
+      "## Clothing: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a clothing template."
+  },
+  "Food": {
+    "prefix": "worlfood",
+    "body": [
+      "## Food: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a food template."
+  },
+  "Architecture": {
+    "prefix": "worlarchitecture",
+    "body": [
+      "## Architecture: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a architecture template."
+  },
+  "Lore Entry": {
+    "prefix": "loreloreentry",
+    "body": [
+      "## Lore Entry: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a lore entry template."
+  },
+  "Ancient Lore": {
+    "prefix": "loreancientlore",
+    "body": [
+      "## Ancient Lore: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a ancient lore template."
+  },
+  "Historical Event": {
+    "prefix": "lorehistoricalevent",
+    "body": [
+      "## Historical Event: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a historical event template."
+  },
+  "Myth": {
+    "prefix": "loremyth",
+    "body": [
+      "## Myth: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a myth template."
+  },
+  "Legend": {
+    "prefix": "lorelegend",
+    "body": [
+      "## Legend: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a legend template."
+  },
+  "Origin Story": {
+    "prefix": "loreoriginstory",
+    "body": [
+      "## Origin Story: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a origin story template."
+  },
+  "Creation Myth": {
+    "prefix": "lorecreationmyth",
+    "body": [
+      "## Creation Myth: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a creation myth template."
+  },
+  "Forbidden Knowledge": {
+    "prefix": "loreforbiddenknowledge",
+    "body": [
+      "## Forbidden Knowledge: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a forbidden knowledge template."
+  },
+  "Sacred Text": {
+    "prefix": "loresacredtext",
+    "body": [
+      "## Sacred Text: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a sacred text template."
+  },
+  "Lost Text": {
+    "prefix": "lorelosttext",
+    "body": [
+      "## Lost Text: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a lost text template."
+  },
+  "Prophecy": {
+    "prefix": "loreprophecy",
+    "body": [
+      "## Prophecy: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a prophecy template."
+  },
+  "Decree": {
+    "prefix": "loredecree",
+    "body": [
+      "## Decree: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a decree template."
+  },
+  "Curse": {
+    "prefix": "lorecurse",
+    "body": [
+      "## Curse: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a curse template."
+  },
+  "Blessing": {
+    "prefix": "loreblessing",
+    "body": [
+      "## Blessing: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a blessing template."
+  },
+  "Oath": {
+    "prefix": "loreoath",
+    "body": [
+      "## Oath: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a oath template."
+  },
+  "Pact": {
+    "prefix": "lorepact",
+    "body": [
+      "## Pact: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a pact template."
+  },
+  "Ritual": {
+    "prefix": "loreritual",
+    "body": [
+      "## Ritual: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a ritual template."
+  },
+  "Riddle": {
+    "prefix": "loreriddle",
+    "body": [
+      "## Riddle: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a riddle template."
+  },
+  "Secret": {
+    "prefix": "loresecret",
+    "body": [
+      "## Secret: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a secret template."
+  },
+  "Canonical Fact": {
+    "prefix": "lorecanonicalfact",
+    "body": [
+      "## Canonical Fact: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a canonical fact template."
+  },
+  "Noncanonical Fact": {
+    "prefix": "lorenoncanonicalfact",
+    "body": [
+      "## Noncanonical Fact: ${1:name}",
+      "Type: ${2:type}",
+      "Description: ${3:description}",
+      "History: ${4:history}",
+      "Relationships: ${5:relationships}",
+      "Status: ${6:status}",
+      "Notes: ${7:notes}",
+      "$0"
+    ],
+    "description": "Create a noncanonical fact template."
+  },
+  "Timeline Entry": {
+    "prefix": "timetimelineentry",
+    "body": [
+      "## Timeline Entry",
+      "DATE: ${1:date or era}",
+      "BEFORE: ${2:prior event}",
+      "AFTER: ${3:next event}",
+      "STATUS: ${4:status}",
+      "$0"
+    ],
+    "description": "Create a timeline entry template."
+  },
+  "Era": {
+    "prefix": "timeera",
+    "body": [
+      "## Era",
+      "DATE: ${1:date or era}",
+      "BEFORE: ${2:prior event}",
+      "AFTER: ${3:next event}",
+      "STATUS: ${4:status}",
+      "$0"
+    ],
+    "description": "Create a era template."
+  },
+  "Age": {
+    "prefix": "timeage",
+    "body": [
+      "## Age",
+      "DATE: ${1:date or era}",
+      "BEFORE: ${2:prior event}",
+      "AFTER: ${3:next event}",
+      "STATUS: ${4:status}",
+      "$0"
+    ],
+    "description": "Create a age template."
+  },
+  "Date": {
+    "prefix": "timedate",
+    "body": [
+      "## Date",
+      "DATE: ${1:date or era}",
+      "BEFORE: ${2:prior event}",
+      "AFTER: ${3:next event}",
+      "STATUS: ${4:status}",
+      "$0"
+    ],
+    "description": "Create a date template."
+  },
+  "Approximate Date": {
+    "prefix": "timeapproximatedate",
+    "body": [
+      "## Approximate Date",
+      "DATE: ${1:date or era}",
+      "BEFORE: ${2:prior event}",
+      "AFTER: ${3:next event}",
+      "STATUS: ${4:status}",
+      "$0"
+    ],
+    "description": "Create a approximate date template."
+  },
+  "Before/After Relationship": {
+    "prefix": "timebeforeafterrelationship",
+    "body": [
+      "## Before/After Relationship",
+      "DATE: ${1:date or era}",
+      "BEFORE: ${2:prior event}",
+      "AFTER: ${3:next event}",
+      "STATUS: ${4:status}",
+      "$0"
+    ],
+    "description": "Create a before/after relationship template."
+  },
+  "Flashback": {
+    "prefix": "timeflashback",
+    "body": [
+      "## Flashback",
+      "DATE: ${1:date or era}",
+      "BEFORE: ${2:prior event}",
+      "AFTER: ${3:next event}",
+      "STATUS: ${4:status}",
+      "$0"
+    ],
+    "description": "Create a flashback template."
+  },
+  "Flashforward": {
+    "prefix": "timeflashforward",
+    "body": [
+      "## Flashforward",
+      "DATE: ${1:date or era}",
+      "BEFORE: ${2:prior event}",
+      "AFTER: ${3:next event}",
+      "STATUS: ${4:status}",
+      "$0"
+    ],
+    "description": "Create a flashforward template."
+  },
+  "Chronological Conflict": {
+    "prefix": "timechronologicalconflict",
+    "body": [
+      "## Chronological Conflict",
+      "DATE: ${1:date or era}",
+      "BEFORE: ${2:prior event}",
+      "AFTER: ${3:next event}",
+      "STATUS: ${4:status}",
+      "$0"
+    ],
+    "description": "Create a chronological conflict template."
+  },
+  "Event Cause": {
+    "prefix": "timeeventcause",
+    "body": [
+      "## Event Cause",
+      "DATE: ${1:date or era}",
+      "BEFORE: ${2:prior event}",
+      "AFTER: ${3:next event}",
+      "STATUS: ${4:status}",
+      "$0"
+    ],
+    "description": "Create a event cause template."
+  },
+  "Event Consequence": {
+    "prefix": "timeeventconsequence",
+    "body": [
+      "## Event Consequence",
+      "DATE: ${1:date or era}",
+      "BEFORE: ${2:prior event}",
+      "AFTER: ${3:next event}",
+      "STATUS: ${4:status}",
+      "$0"
+    ],
+    "description": "Create a event consequence template."
+  },
+  "Faction Relationship": {
+    "prefix": "relafactionrelationship",
+    "body": [
+      "## Faction Relationship",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a faction relationship template."
+  },
+  "Political Relationship": {
+    "prefix": "relapoliticalrelationship",
+    "body": [
+      "## Political Relationship",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a political relationship template."
+  },
+  "Family Relationship": {
+    "prefix": "relafamilyrelationship",
+    "body": [
+      "## Family Relationship",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a family relationship template."
+  },
+  "Romantic Relationship": {
+    "prefix": "relaromanticrelationship",
+    "body": [
+      "## Romantic Relationship",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a romantic relationship template."
+  },
+  "Rivalry": {
+    "prefix": "relarivalry",
+    "body": [
+      "## Rivalry",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a rivalry template."
+  },
+  "Alliance": {
+    "prefix": "relaalliance",
+    "body": [
+      "## Alliance",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a alliance template."
+  },
+  "Betrayal": {
+    "prefix": "relabetrayal",
+    "body": [
+      "## Betrayal",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a betrayal template."
+  },
+  "Mentorship": {
+    "prefix": "relamentorship",
+    "body": [
+      "## Mentorship",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a mentorship template."
+  },
+  "Enemy": {
+    "prefix": "relaenemy",
+    "body": [
+      "## Enemy",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a enemy template."
+  },
+  "Protector": {
+    "prefix": "relaprotector",
+    "body": [
+      "## Protector",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a protector template."
+  },
+  "Master/Apprentice": {
+    "prefix": "relamasterapprentice",
+    "body": [
+      "## Master/Apprentice",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a master/apprentice template."
+  },
+  "Creator/Creation": {
+    "prefix": "relacreatorcreation",
+    "body": [
+      "## Creator/Creation",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a creator/creation template."
+  },
+  "Cause/Effect": {
+    "prefix": "relacauseeffect",
+    "body": [
+      "## Cause/Effect",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a cause/effect template."
+  },
+  "Poem Block": {
+    "prefix": "poetpoemblock",
+    "body": [
+      "## Poem Block",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a poem block template."
+  },
+  "Verse": {
+    "prefix": "poetverse",
+    "body": [
+      "## Verse",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a verse template."
+  },
+  "Couplet": {
+    "prefix": "poetcouplet",
+    "body": [
+      "## Couplet",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a couplet template."
+  },
+  "Quatrain": {
+    "prefix": "poetquatrain",
+    "body": [
+      "## Quatrain",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a quatrain template."
+  },
+  "Stanza": {
+    "prefix": "poetstanza",
+    "body": [
+      "## Stanza",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a stanza template."
+  },
+  "Chant": {
+    "prefix": "poetchant",
+    "body": [
+      "## Chant",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a chant template."
+  },
+  "Refrain": {
+    "prefix": "poetrefrain",
+    "body": [
+      "## Refrain",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a refrain template."
+  },
+  "Invocation": {
+    "prefix": "poetinvocation",
+    "body": [
+      "## Invocation",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a invocation template."
+  },
+  "Elegy": {
+    "prefix": "poetelegy",
+    "body": [
+      "## Elegy",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a elegy template."
+  },
+  "Hymn": {
+    "prefix": "poethymn",
+    "body": [
+      "## Hymn",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a hymn template."
+  },
+  "Lament": {
+    "prefix": "poetlament",
+    "body": [
+      "## Lament",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a lament template."
+  },
+  "Prophetic Verse": {
+    "prefix": "poetpropheticverse",
+    "body": [
+      "## Prophetic Verse",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a prophetic verse template."
+  },
+  "Epigraph": {
+    "prefix": "poetepigraph",
+    "body": [
+      "## Epigraph",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a epigraph template."
+  },
+  "Song": {
+    "prefix": "poetsong",
+    "body": [
+      "## Song",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a song template."
+  },
+  "Riddle Verse": {
+    "prefix": "poetriddleverse",
+    "body": [
+      "## Riddle Verse",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a riddle verse template."
+  },
+  "Revision Note": {
+    "prefix": "revirevisionnote",
+    "body": [
+      "## Revision Note",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a revision note template."
+  },
+  "Continuity Check": {
+    "prefix": "revicontinuitycheck",
+    "body": [
+      "## Continuity Check",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a continuity check template."
+  },
+  "Character Consistency": {
+    "prefix": "revicharacterconsistency",
+    "body": [
+      "## Character Consistency",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a character consistency template."
+  },
+  "Timeline Check": {
+    "prefix": "revitimelinecheck",
+    "body": [
+      "## Timeline Check",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a timeline check template."
+  },
+  "Lore Check": {
+    "prefix": "revilorecheck",
+    "body": [
+      "## Lore Check",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a lore check template."
+  },
+  "Dialogue Check": {
+    "prefix": "revidialoguecheck",
+    "body": [
+      "## Dialogue Check",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a dialogue check template."
+  },
+  "Pacing Check": {
+    "prefix": "revipacingcheck",
+    "body": [
+      "## Pacing Check",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a pacing check template."
+  },
+  "Description Check": {
+    "prefix": "revidescriptioncheck",
+    "body": [
+      "## Description Check",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a description check template."
+  },
+  "Show Don't Tell": {
+    "prefix": "revishowdont",
+    "body": [
+      "## Show Don't Tell",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a show don't tell template."
+  },
+  "Repetition Check": {
+    "prefix": "revirepetitioncheck",
+    "body": [
+      "## Repetition Check",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a repetition check template."
+  },
+  "Weak Sentence": {
+    "prefix": "reviweaksentence",
+    "body": [
+      "## Weak Sentence",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a weak sentence template."
+  },
+  "Strong Image": {
+    "prefix": "revistrongimage",
+    "body": [
+      "## Strong Image",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a strong image template."
+  },
+  "Cut This": {
+    "prefix": "revicutthis",
+    "body": [
+      "## Cut This",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a cut this template."
+  },
+  "Expand This": {
+    "prefix": "reviexpandthis",
+    "body": [
+      "## Expand This",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a expand this template."
+  },
+  "Rewrite This": {
+    "prefix": "revirewritethis",
+    "body": [
+      "## Rewrite This",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a rewrite this template."
+  },
+  "Alternative Version": {
+    "prefix": "revialternativeversion",
+    "body": [
+      "## Alternative Version",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a alternative version template."
+  },
+  "Author Question": {
+    "prefix": "reviauthorquestion",
+    "body": [
+      "## Author Question",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a author question template."
+  },
+  "Reader Question": {
+    "prefix": "revireaderquestion",
+    "body": [
+      "## Reader Question",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a reader question template."
+  },
+  "Unresolved Thread": {
+    "prefix": "reviunresolvedthread",
+    "body": [
+      "## Unresolved Thread",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a unresolved thread template."
+  },
+  "Payoff Required": {
+    "prefix": "revipayoffrequired",
+    "body": [
+      "## Payoff Required",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a payoff required template."
+  },
+  "Story Premise": {
+    "prefix": "plotstorypremise",
+    "body": [
+      "## Story Premise",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a story premise template."
+  },
+  "Logline": {
+    "prefix": "plotlogline",
+    "body": [
+      "## Logline",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a logline template."
+  },
+  "Theme": {
+    "prefix": "plottheme",
+    "body": [
+      "## Theme",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a theme template."
+  },
+  "Central Question": {
+    "prefix": "plotcentralquestion",
+    "body": [
+      "## Central Question",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a central question template."
+  },
+  "Conflict": {
+    "prefix": "plotconflict",
+    "body": [
+      "## Conflict",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a conflict template."
+  },
+  "External Conflict": {
+    "prefix": "plotexternalconflict",
+    "body": [
+      "## External Conflict",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a external conflict template."
+  },
+  "Internal Conflict": {
+    "prefix": "plotinternalconflict",
+    "body": [
+      "## Internal Conflict",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a internal conflict template."
+  },
+  "Plot Point": {
+    "prefix": "plotplotpoint",
+    "body": [
+      "## Plot Point",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a plot point template."
+  },
+  "Inciting Incident": {
+    "prefix": "plotincitingincident",
+    "body": [
+      "## Inciting Incident",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a inciting incident template."
+  },
+  "First Turning Point": {
+    "prefix": "plotfirstturningpoint",
+    "body": [
+      "## First Turning Point",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a first turning point template."
+  },
+  "Midpoint": {
+    "prefix": "plotmidpoint",
+    "body": [
+      "## Midpoint",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a midpoint template."
+  },
+  "Crisis": {
+    "prefix": "plotcrisis",
+    "body": [
+      "## Crisis",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a crisis template."
+  },
+  "Climax": {
+    "prefix": "plotclimax",
+    "body": [
+      "## Climax",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a climax template."
+  },
+  "Resolution": {
+    "prefix": "plotresolution",
+    "body": [
+      "## Resolution",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a resolution template."
+  },
+  "Subplot": {
+    "prefix": "plotsubplot",
+    "body": [
+      "## Subplot",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a subplot template."
+  },
+  "Plot Thread": {
+    "prefix": "plotplotthread",
+    "body": [
+      "## Plot Thread",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a plot thread template."
+  },
+  "Foreshadowing": {
+    "prefix": "plotforeshadowing",
+    "body": [
+      "## Foreshadowing",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a foreshadowing template."
+  },
+  "Payoff": {
+    "prefix": "plotpayoff",
+    "body": [
+      "## Payoff",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a payoff template."
+  },
+  "Mystery": {
+    "prefix": "plotmystery",
+    "body": [
+      "## Mystery",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a mystery template."
+  },
+  "Reveal": {
+    "prefix": "plotreveal",
+    "body": [
+      "## Reveal",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a reveal template."
+  },
+  "Twist": {
+    "prefix": "plottwist",
+    "body": [
+      "## Twist",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a twist template."
+  },
+  "False Victory": {
+    "prefix": "plotfalsevictory",
+    "body": [
+      "## False Victory",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a false victory template."
+  },
+  "False Defeat": {
+    "prefix": "plotfalsedefeat",
+    "body": [
+      "## False Defeat",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a false defeat template."
+  },
+  "Stakes": {
+    "prefix": "plotstakes",
+    "body": [
+      "## Stakes",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a stakes template."
+  },
+  "Escalation": {
+    "prefix": "plotescalation",
+    "body": [
+      "## Escalation",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a escalation template."
+  },
+  "Research Note": {
+    "prefix": "reseresearchnote",
+    "body": [
+      "## Research Note",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a research note template."
+  },
+  "Source": {
+    "prefix": "resesource",
+    "body": [
+      "## Source",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a source template."
+  },
+  "Citation": {
+    "prefix": "resecitation",
+    "body": [
+      "## Citation",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a citation template."
+  },
+  "Question": {
+    "prefix": "resequestion",
+    "body": [
+      "## Question",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a question template."
+  },
+  "Hypothesis": {
+    "prefix": "resehypothesis",
+    "body": [
+      "## Hypothesis",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a hypothesis template."
+  },
+  "Fact": {
+    "prefix": "resefact",
+    "body": [
+      "## Fact",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a fact template."
+  },
+  "Unverified Fact": {
+    "prefix": "reseunverifiedfact",
+    "body": [
+      "## Unverified Fact",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a unverified fact template."
+  },
+  "Primary Source": {
+    "prefix": "reseprimarysource",
+    "body": [
+      "## Primary Source",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a primary source template."
+  },
+  "Secondary Source": {
+    "prefix": "resesecondarysource",
+    "body": [
+      "## Secondary Source",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a secondary source template."
+  },
+  "Historical Note": {
+    "prefix": "resehistoricalnote",
+    "body": [
+      "## Historical Note",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a historical note template."
+  },
+  "Reference": {
+    "prefix": "resereference",
+    "body": [
+      "## Reference",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a reference template."
+  },
+  "Research Gap": {
+    "prefix": "reseresearchgap",
+    "body": [
+      "## Research Gap",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a research gap template."
+  },
+  "Research Task": {
+    "prefix": "reseresearchtask",
+    "body": [
+      "## Research Task",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a research task template."
+  },
+  "Source Conflict": {
+    "prefix": "resesourceconflict",
+    "body": [
+      "## Source Conflict",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a source conflict template."
+  },
+  "Author Interpretation": {
+    "prefix": "reseauthorinterpretation",
+    "body": [
+      "## Author Interpretation",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a author interpretation template."
+  },
+  "Title Page": {
+    "prefix": "publtitlepage",
+    "body": [
+      "## Title Page",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a title page template."
+  },
+  "Copyright": {
+    "prefix": "publcopyright",
+    "body": [
+      "## Copyright",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a copyright template."
+  },
+  "Dedication": {
+    "prefix": "publdedication",
+    "body": [
+      "## Dedication",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a dedication template."
+  },
+  "Table of Contents": {
+    "prefix": "publtableofcontents",
+    "body": [
+      "## Table of Contents",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a table of contents template."
+  },
+  "Acknowledgments": {
+    "prefix": "publacknowledgments",
+    "body": [
+      "## Acknowledgments",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a acknowledgments template."
+  },
+  "Chapter Metadata": {
+    "prefix": "publchaptermetadata",
+    "body": [
+      "## Chapter Metadata",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a chapter metadata template."
+  },
+  "Book Metadata": {
+    "prefix": "publbookmetadata",
+    "body": [
+      "## Book Metadata",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a book metadata template."
+  },
+  "Series Metadata": {
+    "prefix": "publseriesmetadata",
+    "body": [
+      "## Series Metadata",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a series metadata template."
+  },
+  "Edition Note": {
+    "prefix": "publeditionnote",
+    "body": [
+      "## Edition Note",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a edition note template."
+  },
+  "Revision History": {
+    "prefix": "publrevisionhistory",
+    "body": [
+      "## Revision History",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a revision history template."
+  },
+  "Publication Note": {
+    "prefix": "publpublicationnote",
+    "body": [
+      "## Publication Note",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a publication note template."
+  },
+  "Back Matter": {
+    "prefix": "publbackmatter",
+    "body": [
+      "## Back Matter",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a back matter template."
+  },
+  "End Note": {
+    "prefix": "publendnote",
+    "body": [
+      "## End Note",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a end note template."
+  },
+  "Symbol": {
+    "prefix": "symbsymbol",
+    "body": [
+      "## Symbol",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a symbol template."
+  },
+  "Motif": {
+    "prefix": "symbmotif",
+    "body": [
+      "## Motif",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a motif template."
+  },
+  "Element": {
+    "prefix": "symbelement",
+    "body": [
+      "## Element",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a element template."
+  },
+  "Fire": {
+    "prefix": "symbfire",
+    "body": [
+      "## Fire",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a fire template."
+  },
+  "Shadow": {
+    "prefix": "symbshadow",
+    "body": [
+      "## Shadow",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a shadow template."
+  },
+  "Light": {
+    "prefix": "symblight",
+    "body": [
+      "## Light",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a light template."
+  },
+  "Iron": {
+    "prefix": "symbiron",
+    "body": [
+      "## Iron",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a iron template."
+  },
+  "Tower": {
+    "prefix": "symbtower",
+    "body": [
+      "## Tower",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a tower template."
+  },
+  "Scroll": {
+    "prefix": "symbscroll",
+    "body": [
+      "## Scroll",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a scroll template."
+  },
+  "Scales": {
+    "prefix": "symbscales",
+    "body": [
+      "## Scales",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a scales template."
+  },
+  "Crown": {
+    "prefix": "symbcrown",
+    "body": [
+      "## Crown",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a crown template."
+  },
+  "Sword": {
+    "prefix": "symbsword",
+    "body": [
+      "## Sword",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a sword template."
+  },
+  "Star": {
+    "prefix": "symbstar",
+    "body": [
+      "## Star",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a star template."
+  },
+  "Moon": {
+    "prefix": "symbmoon",
+    "body": [
+      "## Moon",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a moon template."
+  },
+  "Sun": {
+    "prefix": "symbsun",
+    "body": [
+      "## Sun",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a sun template."
+  },
+  "Dawn": {
+    "prefix": "symbdawn",
+    "body": [
+      "## Dawn",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a dawn template."
+  },
+  "Ash": {
+    "prefix": "symbash",
+    "body": [
+      "## Ash",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a ash template."
+  },
+  "Blood": {
+    "prefix": "symbblood",
+    "body": [
+      "## Blood",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a blood template."
+  },
+  "Throne": {
+    "prefix": "symbthrone",
+    "body": [
+      "## Throne",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a throne template."
+  },
+  "Gate": {
+    "prefix": "symbgate",
+    "body": [
+      "## Gate",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a gate template."
+  },
+  "Key": {
+    "prefix": "symbkey",
+    "body": [
+      "## Key",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a key template."
+  },
+  "Chain": {
+    "prefix": "symbchain",
+    "body": [
+      "## Chain",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a chain template."
+  },
+  "Mirror": {
+    "prefix": "symbmirror",
+    "body": [
+      "## Mirror",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a mirror template."
+  },
+  "Flame": {
+    "prefix": "symbflame",
+    "body": [
+      "## Flame",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a flame template."
+  },
+  "Serpent": {
+    "prefix": "symbserpent",
+    "body": [
+      "## Serpent",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a serpent template."
+  },
+  "Eye": {
+    "prefix": "symbeye",
+    "body": [
+      "## Eye",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a eye template."
+  },
+  "Wing": {
+    "prefix": "symbwing",
+    "body": [
+      "## Wing",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a wing template."
+  },
+  "Seal": {
+    "prefix": "symbseal",
+    "body": [
+      "## Seal",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a seal template."
+  },
+  "Sigil": {
+    "prefix": "symbsigil",
+    "body": [
+      "## Sigil",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a sigil template."
+  },
+  "Book of the Watchers": {
+    "prefix": "mythbookofthe",
+    "body": [
+      "## Book of the Watchers",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a book of the watchers template."
+  },
+  "Chronicle": {
+    "prefix": "mythchronicle",
+    "body": [
+      "## Chronicle",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a chronicle template."
+  },
+  "Canticle": {
+    "prefix": "mythcanticle",
+    "body": [
+      "## Canticle",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a canticle template."
+  },
+  "Judgment": {
+    "prefix": "mythjudgment",
+    "body": [
+      "## Judgment",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a judgment template."
+  },
+  "Oracle": {
+    "prefix": "mythoracle",
+    "body": [
+      "## Oracle",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a oracle template."
+  },
+  "Vision": {
+    "prefix": "mythvision",
+    "body": [
+      "## Vision",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a vision template."
+  },
+  "Revelation": {
+    "prefix": "mythrevelation",
+    "body": [
+      "## Revelation",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a revelation template."
+  },
+  "Testament": {
+    "prefix": "mythtestament",
+    "body": [
+      "## Testament",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a testament template."
+  },
+  "Covenant": {
+    "prefix": "mythcovenant",
+    "body": [
+      "## Covenant",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a covenant template."
+  },
+  "Litany": {
+    "prefix": "mythlitany",
+    "body": [
+      "## Litany",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a litany template."
+  },
+  "Apocalypse": {
+    "prefix": "mythapocalypse",
+    "body": [
+      "## Apocalypse",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a apocalypse template."
+  },
+  "Final Decree": {
+    "prefix": "mythfinaldecree",
+    "body": [
+      "## Final Decree",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a final decree template."
+  },
+  "Sacred Law": {
+    "prefix": "mythsacredlaw",
+    "body": [
+      "## Sacred Law",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a sacred law template."
+  },
+  "Cosmic Law": {
+    "prefix": "mythcosmiclaw",
+    "body": [
+      "## Cosmic Law",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a cosmic law template."
+  },
+  "Forbidden Law": {
+    "prefix": "mythforbiddenlaw",
+    "body": [
+      "## Forbidden Law",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a forbidden law template."
+  },
+  "Idea": {
+    "prefix": "authoridea",
+    "body": [
+      "## Idea",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a idea template."
+  },
+  "Problem": {
+    "prefix": "authorproblem",
+    "body": [
+      "## Problem",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a problem template."
+  },
+  "Decision": {
+    "prefix": "authordecision",
+    "body": [
+      "## Decision",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a decision template."
+  },
+  "Option A": {
+    "prefix": "authoroptiona",
+    "body": [
+      "## Option A",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a option a template."
+  },
+  "Option B": {
+    "prefix": "authoroptionb",
+    "body": [
+      "## Option B",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a option b template."
+  },
+  "Decision Log": {
+    "prefix": "authordecisionlog",
+    "body": [
+      "## Decision Log",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a decision log template."
+  },
+  "Author Intent": {
+    "prefix": "authorauthorintent",
+    "body": [
+      "## Author Intent",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a author intent template."
+  },
+  "Scene Intent": {
+    "prefix": "authorsceneintent",
+    "body": [
+      "## Scene Intent",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a scene intent template."
+  },
+  "Character Intent": {
+    "prefix": "authorcharacterintent",
+    "body": [
+      "## Character Intent",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a character intent template."
+  },
+  "Reader Experience": {
+    "prefix": "authorreaderexperience",
+    "body": [
+      "## Reader Experience",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a reader experience template."
+  },
+  "Emotional Beat": {
+    "prefix": "authoremotionalbeat",
+    "body": [
+      "## Emotional Beat",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a emotional beat template."
+  },
+  "Narrative Beat": {
+    "prefix": "authornarrativebeat",
+    "body": [
+      "## Narrative Beat",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a narrative beat template."
+  },
+  "Metaphor": {
+    "prefix": "authormetaphor",
+    "body": [
+      "## Metaphor",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a metaphor template."
+  },
+  "Discovery": {
+    "prefix": "authordiscovery",
+    "body": [
+      "## Discovery",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a discovery template."
+  },
+  "Breakthrough": {
+    "prefix": "authorbreakthrough",
+    "body": [
+      "## Breakthrough",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a breakthrough template."
+  },
+  "Concern": {
+    "prefix": "authorconcern",
+    "body": [
+      "## Concern",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a concern template."
+  },
+  "Reminder": {
+    "prefix": "authorreminder",
+    "body": [
+      "## Reminder",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a reminder template."
+  },
+  "TODO": {
+    "prefix": "authortodo",
+    "body": [
+      "## TODO",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a todo template."
+  },
+  "FIXME": {
+    "prefix": "authorfixme",
+    "body": [
+      "## FIXME",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a fixme template."
+  },
+  "Canon Decision": {
+    "prefix": "authorcanondecision",
+    "body": [
+      "## Canon Decision",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a canon decision template."
+  },
+  "Continuity Decision": {
+    "prefix": "authorcontinuitydecision",
+    "body": [
+      "## Continuity Decision",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a continuity decision template."
+  },
+  "Revision Decision": {
+    "prefix": "authorrevisiondecision",
+    "body": [
+      "## Revision Decision",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a revision decision template."
+  },
+  "Ancient Judgment": {
+    "prefix": "judgment",
+    "body": [
+      "## Ancient Judgment",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a ancient judgment template."
+  },
+  "Canticle Block": {
+    "prefix": "canticle",
+    "body": [
+      "## Canticle Block",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a canticle block template."
+  },
+  "Chanted Meter": {
+    "prefix": "chant",
+    "body": [
+      "## Chanted Meter",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a chanted meter template."
+  },
+  "Elemental Contrast": {
+    "prefix": "element",
+    "body": [
+      "## Elemental Contrast",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a elemental contrast template."
+  },
+  "Prophecy Block": {
+    "prefix": "prophecy",
+    "body": [
+      "## Prophecy Block",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a prophecy block template."
+  },
+  "Prophetic Decree": {
+    "prefix": "decree",
+    "body": [
+      "## Prophetic Decree",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a prophetic decree template."
+  },
+  "Knowledge Link: Standard Entity": {
+    "prefix": "klink",
+    "body": [
+      "## Knowledge Link: Standard Entity",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a knowledge link: standard entity template."
+  },
+  "Knowledge Link: Relational Tie": {
+    "prefix": "krel",
+    "body": [
+      "## Knowledge Link: Relational Tie",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a knowledge link: relational tie template."
+  },
+  "Knowledge Link: Prophetic Reference": {
+    "prefix": "kprophecy",
+    "body": [
+      "## Knowledge Link: Prophetic Reference",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a knowledge link: prophetic reference template."
+  },
+  "Daily Writing Session": {
+    "prefix": "writingday",
+    "body": [
+      "## Daily Writing Session",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a daily writing session template."
+  },
+  "Creative Spark": {
+    "prefix": "spark",
+    "body": [
+      "## Creative Spark",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a creative spark template."
+  },
+  "Final Author Command": {
+    "prefix": "mastercommand",
+    "body": [
+      "## Final Author Command",
+      "${1:notes}",
+      "$0"
+    ],
+    "description": "Create a final author command template."
+  }
+}
