@@ -1,0 +1,308 @@
+## Uriel Writing Toolkit — Part IV: **The Sovereign Schism Manuscript Production System**
+
+Append these entries inside the same `.code-snippets` JSON object.
+
+```json id="f7r2kw"
+{
+	"Book Structure": {
+		"prefix": "book",
+		"body": [
+			"# BOOK ${1:Number}: ${2:Title}",
+			"",
+			"**Theme:** ${3:Central theme}",
+			"**Era:** ${4:Time period}",
+			"**Primary Conflict:** ${5:Conflict}",
+			"",
+			"## Synopsis",
+			"${6:Book summary}",
+			"",
+			"## Major Revelation",
+			"${7:Key truth revealed}",
+			"$0"
+		],
+		"description": "Creates a complete book framework"
+	},
+
+	"Act Structure": {
+		"prefix": "act",
+		"body": [
+			"# ACT ${1:Number}: ${2:Title}",
+			"",
+			"Purpose:",
+			"${3:Narrative purpose}",
+			"",
+			"Beginning State:",
+			"${4:Opening condition}",
+			"",
+			"Turning Point:",
+			"${5:Major shift}",
+			"",
+			"Ending State:",
+			"${6:New reality}",
+			"$0"
+		],
+		"description": "Creates three-act or multi-act structures"
+	},
+
+	"Chapter Blueprint": {
+		"prefix": "chapter",
+		"body": [
+			"# Chapter ${1:Number}: ${2:Title}",
+			"",
+			"## Opening Image",
+			"${3:Opening scene}",
+			"",
+			"## Conflict",
+			"${4:Central struggle}",
+			"",
+			"## Revelation",
+			"${5:Hidden truth}",
+			"",
+			"## Closing Image",
+			"${6:Final moment}",
+			"",
+			"Word Count Target: ${7:Words}",
+			"$0"
+		],
+		"description": "Creates manuscript chapter plans"
+	},
+
+	"Scene Blueprint": {
+		"prefix": "scene",
+		"body": [
+			"## Scene: ${1:Title}",
+			"",
+			"Location:",
+			"${2:Place}",
+			"",
+			"Characters:",
+			"- ${3:Character}",
+			"",
+			"Goal:",
+			"${4:What is desired}",
+			"",
+			"Obstacle:",
+			"${5:What prevents it}",
+			"",
+			"Outcome:",
+			"${6:Result}",
+			"$0"
+		],
+		"description": "Creates detailed scene cards"
+	},
+
+	"Scene Expansion Prompt": {
+		"prefix": "sceneexpand",
+		"body": [
+			"Expand this scene into cinematic prose.",
+			"",
+			"Requirements:",
+			"- Maintain ${1:character voice}.",
+			"- Include ${2:sensory imagery}.",
+			"- Reveal ${3:hidden information}.",
+			"- End with ${4:emotional or prophetic impact}.",
+			"",
+			"Scene:",
+			"${5:Insert scene outline}",
+			"$0"
+		],
+		"description": "Expands outlines into full scenes"
+	},
+
+	"Chapter Opening": {
+		"prefix": "chapteropen",
+		"body": [
+			"## Chapter ${1:Number}: ${2:Title}",
+			"",
+			"${3:Opening quote}",
+			"",
+			"The age had changed.",
+			"The old order had fallen.",
+			"The next truth awaited discovery.",
+			"$0"
+		],
+		"description": "Creates dramatic chapter openings"
+	},
+
+	"Chapter Closing": {
+		"prefix": "chapterclose",
+		"body": [
+			"The final words echoed beyond the veil.",
+			"",
+			"The seal remained.",
+			"The question endured.",
+			"The next dawn approached.",
+			"$0"
+		],
+		"description": "Creates chapter endings"
+	},
+
+	"Character Index Entry": {
+		"prefix": "charindex",
+		"body": [
+			"## ${1:Character Name}",
+			"",
+			"First Appearance:",
+			"${2:Chapter}",
+			"",
+			"Role:",
+			"${3:Role}",
+			"",
+			"Affiliation:",
+			"${4:Group}",
+			"",
+			"Current Status:",
+			"${5:Status}",
+			"",
+			"Related Entities:",
+			"- [[${6:Entity}]]",
+			"$0"
+		],
+		"description": "Creates manuscript character index entries"
+	},
+
+	"Lore Encyclopedia Entry": {
+		"prefix": "encyclopedia",
+		"body": [
+			"# ${1:Lore Entry}",
+			"",
+			"Category:",
+			"${2:Character/Place/Artifact/Event}",
+			"",
+			"Definition:",
+			"${3:Explanation}",
+			"",
+			"Historical Significance:",
+			"${4:Importance}",
+			"",
+			"Appearances:",
+			"- ${5:Chapter}",
+			"$0"
+		],
+		"description": "Creates a lore encyclopedia article"
+	},
+
+	"Series Bible": {
+		"prefix": "seriesbible",
+		"body": [
+			"# Series Bible: ${1:Title}",
+			"",
+			"## Core Premise",
+			"${2:Premise}",
+			"",
+			"## Central Myth",
+			"${3:Mythology}",
+			"",
+			"## Main Characters",
+			"- ${4:Character}",
+			"",
+			"## Long-Term Arc",
+			"${5:Future development}",
+			"$0"
+		],
+		"description": "Creates a complete series planning document"
+	},
+
+	"Author Note": {
+		"prefix": "authornote",
+		"body": [
+			"## Author's Note",
+			"",
+			"This work explores ${1:theme}.",
+			"",
+			"The mythology within these pages reflects ${2:creative purpose}.",
+			"$0"
+		],
+		"description": "Creates author commentary sections"
+	},
+
+	"Manuscript Revision Note": {
+		"prefix": "revision",
+		"body": [
+			"## Revision Record",
+			"",
+			"Section:",
+			"${1:Chapter/Scene}",
+			"",
+			"Problem:",
+			"${2:Issue}",
+			"",
+			"Solution:",
+			"${3:Revision}",
+			"",
+			"Status:",
+			"${4:Complete/Pending}",
+			"$0"
+		],
+		"description": "Tracks manuscript edits"
+	},
+
+	"Publisher Pitch": {
+		"prefix": "pitch",
+		"body": [
+			"# Publishing Pitch",
+			"",
+			"Title:",
+			"${1:Title}",
+			"",
+			"Genre:",
+			"${2:Genre}",
+			"",
+			"Hook:",
+			"${3:One sentence hook}",
+			"",
+			"Synopsis:",
+			"${4:Short summary}",
+			"",
+			"Audience:",
+			"${5:Target readers}",
+			"$0"
+		],
+		"description": "Creates publishing pitch material"
+	},
+
+	"Query Letter Framework": {
+		"prefix": "query",
+		"body": [
+			"Dear ${1:Agent/Publisher},",
+			"",
+			"I am seeking representation for ${2:Title}, a ${3:genre} novel.",
+			"",
+			"At its heart, the story follows ${4:main character} as ${5:central conflict}.",
+			"",
+			"The manuscript explores ${6:themes}.",
+			"",
+			"Thank you for your consideration.",
+			"",
+			"Sincerely,",
+			"${7:Author Name}",
+			"$0"
+		],
+		"description": "Creates a literary query letter draft"
+	}
+}
+```
+
+Added capabilities:
+
+* Full novel architecture
+* Acts and chapters
+* Scene planning
+* Expansion prompts
+* Character database
+* Lore encyclopedia
+* Series bible
+* Revision tracking
+* Publishing materials
+
+Next section:
+
+**Part V — The Seven Seals, Revelation Engine & Final Judgment System**
+
+* Seven Seal templates
+* Trumpet/Bowl event structures
+* Final decree passages
+* Restoration of the Garden
+* New creation framework
+* Uriel's final chronicle
+* Prophetic ending generator
