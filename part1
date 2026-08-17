@@ -1,0 +1,228 @@
+A full **Uriel Writing Toolkit** can be structured as a VS Code snippet library with categories for **voice, mythology, prophecy, worldbuilding, character development, scenes, sacred texts, archives, and manuscript production**.
+
+Because the completed `.code-snippets` file will be very large, it is best organized into sections. Below is **Part I: Core Uriel Voice & Sacred Text Generation**. Additional sections can be added afterward.
+
+```json
+{
+	"Uriel Voice Invocation": {
+		"prefix": "urvoice",
+		"body": [
+			"I am Uriel, bearer of the hidden flame, keeper of the threshold between dawn and shadow.",
+			"I speak from the place where creation remembers its first breath and the final echo is heard.",
+			"$0"
+		],
+		"description": "Activates Uriel first-person prophetic narration"
+	},
+
+	"Uriel Divine Monologue": {
+		"prefix": "urmonologue",
+		"body": [
+			"I have walked through ${1:the age of silence},",
+			"I have witnessed ${2:the fracture of kingdoms},",
+			"and I now reveal the truth hidden beneath ${3:the veil}.",
+			"",
+			"$0"
+		],
+		"description": "Creates an extended Uriel revelation speech"
+	},
+
+	"Morning Star Declaration": {
+		"prefix": "morningstar",
+		"body": [
+			"Before the first dawn was named, the flame was already known.",
+			"I was the whisper within the light, the guardian of the boundary between becoming and ending.",
+			"$0"
+		],
+		"description": "Creates Morning Star themed passages"
+	},
+
+	"Duality of Light and Shadow": {
+		"prefix": "duality",
+		"body": [
+			"Do not mistake shadow for absence, nor light for innocence.",
+			"Within every flame rests a shadow, and within every shadow waits a spark.",
+			"$0"
+		],
+		"description": "Creates light/darkness philosophical passages"
+	},
+
+	"Ancient Scroll Opening": {
+		"prefix": "scrollopen",
+		"body": [
+			"✦ THE HIDDEN SCROLL OF ${1:Title} ✦",
+			"",
+			"Sealed beneath the dust of forgotten ages, the words are awakened:",
+			"",
+			"${2:Sacred text}",
+			"",
+			"Thus is the record preserved.",
+			"$0"
+		],
+		"description": "Creates ancient manuscript openings"
+	},
+
+	"Prophetic Revelation": {
+		"prefix": "urevelation",
+		"body": [
+			"[REVELATION]",
+			"",
+			"Behold, the veil is torn and the hidden design is revealed.",
+			"The ${1:seal} shall break, the ${2:truth} shall rise, and the ${3:age} shall be transformed.",
+			"",
+			"[/REVELATION]",
+			"$0"
+		],
+		"description": "Creates apocalyptic revelation passages"
+	},
+
+	"Divine Decree": {
+		"prefix": "udivinedecree",
+		"body": [
+			"Let the heavens bear witness.",
+			"Let the earth remember.",
+			"Let the names written upon the eternal scroll be called forth.",
+			"",
+			"The decree of ${1:name} is sealed.",
+			"$0"
+		],
+		"description": "Creates formal celestial decrees"
+	},
+
+	"Celestial Court Scene": {
+		"prefix": "celestialcourt",
+		"body": [
+			"Before the throne of ${1:the Eternal Flame}, the assembly gathered.",
+			"",
+			"${2:Character} entered beneath the gaze of ${3:witnesses}.",
+			"",
+			"The judgment awaited.",
+			"$0"
+		],
+		"description": "Creates heavenly tribunal scenes"
+	},
+
+	"Archangel Profile": {
+		"prefix": "archangel",
+		"body": [
+			"## ${1:Name}",
+			"",
+			"**Title:** ${2:Title}",
+			"**Domain:** ${3:Domain}",
+			"**Symbol:** ${4:Symbol}",
+			"**Element:** ${5:Element}",
+			"**Purpose:** ${6:Purpose}",
+			"",
+			"### Mythic Record",
+			"${7:Description}",
+			"$0"
+		],
+		"description": "Creates archangel lore entries"
+	},
+
+	"Cosmic Event": {
+		"prefix": "cosmicevent",
+		"body": [
+			"## ${1:The Great Event}",
+			"",
+			"Era: ${2:Age}",
+			"",
+			"The heavens shifted when ${3:event}.",
+			"The consequences echoed through ${4:realm}.",
+			"",
+			"Symbols:",
+			"- ${5:Symbol one}",
+			"- ${6:Symbol two}",
+			"$0"
+		],
+		"description": "Creates cosmic history entries"
+	},
+
+	"Sacred Canticle": {
+		"prefix": "ucanticle",
+		"body": [
+			"=== CANTICLE ${1:I} ===",
+			"",
+			"${2:First verse}",
+			"",
+			"${3:Second verse}",
+			"",
+			"=== END CANTICLE ===",
+			"$0"
+		],
+		"description": "Creates scripture-style songs"
+	},
+
+	"Oracle Response": {
+		"prefix": "oracle",
+		"body": [
+			"THE ORACLE SPEAKS:",
+			"",
+			"${1:Answer}",
+			"",
+			"The meaning shall be revealed when the seeker is ready.",
+			"$0"
+		],
+		"description": "Creates oracle-style responses"
+	},
+
+	"Lore Fragment": {
+		"prefix": "lorefragment",
+		"body": [
+			"Fragment recovered from the ${1:Archive of Ages}:",
+			"",
+			"\"${2:Text fragment}\"",
+			"",
+			"Interpretation:",
+			"${3:Meaning}",
+			"$0"
+		],
+		"description": "Creates recovered ancient lore entries"
+	}
+}
+```
+
+Recommended additional toolkit modules:
+
+### Part II — Character & Relationship Engine
+
+* `characterbirth`
+* `characterarc`
+* `betrayalscene`
+* `redemptionarc`
+* `enemyprofile`
+* `allyprofile`
+* `dialogueprophecy`
+
+### Part III — Worldbuilding Database
+
+* `realm`
+* `kingdom`
+* `artifact`
+* `relic`
+* `seal`
+* `sigil`
+* `ritual`
+* `law`
+* `timeline`
+
+### Part IV — Manuscript Production
+
+* `chapter`
+* `act`
+* `book`
+* `epigraph`
+* `authornote`
+* `queryletter`
+* `publisherpitch`
+
+### Part V — Uriel-Specific Mythic Systems
+
+* `sevenseals`
+* `watchers`
+* `fallenhost`
+* `morningstarfall`
+* `finaljudgment`
+* `restoredgarden`
+* `newcreation`
+
+This turns VS Code into a dedicated **Uriel mythic manuscript environment** rather than a standard snippet collection.
