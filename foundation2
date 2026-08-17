@@ -1,0 +1,179 @@
+## Uriel Writing Toolkit — Foundation Snippets (Part II)
+
+**Archive, Chronicle & Knowledge Link System**
+
+Add these entries into the same `.code-snippets` file after Part I.
+
+```json id="8m4qta"
+{
+  "AI Conversation Archive": {
+    "prefix": "ailog",
+    "body": [
+      "## Chronicle of the Oracle: ${1:Session Topic or Date}",
+      "",
+      "### The Inquiry [My Question]",
+      "> ${2:Paste original prompt here}",
+      "",
+      "### The Decree [AI Response]",
+      "${3:Paste AI response here}",
+      "",
+      "### Unanswered Riddles [AI Questions]",
+      "- ${4:Follow-up questions}",
+      "",
+      "### Labors to Complete [Tasks]",
+      "- [ ] ${5:Next action}",
+      "",
+      "### Omens & Truths [Important Notes]",
+      "- ${6:Lore rules or reminders}",
+      "",
+      "$0"
+    ],
+    "description": "Structured archive for AI conversations"
+  },
+
+  "AI Log: Single Exchange": {
+    "prefix": "aiexchange",
+    "body": [
+      "**Seeker:** ${1:Your question}",
+      "",
+      "**Oracle:** ${2:The AI answer}",
+      "",
+      "$0"
+    ],
+    "description": "Quick AI conversation record"
+  },
+
+  "Knowledge Link: Standard Entity": {
+    "prefix": "klink",
+    "body": [
+      "[[${1:Entity_Name}]]",
+      "",
+      "**Type:** ${2:Character/Artifact/Location/Law}",
+      "",
+      "**Status:** ${3:Active/Sealed/Destroyed}",
+      "",
+      "**Description:**",
+      "${4:Description}",
+      "",
+      "$0"
+    ],
+    "description": "Creates wiki-style lore entities"
+  },
+
+  "Knowledge Link: Relational Tie": {
+    "prefix": "krel",
+    "body": [
+      "[[${1:Source_Entity}]] =[${2:Relationship}]= > [[${3:Target_Entity}]]",
+      "",
+      "Explanation:",
+      "${4:Connection details}",
+      "",
+      "$0"
+    ],
+    "description": "Creates entity relationships"
+  },
+
+  "Knowledge Link: Prophetic Reference": {
+    "prefix": "kprophecy",
+    "body": [
+      "> [!PROPHECY REF: ${1:Scroll_Name}]",
+      ">",
+      "> *\"${2:Prophecy text}\"*",
+      ">",
+      "> **Connected To:** [[${3:Entity}]]",
+      "",
+      "$0"
+    ],
+    "description": "Creates prophecy references"
+  },
+
+  "Research Archive Note": {
+    "prefix": "researchnote",
+    "body": [
+      "# Research Archive",
+      "",
+      "Topic:",
+      "${1:Topic}",
+      "",
+      "Source:",
+      "${2:Source}",
+      "",
+      "Key Information:",
+      "- ${3:Information}",
+      "",
+      "Story Application:",
+      "${4:How this influences the manuscript}",
+      "",
+      "$0"
+    ],
+    "description": "Stores research notes"
+  },
+
+  "Lore Question": {
+    "prefix": "lorequestion",
+    "body": [
+      "## Lore Question",
+      "",
+      "Question:",
+      "${1:Question}",
+      "",
+      "Possible Answers:",
+      "- ${2:Answer One}",
+      "- ${3:Answer Two}",
+      "",
+      "Chosen Canon:",
+      "${4:Answer}",
+      "",
+      "$0"
+    ],
+    "description": "Tracks unresolved lore decisions"
+  },
+
+  "Canon Declaration": {
+    "prefix": "canon",
+    "body": [
+      "## CANON DECLARATION",
+      "",
+      "Subject:",
+      "${1:Topic}",
+      "",
+      "Official Lore:",
+      "${2:Established truth}",
+      "",
+      "Reason:",
+      "${3:Narrative purpose}",
+      "",
+      "Date Established:",
+      "${4:Date}",
+      "",
+      "$0"
+    ],
+    "description": "Marks official story canon"
+  }
+}
+```
+
+Completed restoration:
+
+✅ AI archive system
+✅ Oracle/Seeker conversation format
+✅ Lore database links
+✅ Entity relationships
+✅ Prophecy references
+✅ Research storage
+✅ Canon management
+
+Next:
+
+## Foundation Snippets — Part III
+
+**Mythic Writing Blocks**
+
+* Ancient Judgment
+* Canticle blocks
+* Chanted meter
+* Elemental contrasts
+* Poem sigil blocks
+* Prophecy containers
+* Prophetic decrees
+* User/AI manuscript dialogue formatting
