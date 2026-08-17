@@ -1,0 +1,303 @@
+
+## Uriel Writing Toolkit — Part VI: **Advanced Author System & AI Co-Writer Engine**
+
+Append these entries inside the same `.code-snippets` JSON object.
+
+```json id="7n4pzs"
+{
+	"AI Manuscript Architect": {
+		"prefix": "aiarchitect",
+		"body": [
+			"**MANUSCRIPT ARCHITECT DIRECTIVE**",
+			"",
+			"Analyze the following story element:",
+			"${1:Insert concept}",
+			"",
+			"Develop:",
+			"- Narrative purpose",
+			"- Symbolic meaning",
+			"- Character impact",
+			"- Thematic connection",
+			"- Future consequences",
+			"",
+			"Maintain the established mythic tone.",
+			"$0"
+		],
+		"description": "AI prompt for expanding manuscript structure"
+	},
+
+	"AI Lore Consistency Check": {
+		"prefix": "lorecheck",
+		"body": [
+			"**LORE CONSISTENCY ANALYSIS**",
+			"",
+			"Review this entry:",
+			"${1:Lore text}",
+			"",
+			"Check:",
+			"- Timeline accuracy",
+			"- Character motivations",
+			"- Symbol consistency",
+			"- Contradictions",
+			"- Missing connections",
+			"",
+			"Suggested corrections:",
+			"$0"
+		],
+		"description": "Checks mythology consistency"
+	},
+
+	"AI Character Psychology": {
+		"prefix": "charpsyche",
+		"body": [
+			"**CHARACTER PSYCHOLOGICAL PROFILE**",
+			"",
+			"Character:",
+			"${1:Name}",
+			"",
+			"Analyze:",
+			"- Core desire",
+			"- Hidden fear",
+			"- Greatest wound",
+			"- Moral conflict",
+			"- Transformation path",
+			"",
+			"Psychological interpretation:",
+			"$0"
+		],
+		"description": "Creates deep character analysis"
+	},
+
+	"AI Scene Critique": {
+		"prefix": "scenecritique",
+		"body": [
+			"**SCENE ANALYSIS**",
+			"",
+			"Evaluate this scene:",
+			"${1:Scene text}",
+			"",
+			"Review:",
+			"- Emotional impact",
+			"- Pacing",
+			"- Imagery",
+			"- Dialogue",
+			"- Narrative tension",
+			"",
+			"Recommended improvements:",
+			"$0"
+		],
+		"description": "Analyzes and improves scenes"
+	},
+
+	"AI Symbol Interpreter": {
+		"prefix": "symbolism",
+		"body": [
+			"**SYMBOLIC ANALYSIS**",
+			"",
+			"Symbol:",
+			"${1:Object/Image/Event}",
+			"",
+			"Interpret:",
+			"- Mythological meaning",
+			"- Emotional meaning",
+			"- Spiritual meaning",
+			"- Character significance",
+			"- Future foreshadowing",
+			"",
+			"Analysis:",
+			"$0"
+		],
+		"description": "Analyzes symbolic elements"
+	},
+
+	"Theme Generator": {
+		"prefix": "theme",
+		"body": [
+			"## Theme: ${1:Theme Name}",
+			"",
+			"Central Question:",
+			"${2:Question explored}",
+			"",
+			"Argument:",
+			"${3:Story's answer}",
+			"",
+			"Symbols:",
+			"- ${4:Symbol}",
+			"",
+			"Characters Connected:",
+			"- ${5:Character}",
+			"$0"
+		],
+		"description": "Creates thematic structures"
+	},
+
+	"Motif Tracker": {
+		"prefix": "motif",
+		"body": [
+			"## Motif: ${1:Motif Name}",
+			"",
+			"First Appearance:",
+			"${2:Chapter}",
+			"",
+			"Meaning:",
+			"${3:Meaning}",
+			"",
+			"Evolution:",
+			"${4:How it changes}",
+			"",
+			"Final Resolution:",
+			"${5:Ending significance}",
+			"$0"
+		],
+		"description": "Tracks recurring story symbols"
+	},
+
+	"Foreshadowing Record": {
+		"prefix": "foreshadow",
+		"body": [
+			"## Foreshadowing Record",
+			"",
+			"Setup:",
+			"${1:Early hint}",
+			"",
+			"Location:",
+			"${2:Chapter/Scene}",
+			"",
+			"Payoff:",
+			"${3:Future revelation}",
+			"",
+			"Connection:",
+			"${4:Meaning}",
+			"$0"
+		],
+		"description": "Tracks narrative setups and payoffs"
+	},
+
+	"Prophecy Interpretation Engine": {
+		"prefix": "prophecyanalyze",
+		"body": [
+			"**PROPHECY INTERPRETATION**",
+			"",
+			"Text:",
+			"\"${1:Prophecy}\"",
+			"",
+			"Analyze:",
+			"- Literal meaning",
+			"- Symbolic meaning",
+			"- Historical meaning",
+			"- Character impact",
+			"- Final fulfillment",
+			"",
+			"Interpretation:",
+			"$0"
+		],
+		"description": "Analyzes prophetic passages"
+	},
+
+	"Voice Calibration": {
+		"prefix": "voicecalibrate",
+		"body": [
+			"**VOICE CALIBRATION**",
+			"",
+			"Rewrite the following text in the voice of:",
+			"${1:Character}",
+			"",
+			"Required qualities:",
+			"- ${2:Tone}",
+			"- ${3:Vocabulary}",
+			"- ${4:Rhythm}",
+			"- ${5:Emotional state}",
+			"",
+			"Text:",
+			"${6:Insert text}",
+			"$0"
+		],
+		"description": "Adjusts prose to a specific character voice"
+	},
+
+	"Epic Description Generator": {
+		"prefix": "epicdesc",
+		"body": [
+			"Describe ${1:subject} as a mythic vision.",
+			"",
+			"Include:",
+			"- Cosmic scale",
+			"- Elemental imagery",
+			"- Ancient symbolism",
+			"- Emotional weight",
+			"- Prophetic significance",
+			"$0"
+		],
+		"description": "Creates epic fantasy descriptions"
+	},
+
+	"Dialogue Forge": {
+		"prefix": "dialogueforge",
+		"body": [
+			"## Dialogue Scene",
+			"",
+			"Speaker One:",
+			"${1:Name}",
+			"",
+			"Voice:",
+			"${2:Tone}",
+			"",
+			"Speaker Two:",
+			"${3:Name}",
+			"",
+			"Conflict:",
+			"${4:Topic}",
+			"",
+			"Dialogue:",
+			"$0"
+		],
+		"description": "Creates structured dialogue scenes"
+	},
+
+	"Revision Pass": {
+		"prefix": "revisionpass",
+		"body": [
+			"**REVISION PASS**",
+			"",
+			"Improve this passage:",
+			"${1:Text}",
+			"",
+			"Goals:",
+			"- Increase emotional impact",
+			"- Strengthen imagery",
+			"- Improve pacing",
+			"- Preserve original meaning",
+			"- Enhance voice consistency",
+			"$0"
+		],
+		"description": "Creates AI revision prompts"
+	}
+}
+```
+
+Added system capabilities:
+
+* AI manuscript planning
+* Lore validation
+* Character psychology
+* Symbol analysis
+* Theme tracking
+* Motif tracking
+* Foreshadowing management
+* Prophecy interpretation
+* Voice consistency
+* Dialogue construction
+* Revision workflow
+
+Next section:
+
+**Part VII — Uriel Grimoire, Seal, Sigil & Sacred Archive System**
+
+* Archangel seal records
+* Planetary correspondences
+* Ritual manuscript pages
+* Ancient language notes
+* Sigil construction records
+* Magical artifact catalog
+* Hidden archive formatting
+* Illuminated manuscript pages
