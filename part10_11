@@ -1,0 +1,326 @@
+Continuing the **Uriel Writing Toolkit**. The remaining sections will complete the system architecture.
+
+## Part X — Complete Uriel Codex System
+
+**Master Lore Database, Encyclopedias, Archives & Reference Engine**
+
+Append inside the same `.code-snippets` JSON object.
+
+```json id="4w9kxs"
+{
+	"Master Codex Entry": {
+		"prefix": "codex",
+		"body": [
+			"# Codex Entry: ${1:Name}",
+			"",
+			"Category:",
+			"${2:Character/Realm/Artifact/Event/Law}",
+			"",
+			"Classification:",
+			"${3:Type}",
+			"",
+			"Origin:",
+			"${4:Origin}",
+			"",
+			"Description:",
+			"${5:Description}",
+			"",
+			"Historical Importance:",
+			"${6:Importance}",
+			"",
+			"Related Entries:",
+			"- [[${7:Entry}]]",
+			"$0"
+		],
+		"description": "Creates universal lore database entries"
+	},
+
+	"Divine Hierarchy Chart": {
+		"prefix": "hierarchy",
+		"body": [
+			"# Divine Hierarchy",
+			"",
+			"## Supreme Authority",
+			"- ${1:Entity}",
+			"",
+			"## Thrones",
+			"- ${2:Entity}",
+			"",
+			"## Archangels",
+			"- ${3:Entity}",
+			"",
+			"## Orders",
+			"- ${4:Order}",
+			"",
+			"## Messengers",
+			"- ${5:Order}",
+			"$0"
+		],
+		"description": "Creates celestial hierarchy structures"
+	},
+
+	"Character Encyclopedia": {
+		"prefix": "charencyclopedia",
+		"body": [
+			"# Character Encyclopedia",
+			"",
+			"Name:",
+			"${1:Name}",
+			"",
+			"Titles:",
+			"${2:Titles}",
+			"",
+			"First Appearance:",
+			"${3:Chapter}",
+			"",
+			"History:",
+			"${4:History}",
+			"",
+			"Relationships:",
+			"${5:Connections}",
+			"",
+			"Final Destiny:",
+			"${6:Outcome}",
+			"$0"
+		],
+		"description": "Creates character reference pages"
+	},
+
+	"Artifact Encyclopedia": {
+		"prefix": "artifactencyclopedia",
+		"body": [
+			"# Artifact Encyclopedia",
+			"",
+			"Artifact:",
+			"${1:Name}",
+			"",
+			"Creator:",
+			"${2:Creator}",
+			"",
+			"Age:",
+			"${3:Era}",
+			"",
+			"Abilities:",
+			"${4:Powers}",
+			"",
+			"Known Bearers:",
+			"${5:Names}",
+			"",
+			"Current Status:",
+			"${6:Status}",
+			"$0"
+		],
+		"description": "Creates artifact reference pages"
+	},
+
+	"Prophecy Archive": {
+		"prefix": "prophecyarchive",
+		"body": [
+			"# Prophecy Archive",
+			"",
+			"Prophecy Name:",
+			"${1:Name}",
+			"",
+			"Origin:",
+			"${2:Source}",
+			"",
+			"Text:",
+			"\"${3:Prophecy}\"",
+			"",
+			"Interpretation:",
+			"${4:Meaning}",
+			"",
+			"Fulfillment:",
+			"${5:Event}",
+			"$0"
+		],
+		"description": "Creates prophecy database records"
+	},
+
+	"Event Archive": {
+		"prefix": "eventarchive",
+		"body": [
+			"# Historical Event",
+			"",
+			"Event Name:",
+			"${1:Name}",
+			"",
+			"Era:",
+			"${2:Era}",
+			"",
+			"Participants:",
+			"- ${3:Character}",
+			"",
+			"Cause:",
+			"${4:Cause}",
+			"",
+			"Result:",
+			"${5:Outcome}",
+			"$0"
+		],
+		"description": "Creates historical event records"
+	},
+
+	"Lore Connection Map": {
+		"prefix": "loremap",
+		"body": [
+			"# Lore Connection Map",
+			"",
+			"Central Concept:",
+			"${1:Concept}",
+			"",
+			"Connected To:",
+			"- [[${2:Entry One}]]",
+			"- [[${3:Entry Two}]]",
+			"- [[${4:Entry Three}]]",
+			"",
+			"Relationship:",
+			"${5:Explanation}",
+			"$0"
+		],
+		"description": "Creates interconnected lore maps"
+	}
+}
+```
+
+---
+
+# Part XI — Uriel Dialogue & Voice Laboratory
+
+```json id="6t2mzp"
+{
+	"Uriel Voice Matrix": {
+		"prefix": "urvoicegrid",
+		"body": [
+			"# Uriel Voice Matrix",
+			"",
+			"Emotional State:",
+			"${1:State}",
+			"",
+			"Knowledge Level:",
+			"${2:Ancient/Present/Future}",
+			"",
+			"Tone:",
+			"${3:Tone}",
+			"",
+			"Speech Pattern:",
+			"${4:Pattern}",
+			"",
+			"Sample:",
+			"\"${5:Dialogue}\"",
+			"$0"
+		],
+		"description": "Maintains consistent Uriel dialogue style"
+	},
+
+	"Celestial Dialogue": {
+		"prefix": "celestialdialogue",
+		"body": [
+			"${1:Speaker}:",
+			"",
+			"\"${2:Elevated celestial speech}\"",
+			"",
+			"Hidden meaning:",
+			"${3:Interpretation}",
+			"$0"
+		],
+		"description": "Creates angelic dialogue"
+	},
+
+	"Confrontational Dialogue": {
+		"prefix": "confrontdialogue",
+		"body": [
+			"${1:Speaker}:",
+			"\"${2:Challenge}\"",
+			"",
+			"${3:Opponent}:",
+			"\"${4:Response}\"",
+			"",
+			"The truth beneath the words:",
+			"${5:Meaning}",
+			"$0"
+		],
+		"description": "Creates ideological confrontations"
+	},
+
+	"Silent Revelation": {
+		"prefix": "silentreveal",
+		"body": [
+			"The words were not spoken.",
+			"",
+			"The truth arrived through:",
+			"${1:Vision/Symbol/Memory}",
+			"",
+			"Understanding followed:",
+			"${2:Realization}",
+			"$0"
+		],
+		"description": "Creates nonverbal revelation scenes"
+	},
+
+	"Ancient Warning": {
+		"prefix": "warning",
+		"body": [
+			"Hear this warning:",
+			"",
+			"Those who seek ${1:desire} without wisdom shall find ${2:consequence}.",
+			"",
+			"The path remains:",
+			"${3:Choice}",
+			"$0"
+		],
+		"description": "Creates prophetic warnings"
+	},
+
+	"Prayer of the Flame": {
+		"prefix": "prayerflame",
+		"body": [
+			"Before the eternal flame, the words are offered:",
+			"",
+			"\"${1:Prayer}\"",
+			"",
+			"The flame answers:",
+			"${2:Response}",
+			"$0"
+		],
+		"description": "Creates sacred prayer passages"
+	}
+}
+```
+
+---
+
+Completed so far:
+
+✅ Uriel voice system
+✅ Prophecy engine
+✅ Worldbuilding database
+✅ Character engine
+✅ Manuscript production
+✅ AI co-writer tools
+✅ Grimoire/archive system
+✅ Sovereign Schism narrative engine
+✅ Writer command center
+✅ Codex encyclopedia
+✅ Dialogue laboratory
+
+Remaining final modules:
+
+**Part XII — Publisher & Professional Author Suite**
+
+* Word-count tracker
+* Chapter submission format
+* Query package
+* Pitch deck
+* Synopsis generator
+* Beta reader notes
+* Revision tracker
+
+**Part XIII — Ultimate Uriel Master File**
+
+* Complete VS Code workspace layout
+* Folder structure
+* Naming conventions
+* Markdown templates
+* Full manuscript automation workflow
+* Final combined `.code-snippets` architecture
