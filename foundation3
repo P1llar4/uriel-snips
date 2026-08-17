@@ -1,0 +1,215 @@
+## Uriel Writing Toolkit — Foundation Snippets (Part III)
+
+**Mythic Writing Blocks, Prophecy, Canticles & Sacred Formatting**
+
+Add these entries into the same `.code-snippets` file.
+
+```json id="7r5ncl"
+{
+  "Ancient Judgment": {
+    "prefix": "judgment",
+    "body": [
+      "The scrolls are unsealed beneath the falling towers.",
+      "The scales are lifted, and the hidden measure is revealed.",
+      "Justice stands before the ages.",
+      "$0"
+    ],
+    "description": "Creates an authoritative judgment passage"
+  },
+
+  "Canticle Block": {
+    "prefix": "canticle",
+    "body": [
+      "=== CANTICLE_${1|I,II,III,IV,V|} ===",
+      "",
+      "${2:Your canticle text}",
+      "",
+      "=== END_CANTICLE_${1} ===",
+      "$0"
+    ],
+    "description": "Creates sacred hymn sections"
+  },
+
+  "Chanted Meter": {
+    "prefix": "chant",
+    "body": [
+      "${1:First line of chant}",
+      "${2:Second line echoing the first}",
+      "${3:Third line completing the rhythm}",
+      "",
+      "$0"
+    ],
+    "description": "Creates rhythmic prophetic passages"
+  },
+
+  "Elemental Contrast": {
+    "prefix": "element",
+    "body": [
+      "Where the flame rises, the shadow remembers.",
+      "Where the darkness falls, the hidden light awakens.",
+      "$0"
+    ],
+    "description": "Creates symbolic elemental contrasts"
+  },
+
+  "Poem Block": {
+    "prefix": "poem",
+    "body": [
+      "=== POEM_${1:A} ===",
+      "",
+      "🜁✦⟐⟡☩⟊",
+      "",
+      "${2:Your verse here}",
+      "",
+      "🜁✦⟐⟡☩⟊",
+      "",
+      "=== END_POEM_${1} ===",
+      "$0"
+    ],
+    "description": "Creates sigil poem blocks"
+  },
+
+  "Prophecy Block": {
+    "prefix": "prophecy",
+    "body": [
+      "[PROPHECY]",
+      "",
+      "${1:Prophecy text}",
+      "",
+      "[/PROPHECY]",
+      "$0"
+    ],
+    "description": "Creates prophecy sections"
+  },
+
+  "Prophetic Decree": {
+    "prefix": "decree",
+    "body": [
+      "Let it be known, the hour approaches.",
+      "",
+      "The scales are weighed.",
+      "The iron is forged.",
+      "The hidden name shall be spoken.",
+      "",
+      "$1"
+    ],
+    "description": "Creates decree-style openings"
+  },
+
+  "Sacred Passage": {
+    "prefix": "sacred",
+    "body": [
+      "And thus was written:",
+      "",
+      "\"${1:Sacred passage}\"",
+      "",
+      "The meaning carried beyond the veil:",
+      "${2:Interpretation}",
+      "",
+      "$0"
+    ],
+    "description": "Creates scripture-like passages"
+  },
+
+  "Scroll Fragment": {
+    "prefix": "scroll",
+    "body": [
+      "=== FRAGMENT OF THE ${1:SCROLL NAME} ===",
+      "",
+      "The ancient words declare:",
+      "",
+      "\"${2:Text}\"",
+      "",
+      "Recovered interpretation:",
+      "${3:Meaning}",
+      "",
+      "=== END FRAGMENT ===",
+      "$0"
+    ],
+    "description": "Creates recovered manuscript fragments"
+  },
+
+  "Seal Inscription": {
+    "prefix": "inscription",
+    "body": [
+      "Upon the seal was written:",
+      "",
+      "\"${1:Inscription}\"",
+      "",
+      "The mark signifies:",
+      "${2:Meaning}",
+      "",
+      "The bearer remembers:",
+      "${3:Truth}",
+      "",
+      "$0"
+    ],
+    "description": "Creates mystical seal inscriptions"
+  },
+
+  "Vision Sequence": {
+    "prefix": "vision",
+    "body": [
+      "## The Vision of ${1:Name}",
+      "",
+      "The veil opened, and the witness beheld:",
+      "",
+      "${2:Vision description}",
+      "",
+      "The symbol revealed:",
+      "${3:Symbol}",
+      "",
+      "The hidden meaning:",
+      "${4:Interpretation}",
+      "",
+      "$0"
+    ],
+    "description": "Creates prophetic visions"
+  },
+
+  "Judgment Dialogue": {
+    "prefix": "judgmentdialogue",
+    "body": [
+      "${1:Speaker}:",
+      "\"The hour of reckoning has arrived.\"",
+      "",
+      "${2:Response}:",
+      "\"Then let truth stand unveiled.\"",
+      "",
+      "$0"
+    ],
+    "description": "Creates dramatic judgment dialogue"
+  }
+}
+```
+
+Completed foundation layer:
+
+✅ AI interaction snippets
+✅ Archive system
+✅ Lore linking
+✅ Canon tracking
+✅ Prophecy formatting
+✅ Canticles
+✅ Poems
+✅ Decrees
+✅ Scroll fragments
+✅ Sacred passages
+✅ Vision sequences
+
+Next:
+
+## Foundation Snippets — Part IV
+
+**Original Character, Worldbuilding & Manuscript Management Layer**
+
+Includes:
+
+* Character profiles
+* Realm records
+* Timeline entries
+* Chapter templates
+* Scene templates
+* Conflict records
+* Artifact records
+* Final missing pre-toolkit snippets before the expanded system.
