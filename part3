@@ -1,0 +1,307 @@
+## Uriel Writing Toolkit — Part III: Cosmic Worldbuilding Database
+
+Append these entries inside the same `.code-snippets` JSON object. They expand the toolkit into a **world bible system** for realms, celestial orders, artifacts, laws, timelines, and mythology.
+
+```json
+{
+	"Realm Entry": {
+		"prefix": "realm",
+		"body": [
+			"## Realm: ${1:Name}",
+			"",
+			"**Classification:** ${2:Celestial/Shadow/Mortal/Hidden}",
+			"**Ruler:** ${3:Entity}",
+			"**Element:** ${4:Element}",
+			"**Symbol:** ${5:Symbol}",
+			"",
+			"### Description",
+			"${6:Realm description}",
+			"",
+			"### Laws of the Realm",
+			"- ${7:Law}",
+			"",
+			"### History",
+			"${8:Ancient record}",
+			"$0"
+		],
+		"description": "Creates a complete realm database entry"
+	},
+
+	"Celestial Order": {
+		"prefix": "celestialorder",
+		"body": [
+			"## Order of ${1:Celestial Name}",
+			"",
+			"Rank:",
+			"${2:Hierarchy level}",
+			"",
+			"Purpose:",
+			"${3:Divine function}",
+			"",
+			"Symbols:",
+			"- ${4:Symbol one}",
+			"- ${5:Symbol two}",
+			"",
+			"Known Members:",
+			"- ${6:Name}",
+			"",
+			"Ancient Record:",
+			"${7:History}",
+			"$0"
+		],
+		"description": "Creates angelic or cosmic hierarchy entries"
+	},
+
+	"Throne Record": {
+		"prefix": "throne",
+		"body": [
+			"## Throne of ${1:Name}",
+			"",
+			"Bearer:",
+			"${2:Entity}",
+			"",
+			"Authority:",
+			"${3:Power granted}",
+			"",
+			"Appearance:",
+			"${4:Description}",
+			"",
+			"Meaning:",
+			"${5:Symbolic purpose}",
+			"$0"
+		],
+		"description": "Creates celestial throne descriptions"
+	},
+
+	"Artifact Record": {
+		"prefix": "artifact",
+		"body": [
+			"## Artifact: ${1:Name}",
+			"",
+			"Origin:",
+			"${2:Creation story}",
+			"",
+			"Creator:",
+			"${3:Creator}",
+			"",
+			"Power:",
+			"${4:Ability}",
+			"",
+			"Cost:",
+			"${5:Price of use}",
+			"",
+			"Current Location:",
+			"${6:Location}",
+			"$0"
+		],
+		"description": "Creates legendary artifact entries"
+	},
+
+	"Relic of the Flame": {
+		"prefix": "relic",
+		"body": [
+			"## Relic of the ${1:Flame}",
+			"",
+			"The relic was forged during ${2:Era}.",
+			"",
+			"Bearer:",
+			"${3:Name}",
+			"",
+			"Hidden Purpose:",
+			"${4:Secret function}",
+			"",
+			"Seal Status:",
+			"${5:Sealed/Awakened/Lost}",
+			"$0"
+		],
+		"description": "Creates sacred relic lore"
+	},
+
+	"Seal Record": {
+		"prefix": "seal",
+		"body": [
+			"## Seal of ${1:Name}",
+			"",
+			"Glyph:",
+			"${2:Description}",
+			"",
+			"Element:",
+			"${3:Element}",
+			"",
+			"Authority:",
+			"${4:Power represented}",
+			"",
+			"Activation:",
+			"${5:Condition}",
+			"",
+			"Meaning:",
+			"${6:Symbolism}",
+			"$0"
+		],
+		"description": "Creates magical or divine seal records"
+	},
+
+	"Sigil Description": {
+		"prefix": "sigil",
+		"body": [
+			"## Sigil: ${1:Name}",
+			"",
+			"Visual Form:",
+			"${2:Appearance}",
+			"",
+			"Hidden Geometry:",
+			"${3:Pattern}",
+			"",
+			"Invocation Meaning:",
+			"${4:Purpose}",
+			"$0"
+		],
+		"description": "Creates sigil documentation"
+	},
+
+	"Law of Creation": {
+		"prefix": "cosmiclaw",
+		"body": [
+			"## Law of Creation: ${1:Name}",
+			"",
+			"The law declares:",
+			"\"${2:Ancient statement}\"",
+			"",
+			"Origin:",
+			"${3:Source}",
+			"",
+			"Effect:",
+			"${4:How reality responds}",
+			"$0"
+		],
+		"description": "Creates universal laws for the setting"
+	},
+
+	"Prophetic Timeline": {
+		"prefix": "timeline",
+		"body": [
+			"## Era: ${1:Name}",
+			"",
+			"Beginning:",
+			"${2:Event}",
+			"",
+			"Turning Point:",
+			"${3:Event}",
+			"",
+			"Conflict:",
+			"${4:Event}",
+			"",
+			"Resolution:",
+			"${5:Event}",
+			"$0"
+		],
+		"description": "Creates mythic chronology entries"
+	},
+
+	"Age Transition": {
+		"prefix": "agechange",
+		"body": [
+			"The Age of ${1:Old Age} ended beneath ${2:symbol}.",
+			"",
+			"The Age of ${3:New Age} began when ${4:event}.",
+			"",
+			"The world was forever changed.",
+			"$0"
+		],
+		"description": "Creates major historical transitions"
+	},
+
+	"Hidden Archive Entry": {
+		"prefix": "archive",
+		"body": [
+			"## Archive Fragment ${1:Number}",
+			"",
+			"Recovered From:",
+			"${2:Location}",
+			"",
+			"Age:",
+			"${3:Era}",
+			"",
+			"Translation:",
+			"\"${4:Text}\"",
+			"",
+			"Scholarly Interpretation:",
+			"${5:Meaning}",
+			"$0"
+		],
+		"description": "Creates ancient archive records"
+	},
+
+	"Mythic Location": {
+		"prefix": "location",
+		"body": [
+			"## Location: ${1:Name}",
+			"",
+			"Realm:",
+			"${2:Realm}",
+			"",
+			"Appearance:",
+			"${3:Description}",
+			"",
+			"Guardian:",
+			"${4:Entity}",
+			"",
+			"Secret:",
+			"${5:Hidden truth}",
+			"$0"
+		],
+		"description": "Creates important locations"
+	},
+
+	"Cosmic Conflict Record": {
+		"prefix": "cosmicconflict",
+		"body": [
+			"## Conflict: ${1:Name}",
+			"",
+			"Cause:",
+			"${2:Beginning}",
+			"",
+			"Factions:",
+			"- ${3:Faction One}",
+			"- ${4:Faction Two}",
+			"",
+			"Key Event:",
+			"${5:Battle or revelation}",
+			"",
+			"Aftermath:",
+			"${6:Consequences}",
+			"$0"
+		],
+		"description": "Creates wars and cosmic events"
+	}
+}
+```
+
+This adds the **worldbuilding database layer**:
+
+* Realms
+* Celestial hierarchies
+* Thrones
+* Artifacts
+* Relics
+* Seals
+* Sigils
+* Universal laws
+* Historical ages
+* Prophetic timelines
+* Archives
+* Locations
+* Cosmic wars
+
+Next section:
+
+**Part IV — The Sovereign Schism Manuscript Production System**
+
+* Book/Act/Chapter generators
+* Scene architecture
+* Narrative pacing
+* Publisher manuscript formatting
+* Character index
+* Lore encyclopedia
+* Series bible
+* Query letter and pitch tools
