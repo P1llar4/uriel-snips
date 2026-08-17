@@ -1,0 +1,204 @@
+Below is a PowerShell script that creates the complete **Uriel Chronicles** project structure, including the folders shown previously and placeholder files for your writing system.
+
+Save as **`New-UrielWorkspace.ps1`**.
+
+```powershell
+<#
+    New-UrielWorkspace.ps1
+    Creates the complete Uriel Chronicles workspace.
+#>
+
+param(
+    [string]$ProjectName = "URIEL_CHRONICLES",
+    [string]$Location = (Get-Location)
+)
+
+$Root = Join-Path $Location $ProjectName
+
+Write-Host ""
+Write-Host "Creating Uriel Workspace..."
+Write-Host $Root
+Write-Host ""
+
+# ---------------------------------------------------
+# Folder Structure
+# ---------------------------------------------------
+
+$Folders = @(
+    "00_MASTER_CONTROL",
+
+    "01_MANUSCRIPT",
+    "01_MANUSCRIPT\act-i",
+    "01_MANUSCRIPT\act-ii",
+    "01_MANUSCRIPT\act-iii",
+
+    "02_CHARACTERS",
+    "02_CHARACTERS\archangels",
+    "02_CHARACTERS\allies",
+    "02_CHARACTERS\adversaries",
+
+    "03_WORLDBUILDING",
+    "03_WORLDBUILDING\realms",
+    "03_WORLDBUILDING\kingdoms",
+    "03_WORLDBUILDING\celestial-orders",
+    "03_WORLDBUILDING\laws-of-creation",
+    "03_WORLDBUILDING\timelines",
+
+    "04_LORE_ARCHIVE",
+    "04_LORE_ARCHIVE\prophecies",
+    "04_LORE_ARCHIVE\scrolls",
+    "04_LORE_ARCHIVE\artifacts",
+    "04_LORE_ARCHIVE\grimoires",
+    "04_LORE_ARCHIVE\seals",
+
+    "05_SYMBOL_LIBRARY",
+
+    "06_PUBLISHING",
+
+    ".vscode",
+    "snippets",
+    "templates",
+    "research",
+    "exports",
+    "assets",
+    "assets\images",
+    "assets\maps",
+    "assets\symbols"
+)
+
+foreach ($folder in $Folders) {
+
+    $Path = Join-Path $Root $folder
+
+    if (!(Test-Path $Path)) {
+
+        New-Item `
+            -ItemType Directory `
+            -Path $Path `
+            -Force | Out-Null
+
+        Write-Host "Created $folder"
+    }
+
+}
+
+# ---------------------------------------------------
+# Placeholder Files
+# ---------------------------------------------------
+
+$Files = @(
+
+    "README.md",
+
+    "00_MASTER_CONTROL\project-dashboard.md",
+    "00_MASTER_CONTROL\timeline.md",
+    "00_MASTER_CONTROL\revision-log.md",
+    "00_MASTER_CONTROL\word-count.md",
+
+    "01_MANUSCRIPT\prologue.md",
+    "01_MANUSCRIPT\epilogue.md",
+
+    "02_CHARACTERS\uriel.md",
+
+    "05_SYMBOL_LIBRARY\elements.md",
+    "05_SYMBOL_LIBRARY\colors.md",
+    "05_SYMBOL_LIBRARY\numbers.md",
+    "05_SYMBOL_LIBRARY\motifs.md",
+
+    "06_PUBLISHING\query-letter.md",
+    "06_PUBLISHING\pitch-deck.md",
+    "06_PUBLISHING\synopsis.md",
+    "06_PUBLISHING\submission-package.md",
+
+    ".vscode\settings.json",
+    ".vscode\extensions.json",
+
+    "snippets\uriel.code-snippets"
+)
+
+foreach ($file in $Files) {
+
+    $Path = Join-Path $Root $file
+
+    if (!(Test-Path $Path)) {
+
+        New-Item `
+            -ItemType File `
+            -Path $Path `
+            -Force | Out-Null
+
+        Write-Host "Created $file"
+
+    }
+
+}
+
+# ---------------------------------------------------
+# README
+# ---------------------------------------------------
+
+$Readme = @"
+# Uriel Chronicles
+
+This workspace contains the full Uriel writing system.
+
+## Structure
+
+00_MASTER_CONTROL
+Project management
+
+01_MANUSCRIPT
+Novel manuscripts
+
+02_CHARACTERS
+Character encyclopedia
+
+03_WORLDBUILDING
+Locations, kingdoms, history
+
+04_LORE_ARCHIVE
+Artifacts, scrolls, prophecies
+
+05_SYMBOL_LIBRARY
+Recurring symbolism
+
+06_PUBLISHING
+Submission materials
+
+snippets
+VS Code snippets
+
+templates
+Reusable markdown templates
+
+research
+Reference material
+
+exports
+Compiled manuscripts
+"@
+
+Set-Content `
+    (Join-Path $Root "README.md") `
+    $Readme
+
+Write-Host ""
+Write-Host "-----------------------------------------"
+Write-Host "Uriel Workspace Complete"
+Write-Host "-----------------------------------------"
+Write-Host ""
+Write-Host $Root
+Write-Host ""
+```
+
+## Suggested next step
+
+Since you're building **Uriel Studio** as a VS Code extension, the next logical improvement would be to generate **everything automatically**, not just folders. A more complete bootstrap script could:
+
+* Populate every Markdown file with the matching template (e.g. `chapter.md`, `character.md`, `artifact.md`).
+* Generate `uriel.code-snippets` with all snippets already installed.
+* Create `.vscode/settings.json`, recommended extensions, tasks, and launch configurations.
+* Initialize Git, `.gitignore`, `LICENSE`, and a starter `CHANGELOG.md`.
+* Scaffold the monorepo structure for the future Uriel Studio extension.
+
+That would let a new project go from an empty directory to a fully configured writing workspace with a single PowerShell command.
