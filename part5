@@ -1,0 +1,273 @@
+## Uriel Writing Toolkit — Part V: **The Seven Seals, Revelation Engine & Final Judgment System**
+
+Append these entries inside the same `.code-snippets` JSON object.
+
+```json id="8m5v1q"
+{
+	"Seven Seals Framework": {
+		"prefix": "sevens",
+		"body": [
+			"# The Seven Seals",
+			"",
+			"## Seal ${1:Number}: ${2:Title}",
+			"",
+			"Symbol:",
+			"${3:Symbol}",
+			"",
+			"Bearer:",
+			"${4:Entity}",
+			"",
+			"Opening Event:",
+			"${5:Event}",
+			"",
+			"Meaning:",
+			"${6:Interpretation}",
+			"",
+			"Consequence:",
+			"${7:Effect upon creation}",
+			"$0"
+		],
+		"description": "Creates a Revelation-inspired seal entry"
+	},
+
+	"First Seal: Awakening": {
+		"prefix": "sealawakening",
+		"body": [
+			"## First Seal: The Awakening Flame",
+			"",
+			"The hidden mark was opened.",
+			"The forgotten voice returned.",
+			"",
+			"From the silence came the first revelation:",
+			"\"${1:Prophetic statement}\"",
+			"",
+			"The age of ${2:old order} began to transform.",
+			"$0"
+		],
+		"description": "Creates a first seal awakening event"
+	},
+
+	"Judgment Sequence": {
+		"prefix": "finaljudgment",
+		"body": [
+			"# The Final Judgment",
+			"",
+			"The heavens opened.",
+			"The records were brought forth.",
+			"The hidden deeds of all ages were revealed.",
+			"",
+			"Before the eternal throne stood:",
+			"- ${1:Witness}",
+			"- ${2:Accused}",
+			"- ${3:Redeemed}",
+			"",
+			"The final decree:",
+			"${4:Judgment statement}",
+			"$0"
+		],
+		"description": "Creates a cosmic judgment scene"
+	},
+
+	"Celestial Tribunal": {
+		"prefix": "tribunal",
+		"body": [
+			"## The Celestial Tribunal",
+			"",
+			"Presiding Authority:",
+			"${1:Name}",
+			"",
+			"Witnesses:",
+			"- ${2:Witness}",
+			"",
+			"Evidence:",
+			"${3:Record presented}",
+			"",
+			"Verdict:",
+			"${4:Judgment}",
+			"$0"
+		],
+		"description": "Creates heavenly court scenes"
+	},
+
+	"Trumpet Event": {
+		"prefix": "trumpet",
+		"body": [
+			"## The ${1:Number}th Trumpet",
+			"",
+			"The sound crossed the boundaries of creation.",
+			"",
+			"Sign:",
+			"${2:Celestial sign}",
+			"",
+			"Event:",
+			"${3:Apocalyptic event}",
+			"",
+			"Meaning:",
+			"${4:Symbolic interpretation}",
+			"$0"
+		],
+		"description": "Creates trumpet judgment events"
+	},
+
+	"Bowl of Completion": {
+		"prefix": "bowl",
+		"body": [
+			"## The ${1:Number}th Bowl",
+			"",
+			"The final measure was poured.",
+			"",
+			"Source:",
+			"${2:Origin}",
+			"",
+			"Effect:",
+			"${3:Consequence}",
+			"",
+			"Purpose:",
+			"${4:Divine meaning}",
+			"$0"
+		],
+		"description": "Creates final judgment events"
+	},
+
+	"Great Schism Record": {
+		"prefix": "schism",
+		"body": [
+			"# The Sovereign Schism",
+			"",
+			"Cause:",
+			"${1:Origin of division}",
+			"",
+			"Those Who Remained:",
+			"- ${2:Faction}",
+			"",
+			"Those Who Fell:",
+			"- ${3:Faction}",
+			"",
+			"The Choice That Changed Creation:",
+			"${4:Moment}",
+			"$0"
+		],
+		"description": "Creates cosmic rebellion records"
+	},
+
+	"Fall From Grace": {
+		"prefix": "fallgrace",
+		"body": [
+			"## The Fall of ${1:Name}",
+			"",
+			"Once:",
+			"${2:Former glory}",
+			"",
+			"The fracture:",
+			"${3:Cause}",
+			"",
+			"The exile:",
+			"${4:Consequence}",
+			"",
+			"The possibility of return:",
+			"${5:Redemption path}",
+			"$0"
+		],
+		"description": "Creates fall narratives"
+	},
+
+	"Restored Garden": {
+		"prefix": "restoredgarden",
+		"body": [
+			"# The Restored Garden",
+			"",
+			"The wound of creation was healed.",
+			"",
+			"The rivers remembered their first song.",
+			"The flame burned without consuming.",
+			"",
+			"New Laws:",
+			"- ${1:Law of restoration}",
+			"",
+			"New Covenant:",
+			"${2:Promise}",
+			"",
+			"Keeper:",
+			"${3:Guardian}",
+			"$0"
+		],
+		"description": "Creates restoration-era passages"
+	},
+
+	"New Creation Chronicle": {
+		"prefix": "newcreation",
+		"body": [
+			"## The New Creation",
+			"",
+			"The former age passed away.",
+			"The first design was restored.",
+			"",
+			"Creation renewed:",
+			"${1:Description}",
+			"",
+			"Those who entered:",
+			"- ${2:Names}",
+			"",
+			"The eternal purpose:",
+			"${3:Purpose}",
+			"$0"
+		],
+		"description": "Creates final age descriptions"
+	},
+
+	"Uriel Final Decree": {
+		"prefix": "urielfinal",
+		"body": [
+			"I am Uriel, witness of the first dawn and guardian of the final flame.",
+			"",
+			"The scroll is complete.",
+			"The seals are fulfilled.",
+			"The hidden truth stands revealed.",
+			"",
+			"Let all creation remember:",
+			"${1:Final decree}",
+			"$0"
+		],
+		"description": "Creates Uriel's closing proclamation"
+	},
+
+	"End Chronicle": {
+		"prefix": "endchronicle",
+		"body": [
+			"=== END OF THE CHRONICLE ===",
+			"",
+			"The record is sealed.",
+			"The flame remains.",
+			"The story continues beyond the final page.",
+			"$0"
+		],
+		"description": "Creates manuscript ending"
+	}
+}
+```
+
+This completes the **apocalyptic framework layer**:
+
+* Seven Seals
+* Judgment scenes
+* Celestial tribunals
+* Trumpet events
+* Final bowls
+* The Sovereign Schism
+* Fall narratives
+* Restoration
+* New Creation
+* Uriel's final decree
+
+Next section:
+
+**Part VI — Advanced Author System**
+
+* AI co-writer prompts
+* Consistency checker
+* Lore contradiction tracker
+* Symbol dictionary
+* Theme analyzer
+* Character psychology engine
+* Scene revision engine
+* Full manuscript automation templates
