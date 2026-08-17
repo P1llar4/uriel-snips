@@ -1,0 +1,305 @@
+## Uriel Writing Toolkit — Foundation Snippets (Part IV)
+
+**Character, Worldbuilding & Manuscript Management Layer**
+
+Add these entries into the same `.code-snippets` file.
+
+```json id="4j8qnd"
+{
+  "Character Profile": {
+    "prefix": "character",
+    "body": [
+      "# Character: ${1:Name}",
+      "",
+      "Titles:",
+      "${2:Titles}",
+      "",
+      "Role:",
+      "${3:Role in story}",
+      "",
+      "Origin:",
+      "${4:Origin}",
+      "",
+      "Appearance:",
+      "${5:Description}",
+      "",
+      "Personality:",
+      "${6:Traits}",
+      "",
+      "Strengths:",
+      "- ${7:Strength}",
+      "",
+      "Weaknesses:",
+      "- ${8:Weakness}",
+      "",
+      "Desire:",
+      "${9:Goal}",
+      "",
+      "Fear:",
+      "${10:Fear}",
+      "",
+      "Transformation:",
+      "${11:Character arc}",
+      "",
+      "$0"
+    ],
+    "description": "Creates complete character profiles"
+  },
+
+  "Character First Appearance": {
+    "prefix": "firstappear",
+    "body": [
+      "## First Appearance: ${1:Character}",
+      "",
+      "Chapter:",
+      "${2:Number}",
+      "",
+      "Entrance Description:",
+      "${3:Description}",
+      "",
+      "Initial Impression:",
+      "${4:Impact}",
+      "",
+      "Hidden Truth:",
+      "${5:Secret}",
+      "",
+      "$0"
+    ],
+    "description": "Records character introductions"
+  },
+
+  "Realm Description": {
+    "prefix": "realm",
+    "body": [
+      "# Realm: ${1:Name}",
+      "",
+      "Classification:",
+      "${2:Celestial/Earthly/Hidden}",
+      "",
+      "Origin:",
+      "${3:Creation}",
+      "",
+      "Appearance:",
+      "${4:Visual description}",
+      "",
+      "Inhabitants:",
+      "- ${5:Species or beings}",
+      "",
+      "Laws:",
+      "- ${6:Rule}",
+      "",
+      "Secrets:",
+      "${7:Hidden truth}",
+      "",
+      "$0"
+    ],
+    "description": "Creates worldbuilding realm entries"
+  },
+
+  "Timeline Entry": {
+    "prefix": "timeline",
+    "body": [
+      "# Timeline Entry",
+      "",
+      "Era:",
+      "${1:Era name}",
+      "",
+      "Date:",
+      "${2:Time period}",
+      "",
+      "Event:",
+      "${3:Event}",
+      "",
+      "Participants:",
+      "- ${4:Character}",
+      "",
+      "Consequences:",
+      "${5:Impact}",
+      "",
+      "$0"
+    ],
+    "description": "Creates chronological records"
+  },
+
+  "Chapter Template": {
+    "prefix": "chapter",
+    "body": [
+      "# Chapter ${1:Number}: ${2:Title}",
+      "",
+      "## Opening Image",
+      "${3:Opening scene}",
+      "",
+      "## Conflict",
+      "${4:Central conflict}",
+      "",
+      "## Revelation",
+      "${5:Discovery}",
+      "",
+      "## Turning Point",
+      "${6:Major change}",
+      "",
+      "## Closing Image",
+      "${7:Ending scene}",
+      "",
+      "$0"
+    ],
+    "description": "Creates chapter structures"
+  },
+
+  "Scene Template": {
+    "prefix": "scene",
+    "body": [
+      "# Scene: ${1:Title}",
+      "",
+      "Location:",
+      "${2:Place}",
+      "",
+      "Characters Present:",
+      "- ${3:Character}",
+      "",
+      "Purpose:",
+      "${4:Narrative purpose}",
+      "",
+      "Conflict:",
+      "${5:Conflict}",
+      "",
+      "Emotional Shift:",
+      "${6:Change}",
+      "",
+      "Outcome:",
+      "${7:Result}",
+      "",
+      "$0"
+    ],
+    "description": "Creates scene planning templates"
+  },
+
+  "Conflict Record": {
+    "prefix": "conflict",
+    "body": [
+      "# Conflict Record",
+      "",
+      "Conflict Name:",
+      "${1:Name}",
+      "",
+      "Opposing Forces:",
+      "- ${2:Force One}",
+      "- ${3:Force Two}",
+      "",
+      "Cause:",
+      "${4:Cause}",
+      "",
+      "Escalation:",
+      "${5:Development}",
+      "",
+      "Resolution:",
+      "${6:Outcome}",
+      "",
+      "$0"
+    ],
+    "description": "Tracks major conflicts"
+  },
+
+  "Artifact Record": {
+    "prefix": "artifact",
+    "body": [
+      "# Artifact: ${1:Name}",
+      "",
+      "Created By:",
+      "${2:Creator}",
+      "",
+      "Age:",
+      "${3:Era}",
+      "",
+      "Appearance:",
+      "${4:Description}",
+      "",
+      "Purpose:",
+      "${5:Purpose}",
+      "",
+      "Abilities:",
+      "${6:Abilities}",
+      "",
+      "History:",
+      "${7:History}",
+      "",
+      "$0"
+    ],
+    "description": "Creates artifact records"
+  },
+
+  "Faction Record": {
+    "prefix": "factionrecord",
+    "body": [
+      "# Faction: ${1:Name}",
+      "",
+      "Founder:",
+      "${2:Founder}",
+      "",
+      "Beliefs:",
+      "${3:Beliefs}",
+      "",
+      "Hierarchy:",
+      "${4:Structure}",
+      "",
+      "Allies:",
+      "- ${5:Ally}",
+      "",
+      "Enemies:",
+      "- ${6:Enemy}",
+      "",
+      "Hidden Purpose:",
+      "${7:Secret}",
+      "",
+      "$0"
+    ],
+    "description": "Creates faction profiles"
+  },
+
+  "Research Question": {
+    "prefix": "question",
+    "body": [
+      "# Research Question",
+      "",
+      "Question:",
+      "${1:Question}",
+      "",
+      "Answer:",
+      "${2:Answer}",
+      "",
+      "Story Connection:",
+      "${3:Connection}",
+      "",
+      "$0"
+    ],
+    "description": "Tracks creative research"
+  }
+}
+```
+
+Foundation restoration now includes:
+
+* AI command language
+* Archive management
+* Lore database
+* Prophecy formatting
+* Sacred manuscript formatting
+* Character creation
+* Realm creation
+* Timeline tracking
+* Chapter planning
+* Scene planning
+* Conflict tracking
+* Artifact records
+* Faction records
+
+Remaining original toolkit sections to restore:
+
+**Part V — Uriel-Specific Core**
+
+* Morning Star / Crown Princess character templates
+* Archangel profiles
+* Cosmic law records
+* The Sovereign Schism structure
+* Book/Act/Chapter management
+* Final original snippets before the expanded writer system.
