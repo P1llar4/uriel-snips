@@ -1,0 +1,154 @@
+The earlier snippets are the **foundation layer** of the Uriel Writing Toolkit. Because the full set is large, it will be provided in sections so the JSON remains valid and easy to paste into `uriel.code-snippets`.
+
+## Uriel Writing Toolkit — Foundation Snippets (Part I)
+
+**AI Core + Story Prompt Engine**
+
+Add these inside your existing `{ }` snippet file.
+
+```json
+{
+  "AI Emotion": {
+    "prefix": "aie",
+    "body": [
+      "AI_EMOTION: ${1:Emotion text}"
+    ],
+    "description": "Insert an AI emotion block"
+  },
+
+  "AI Line": {
+    "prefix": "ai",
+    "body": [
+      "AI: ${1:Response}"
+    ],
+    "description": "Insert an AI block"
+  },
+
+  "AI Note": {
+    "prefix": "ain",
+    "body": [
+      "AI_NOTE: ${1:Note text}"
+    ],
+    "description": "Insert an AI note block"
+  },
+
+  "AI Question": {
+    "prefix": "aiq",
+    "body": [
+      "AI_ASKS: ${1:Your question}"
+    ],
+    "description": "Insert an AI question block"
+  },
+
+  "AI Suggest": {
+    "prefix": "ais",
+    "body": [
+      "AI_SUGGEST: ${1:Suggestion text}"
+    ],
+    "description": "Insert an AI suggestion block"
+  },
+
+  "AI Thought": {
+    "prefix": "aith",
+    "body": [
+      "AI_THOUGHT: ${1:Internal reasoning}"
+    ],
+    "description": "Insert an AI thought block"
+  },
+
+  "AI Warning": {
+    "prefix": "aiw",
+    "body": [
+      "AI_WARNING: ${1:Warning text}"
+    ],
+    "description": "Insert an AI warning block"
+  },
+
+  "User Line": {
+    "prefix": "user",
+    "body": [
+      "USER: ${1:Your message}"
+    ],
+    "description": "Insert a USER block"
+  },
+
+  "AI Story Prompt: Tone Enforcement": {
+    "prefix": "aistyle",
+    "body": [
+      "**SYSTEM DIRECTIVE:**",
+      "Adopt a tone that is epic, mythic, and prophetic. Your voice must be authoritative and carry a sense of ancient justice.",
+      "Use elevated, formal diction with archaic vocabulary.",
+      "Structure responses rhythmically and percussively, like a chant or decree.",
+      "Use elemental contrasts such as fire and shadow, light and darkness, creation and destruction.",
+      "Use symbolic objects such as scales, scrolls, iron, towers, crowns, and flames.",
+      "",
+      "**PROMPT:**",
+      "$0"
+    ],
+    "description": "Sets mythic prophetic writing constraints"
+  },
+
+  "AI Story Prompt: Scene Generation": {
+    "prefix": "aiscene",
+    "body": [
+      "Draft a scene focusing on: ${1:The subject or event}.",
+      "",
+      "Highlight the contrast between:",
+      "${2:Element One}",
+      "and",
+      "${3:Element Two}.",
+      "",
+      "Center the final judgment around:",
+      "${4:Symbol}",
+      "",
+      "$0"
+    ],
+    "description": "Creates mythic symbolic scenes"
+  },
+
+  "AI Story Prompt: Lore Expansion": {
+    "prefix": "ailore",
+    "body": [
+      "Act as an ancient chronicler.",
+      "",
+      "Expand this fragment of lore:",
+      "\"${1:Lore fragment}\"",
+      "",
+      "Describe:",
+      "- Ancient laws",
+      "- Hidden history",
+      "- Prophetic meaning",
+      "- Consequences",
+      "",
+      "Maintain a rhythmic sacred-text style.",
+      "$0"
+    ],
+    "description": "Expands lore entries"
+  }
+}
+```
+
+This is **Part I** of the original foundation snippets.
+
+Next sections will restore:
+
+**Part II — Archive, Chronicle & Knowledge Link System**
+
+* AI Conversation Archive
+* AI Exchange Log
+* Entity records
+* Relationship maps
+* Prophecy references
+
+**Part III — Mythic Writing Blocks**
+
+* Canticles
+* Poems
+* Prophecies
+* Decrees
+* Judgment passages
+* Elemental symbolism
+
+**Part IV — Remaining original snippets before the expanded toolkit**
+
+* Complete restoration in the order originally created.
