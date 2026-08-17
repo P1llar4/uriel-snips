@@ -1,0 +1,279 @@
+## Uriel Writing Toolkit — Foundation Snippets (Part V)
+
+**Uriel-Specific Core: Archangel Records, Cosmic Law, Sovereign Schism & Book Structure**
+
+Add these entries into the same `.code-snippets` file.
+
+```json id="8f2kpd"
+{
+  "Uriel Character Core": {
+    "prefix": "urielcore",
+    "body": [
+      "# Uriel: ${1:Title}",
+      "",
+      "Known As:",
+      "${2:Names and titles}",
+      "",
+      "Nature:",
+      "${3:Essence}",
+      "",
+      "Realm:",
+      "${4:Domain}",
+      "",
+      "Symbol:",
+      "${5:Symbol}",
+      "",
+      "Elemental Alignment:",
+      "${6:Elements}",
+      "",
+      "Greatest Gift:",
+      "${7:Gift}",
+      "",
+      "Greatest Burden:",
+      "${8:Burden}",
+      "",
+      "Central Truth:",
+      "${9:Truth}",
+      "",
+      "$0"
+    ],
+    "description": "Creates Uriel-specific character records"
+  },
+
+  "Archangel Profile": {
+    "prefix": "archangel",
+    "body": [
+      "# Archangel Profile: ${1:Name}",
+      "",
+      "Office:",
+      "${2:Celestial Office}",
+      "",
+      "Rank:",
+      "${3:Rank}",
+      "",
+      "Domain:",
+      "${4:Domain}",
+      "",
+      "Sacred Symbol:",
+      "${5:Symbol}",
+      "",
+      "Personality:",
+      "${6:Traits}",
+      "",
+      "Relationship to Uriel:",
+      "${7:Connection}",
+      "",
+      "Role in the Schism:",
+      "${8:Role}",
+      "",
+      "$0"
+    ],
+    "description": "Creates archangel lore profiles"
+  },
+
+  "Cosmic Law Record": {
+    "prefix": "cosmiclaw",
+    "body": [
+      "# Law of Creation: ${1:Name}",
+      "",
+      "The Law Declares:",
+      "\"${2:Law text}\"",
+      "",
+      "Origin:",
+      "${3:Origin}",
+      "",
+      "Purpose:",
+      "${4:Purpose}",
+      "",
+      "Violation:",
+      "${5:What breaks the law}",
+      "",
+      "Consequence:",
+      "${6:Result}",
+      "",
+      "$0"
+    ],
+    "description": "Creates universal law entries"
+  },
+
+  "Sovereign Schism Record": {
+    "prefix": "schism",
+    "body": [
+      "# The Sovereign Schism",
+      "",
+      "Age:",
+      "${1:Era}",
+      "",
+      "Cause:",
+      "${2:Cause of division}",
+      "",
+      "The Two Paths:",
+      "",
+      "Path One:",
+      "${3:Belief}",
+      "",
+      "Path Two:",
+      "${4:Belief}",
+      "",
+      "The Hidden Truth:",
+      "${5:Revelation}",
+      "",
+      "Final Consequence:",
+      "${6:Outcome}",
+      "",
+      "$0"
+    ],
+    "description": "Creates Sovereign Schism records"
+  },
+
+  "Act Structure": {
+    "prefix": "act",
+    "body": [
+      "# Act ${1:Number}: ${2:Title}",
+      "",
+      "Purpose:",
+      "${3:Narrative purpose}",
+      "",
+      "Beginning State:",
+      "${4:Starting point}",
+      "",
+      "Central Conflict:",
+      "${5:Conflict}",
+      "",
+      "Major Revelation:",
+      "${6:Reveal}",
+      "",
+      "Ending State:",
+      "${7:Transformation}",
+      "",
+      "$0"
+    ],
+    "description": "Creates three-act structures"
+  },
+
+  "Book Blueprint": {
+    "prefix": "book",
+    "body": [
+      "# Book ${1:Number}: ${2:Title}",
+      "",
+      "Theme:",
+      "${3:Theme}",
+      "",
+      "Primary Conflict:",
+      "${4:Conflict}",
+      "",
+      "Act I:",
+      "${5:Beginning}",
+      "",
+      "Act II:",
+      "${6:Middle}",
+      "",
+      "Act III:",
+      "${7:Ending}",
+      "",
+      "Final Revelation:",
+      "${8:Truth revealed}",
+      "",
+      "$0"
+    ],
+    "description": "Creates full book structures"
+  },
+
+  "Chapter Beat Sheet": {
+    "prefix": "beat",
+    "body": [
+      "# Chapter Beat Sheet",
+      "",
+      "Opening Hook:",
+      "${1:Hook}",
+      "",
+      "Character Goal:",
+      "${2:Goal}",
+      "",
+      "Obstacle:",
+      "${3:Obstacle}",
+      "",
+      "Escalation:",
+      "${4:Escalation}",
+      "",
+      "Revelation:",
+      "${5:Discovery}",
+      "",
+      "Closing Question:",
+      "${6:Reader hook}",
+      "",
+      "$0"
+    ],
+    "description": "Creates chapter pacing plans"
+  },
+
+  "Prophetic Character Destiny": {
+    "prefix": "destiny",
+    "body": [
+      "# Destiny Record: ${1:Character}",
+      "",
+      "The Prophecy:",
+      "\"${2:Prophecy}\"",
+      "",
+      "Expected Path:",
+      "${3:Expected destiny}",
+      "",
+      "Hidden Path:",
+      "${4:True destiny}",
+      "",
+      "Final Fulfillment:",
+      "${5:Ending}",
+      "",
+      "$0"
+    ],
+    "description": "Creates prophecy-driven character arcs"
+  },
+
+  "Cosmic Conflict Map": {
+    "prefix": "cosmicconflict",
+    "body": [
+      "# Cosmic Conflict Map",
+      "",
+      "Light:",
+      "${1:Force}",
+      "",
+      "Shadow:",
+      "${2:Force}",
+      "",
+      "Balance:",
+      "${3:Neutral force}",
+      "",
+      "Trigger Event:",
+      "${4:Event}",
+      "",
+      "Resolution:",
+      "${5:Resolution}",
+      "",
+      "$0"
+    ],
+    "description": "Maps large-scale conflicts"
+  }
+}
+```
+
+Restored:
+
+✅ Uriel-specific character framework
+✅ Archangel profiles
+✅ Cosmic laws
+✅ Sovereign Schism records
+✅ Book architecture
+✅ Act planning
+✅ Chapter beats
+✅ Destiny/prophecy arcs
+✅ Cosmic conflict mapping
+
+Remaining:
+
+**Part VI — Final Foundation Snippets**
+
+* Manuscript formatting
+* Chapter continuation tools
+* Ending generators
+* Final decree templates
+* Complete bridge into the expanded Uriel Writing Toolkit (Parts VI–XIV) already created.
