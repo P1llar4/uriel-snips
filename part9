@@ -1,0 +1,318 @@
+## Uriel Writing Toolkit — Part IX: **Master Writer’s Room & Series Development System**
+
+Append these entries inside the same `.code-snippets` JSON object.
+
+```json id="2h7vqp"
+{
+	"Master Chapter Expansion": {
+		"prefix": "expandchapter",
+		"body": [
+			"**MASTER CHAPTER EXPANSION DIRECTIVE**",
+			"",
+			"Expand Chapter ${1:Number}: ${2:Title}.",
+			"",
+			"Required Elements:",
+			"- Maintain Uriel's established voice.",
+			"- Increase emotional depth.",
+			"- Strengthen symbolism.",
+			"- Expand worldbuilding.",
+			"- Include character transformation.",
+			"- End with a narrative hook.",
+			"",
+			"Chapter Outline:",
+			"${3:Insert outline}",
+			"$0"
+		],
+		"description": "Expands chapter outlines into full prose"
+	},
+
+	"Scene To Prose Converter": {
+		"prefix": "proseconvert",
+		"body": [
+			"Convert this outline into finished literary prose.",
+			"",
+			"Scene Information:",
+			"${1:Scene outline}",
+			"",
+			"Writing Requirements:",
+			"- Cinematic description",
+			"- Emotional interiority",
+			"- Symbolic imagery",
+			"- Strong pacing",
+			"- Consistent character voice",
+			"$0"
+		],
+		"description": "Transforms notes into manuscript prose"
+	},
+
+	"Trilogy Planner": {
+		"prefix": "trilogy",
+		"body": [
+			"# Trilogy Plan: ${1:Series Title}",
+			"",
+			"## Book I: ${2:Title}",
+			"Purpose:",
+			"${3:Beginning arc}",
+			"",
+			"## Book II: ${4:Title}",
+			"Purpose:",
+			"${5:Middle arc}",
+			"",
+			"## Book III: ${6:Title}",
+			"Purpose:",
+			"${7:Final arc}",
+			"",
+			"Overall Message:",
+			"${8:Theme}",
+			"$0"
+		],
+		"description": "Creates trilogy architecture"
+	},
+
+	"Series Timeline Map": {
+		"prefix": "seriesline",
+		"body": [
+			"# Series Timeline",
+			"",
+			"## Before the Beginning",
+			"${1:Ancient history}",
+			"",
+			"## The First Age",
+			"${2:Events}",
+			"",
+			"## The Schism",
+			"${3:Major conflict}",
+			"",
+			"## The Prophecy Era",
+			"${4:Events}",
+			"",
+			"## The Restoration",
+			"${5:Final age}",
+			"$0"
+		],
+		"description": "Creates complete fictional chronology"
+	},
+
+	"Character Relationship Map": {
+		"prefix": "charmap",
+		"body": [
+			"# Relationship Map",
+			"",
+			"[[${1:Character A}]]",
+			"",
+			"Connection:",
+			"${2:Relationship type}",
+			"",
+			"Conflict:",
+			"${3:Source of tension}",
+			"",
+			"Shared History:",
+			"${4:Past event}",
+			"",
+			"Future Destiny:",
+			"${5:Outcome}",
+			"$0"
+		],
+		"description": "Maps character connections"
+	},
+
+	"Faction Builder": {
+		"prefix": "faction",
+		"body": [
+			"## Faction: ${1:Name}",
+			"",
+			"Origin:",
+			"${2:Creation story}",
+			"",
+			"Belief:",
+			"${3:Core philosophy}",
+			"",
+			"Leader:",
+			"${4:Leader}",
+			"",
+			"Symbol:",
+			"${5:Symbol}",
+			"",
+			"Enemies:",
+			"- ${6:Faction}",
+			"",
+			"Hidden Agenda:",
+			"${7:Secret}",
+			"$0"
+		],
+		"description": "Creates organizations and factions"
+	},
+
+	"Theme Matrix": {
+		"prefix": "themematrix",
+		"body": [
+			"# Theme Matrix",
+			"",
+			"Theme:",
+			"${1:Theme}",
+			"",
+			"Character Representing Theme:",
+			"${2:Character}",
+			"",
+			"Opposing View:",
+			"${3:Counterpoint}",
+			"",
+			"Symbol:",
+			"${4:Symbol}",
+			"",
+			"Resolution:",
+			"${5:Final message}",
+			"$0"
+		],
+		"description": "Tracks thematic development"
+	},
+
+	"Conflict Engine": {
+		"prefix": "conflictengine",
+		"body": [
+			"# Conflict Engine",
+			"",
+			"External Conflict:",
+			"${1:Outside threat}",
+			"",
+			"Internal Conflict:",
+			"${2:Inner struggle}",
+			"",
+			"Philosophical Conflict:",
+			"${3:Opposing beliefs}",
+			"",
+			"Resolution:",
+			"${4:Resolution}",
+			"$0"
+		],
+		"description": "Creates layered conflicts"
+	},
+
+	"Emotional Arc Tracker": {
+		"prefix": "emotionarc",
+		"body": [
+			"# Emotional Arc: ${1:Character}",
+			"",
+			"Beginning Emotion:",
+			"${2:Starting state}",
+			"",
+			"Trigger Event:",
+			"${3:Change event}",
+			"",
+			"Lowest Point:",
+			"${4:Crisis}",
+			"",
+			"Awakening:",
+			"${5:Realization}",
+			"",
+			"Final State:",
+			"${6:Transformation}",
+			"$0"
+		],
+		"description": "Tracks emotional journeys"
+	},
+
+	"Chapter Review Checklist": {
+		"prefix": "chapterreview",
+		"body": [
+			"# Chapter Review",
+			"",
+			"Chapter:",
+			"${1:Number}",
+			"",
+			"✓ Character progression:",
+			"${2:Notes}",
+			"",
+			"✓ Conflict advancement:",
+			"${3:Notes}",
+			"",
+			"✓ Lore revealed:",
+			"${4:Notes}",
+			"",
+			"✓ Symbolism:",
+			"${5:Notes}",
+			"",
+			"✓ Ending impact:",
+			"${6:Notes}",
+			"$0"
+		],
+		"description": "Reviews chapter effectiveness"
+	},
+
+	"Author Command Center": {
+		"prefix": "commandcenter",
+		"body": [
+			"# Uriel Manuscript Command Center",
+			"",
+			"Current Book:",
+			"${1:Title}",
+			"",
+			"Current Chapter:",
+			"${2:Number}",
+			"",
+			"Active Plot Thread:",
+			"${3:Thread}",
+			"",
+			"Pending Revelations:",
+			"- ${4:Revelation}",
+			"",
+			"Next Writing Objective:",
+			"${5:Task}",
+			"$0"
+		],
+		"description": "Creates a writer dashboard"
+	},
+
+	"Final Author Review": {
+		"prefix": "finalreview",
+		"body": [
+			"# Final Manuscript Review",
+			"",
+			"Story Strengths:",
+			"${1:Strengths}",
+			"",
+			"Remaining Issues:",
+			"${2:Issues}",
+			"",
+			"Lore Accuracy:",
+			"${3:Review}",
+			"",
+			"Character Completion:",
+			"${4:Review}",
+			"",
+			"Final Judgment:",
+			"${5:Assessment}",
+			"$0"
+		],
+		"description": "Creates final manuscript evaluation"
+	}
+}
+```
+
+Added capabilities:
+
+* Full chapter expansion workflow
+* Outline → prose conversion
+* Trilogy planning
+* Series chronology
+* Relationship mapping
+* Faction creation
+* Theme tracking
+* Conflict architecture
+* Emotional arcs
+* Chapter quality control
+* Author dashboard
+* Final manuscript review
+
+Next section:
+
+**Part X — Complete Uriel Codex System**
+
+* Master lore database
+* Automated index entries
+* Character encyclopedia
+* Artifact encyclopedia
+* Divine hierarchy chart
+* Prophecy archive
+* Final `.code-snippets` assembly format
+* VS Code workspace organization for the entire manuscript project
