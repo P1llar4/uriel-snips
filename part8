@@ -1,0 +1,301 @@
+## Uriel Writing Toolkit — Part VIII: **The Sovereign Schism Narrative Engine**
+
+Append these entries inside the same `.code-snippets` JSON object.
+
+```json id="9k3mvt"
+{
+	"Sovereign Schism Chapter Generator": {
+		"prefix": "schismchapter",
+		"body": [
+			"# Chapter ${1:Number}: ${2:Title}",
+			"",
+			"## Historical Moment",
+			"${3:Era and circumstances}",
+			"",
+			"## Uriel's Perspective",
+			"I remember when ${4:event}.",
+			"",
+			"## The Rising Conflict",
+			"${5:Conflict description}",
+			"",
+			"## The Hidden Truth",
+			"${6:Revelation}",
+			"",
+			"## The Choice",
+			"${7:Decision that changes destiny}",
+			"",
+			"## Aftermath",
+			"${8:Consequences}",
+			"$0"
+		],
+		"description": "Generates a Sovereign Schism chapter framework"
+	},
+
+	"Uriel First Person Chronicle": {
+		"prefix": "urchronicle",
+		"body": [
+			"I remember the age before the fracture.",
+			"",
+			"I witnessed ${1:event} before the worlds knew its name.",
+			"",
+			"The truth was hidden beneath ${2:illusion},",
+			"but the flame within me carried the memory.",
+			"",
+			"Thus I record what was forgotten.",
+			"$0"
+		],
+		"description": "Creates Uriel narrated historical passages"
+	},
+
+	"Cosmic Betrayal Scene": {
+		"prefix": "cosmicbetrayal",
+		"body": [
+			"## The Moment of Betrayal",
+			"",
+			"Location:",
+			"${1:Place}",
+			"",
+			"Those Present:",
+			"- ${2:Character}",
+			"- ${3:Character}",
+			"",
+			"The revelation:",
+			"${4:Truth uncovered}",
+			"",
+			"The wound created:",
+			"${5:Emotional consequence}",
+			"$0"
+		],
+		"description": "Creates major betrayal scenes"
+	},
+
+	"Celestial Confrontation": {
+		"prefix": "celestialfight",
+		"body": [
+			"## Confrontation: ${1:Title}",
+			"",
+			"The heavens trembled as ${2:Characters} faced one another.",
+			"",
+			"Power revealed:",
+			"${3:Ability or symbol}",
+			"",
+			"Words exchanged:",
+			"\"${4:Dialogue}\"",
+			"",
+			"The choice before them:",
+			"${5:Dilemma}",
+			"$0"
+		],
+		"description": "Creates dramatic celestial confrontations"
+	},
+
+	"Battle Choreography": {
+		"prefix": "battle",
+		"body": [
+			"## Battle of ${1:Name}",
+			"",
+			"Setting:",
+			"${2:Location}",
+			"",
+			"Forces:",
+			"- ${3:Side One}",
+			"- ${4:Side Two}",
+			"",
+			"Opening Movement:",
+			"${5:First action}",
+			"",
+			"Turning Point:",
+			"${6:Critical moment}",
+			"",
+			"Final Image:",
+			"${7:Closing vision}",
+			"$0"
+		],
+		"description": "Creates mythic battle sequences"
+	},
+
+	"Emotional Turning Point": {
+		"prefix": "turningpoint",
+		"body": [
+			"## The Turning Point",
+			"",
+			"Before this moment:",
+			"${1:Character belief}",
+			"",
+			"The revelation:",
+			"${2:Event}",
+			"",
+			"The transformation:",
+			"${3:New understanding}",
+			"",
+			"The choice:",
+			"${4:Decision}",
+			"$0"
+		],
+		"description": "Creates emotional character pivots"
+	},
+
+	"Forbidden Revelation": {
+		"prefix": "forbiddentruth",
+		"body": [
+			"## The Forbidden Revelation",
+			"",
+			"The knowledge was hidden because:",
+			"${1:Reason}",
+			"",
+			"When revealed:",
+			"${2:Discovery}",
+			"",
+			"The consequence:",
+			"${3:Impact}",
+			"",
+			"Those who knew:",
+			"- ${4:Name}",
+			"$0"
+		],
+		"description": "Creates hidden truth reveals"
+	},
+
+	"Prophetic Dream Sequence": {
+		"prefix": "propheticdream",
+		"body": [
+			"## The Dream Beyond the Veil",
+			"",
+			"The dreamer entered ${1:Realm}.",
+			"",
+			"They witnessed:",
+			"${2:Vision}",
+			"",
+			"A voice declared:",
+			"\"${3:Message}\"",
+			"",
+			"Upon awakening:",
+			"${4:Change caused by vision}",
+			"$0"
+		],
+		"description": "Creates prophetic dream scenes"
+	},
+
+	"Memory Fragment": {
+		"prefix": "memoryfragment",
+		"body": [
+			"## Memory Fragment",
+			"",
+			"Era:",
+			"${1:Time}",
+			"",
+			"Uriel remembers:",
+			"${2:Memory}",
+			"",
+			"The meaning hidden within:",
+			"${3:Meaning}",
+			"$0"
+		],
+		"description": "Creates recovered memories"
+	},
+
+	"Ancient Oath": {
+		"prefix": "oath",
+		"body": [
+			"## The Oath of ${1:Name}",
+			"",
+			"Before the eternal flame, the vow was spoken:",
+			"",
+			"\"${2:Oath text}\"",
+			"",
+			"The cost of breaking this oath:",
+			"${3:Consequence}",
+			"",
+			"The witness:",
+			"${4:Entity}",
+			"$0"
+		],
+		"description": "Creates sacred vows and promises"
+	},
+
+	"Final Choice Scene": {
+		"prefix": "finalchoice",
+		"body": [
+			"## The Final Choice",
+			"",
+			"The path of destruction:",
+			"${1:Choice one}",
+			"",
+			"The path of restoration:",
+			"${2:Choice two}",
+			"",
+			"The heart must decide.",
+			"",
+			"The chosen path:",
+			"${3:Outcome}",
+			"$0"
+		],
+		"description": "Creates climactic moral decisions"
+	},
+
+	"Legacy Passage": {
+		"prefix": "legacy",
+		"body": [
+			"Long after the final battle, the memory remained.",
+			"",
+			"The name of ${1:Character} became a symbol of ${2:meaning}.",
+			"",
+			"Future generations remembered:",
+			"${3:Legacy}",
+			"$0"
+		],
+		"description": "Creates epilogue and legacy passages"
+	},
+
+	"Final Manuscript Assembly": {
+		"prefix": "assemblebook",
+		"body": [
+			"# ${1:Title}",
+			"",
+			"## Prologue",
+			"${2:Opening}",
+			"",
+			"## Act I",
+			"${3:Beginning}",
+			"",
+			"## Act II",
+			"${4:Conflict}",
+			"",
+			"## Act III",
+			"${5:Resolution}",
+			"",
+			"## Epilogue",
+			"${6:Ending}",
+			"$0"
+		],
+		"description": "Creates complete manuscript structure"
+	}
+}
+```
+
+Added narrative systems:
+
+* **Sovereign Schism chapter generation**
+* **Uriel first-person chronicle voice**
+* **Celestial confrontations**
+* **Cosmic betrayal scenes**
+* **Battle choreography**
+* **Emotional transformation**
+* **Forbidden revelations**
+* **Prophetic dreams**
+* **Sacred oaths**
+* **Final moral choices**
+* **Legacy endings**
+* **Full manuscript assembly**
+
+Next section:
+
+**Part IX — Master Uriel Writer's Room**
+
+* Automatic chapter expansion prompts
+* Trilogy/series planning
+* Character relationship maps
+* Timeline automation
+* Theme matrices
+* Publisher-ready manuscript workflow
+* Complete `.code-snippets` file assembly structure
