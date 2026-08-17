@@ -1,0 +1,269 @@
+## Uriel Writing Toolkit — Foundation Snippets (Part VI)
+
+**Final Foundation Layer: Manuscript Formatting, Continuation Tools, Endings & Decree Systems**
+
+Add these entries into the same `.code-snippets` file.
+
+```json id="6qv8ra"
+{
+  "Manuscript Header": {
+    "prefix": "manuscript",
+    "body": [
+      "# ${1:Title}",
+      "",
+      "## ${2:Subtitle}",
+      "",
+      "Author:",
+      "${3:Author Name}",
+      "",
+      "Genre:",
+      "${4:Genre}",
+      "",
+      "Status:",
+      "${5:Draft}",
+      "",
+      "---",
+      "",
+      "$0"
+    ],
+    "description": "Creates manuscript title pages"
+  },
+
+  "Chapter Continuation": {
+    "prefix": "continuechapter",
+    "body": [
+      "Continue the following chapter while maintaining:",
+      "",
+      "- Established character voices",
+      "- Existing lore",
+      "- Timeline consistency",
+      "- Emotional progression",
+      "- Symbolic language",
+      "",
+      "Previous Passage:",
+      "${1:Insert text}",
+      "",
+      "Direction:",
+      "${2:Continue from this point}",
+      "",
+      "$0"
+    ],
+    "description": "Creates continuation prompts"
+  },
+
+  "Scene Expansion": {
+    "prefix": "expandscene",
+    "body": [
+      "Expand this scene into full narrative prose.",
+      "",
+      "Requirements:",
+      "- Increase sensory detail",
+      "- Deepen character emotion",
+      "- Strengthen atmosphere",
+      "- Add meaningful symbolism",
+      "- Preserve story canon",
+      "",
+      "Scene:",
+      "${1:Scene outline}",
+      "",
+      "$0"
+    ],
+    "description": "Expands scenes into prose"
+  },
+
+  "Ending Generator": {
+    "prefix": "ending",
+    "body": [
+      "# Ending Sequence",
+      "",
+      "Final Conflict:",
+      "${1:Conflict}",
+      "",
+      "Final Choice:",
+      "${2:Choice}",
+      "",
+      "Sacrifice:",
+      "${3:Sacrifice}",
+      "",
+      "Transformation:",
+      "${4:Transformation}",
+      "",
+      "Final Image:",
+      "${5:Closing image}",
+      "",
+      "Legacy:",
+      "${6:What remains}",
+      "",
+      "$0"
+    ],
+    "description": "Creates story endings"
+  },
+
+  "Epilogue Template": {
+    "prefix": "epilogue",
+    "body": [
+      "# Epilogue: ${1:Title}",
+      "",
+      "Time Passed:",
+      "${2:Years later}",
+      "",
+      "What Changed:",
+      "${3:World transformation}",
+      "",
+      "What Remains:",
+      "${4:Legacy}",
+      "",
+      "Final Words:",
+      "\"${5:Closing line}\"",
+      "",
+      "$0"
+    ],
+    "description": "Creates epilogues"
+  },
+
+  "Final Decree": {
+    "prefix": "finaldecree",
+    "body": [
+      "## The Final Decree",
+      "",
+      "Let all realms bear witness.",
+      "",
+      "The age of ${1:Old Order} has ended.",
+      "",
+      "The age of ${2:New Order} begins.",
+      "",
+      "The truth revealed:",
+      "${3:Truth}",
+      "",
+      "The covenant fulfilled:",
+      "${4:Fulfillment}",
+      "",
+      "$0"
+    ],
+    "description": "Creates final prophetic declarations"
+  },
+
+  "Book Closing Passage": {
+    "prefix": "bookclosing",
+    "body": [
+      "And so the final page was written.",
+      "",
+      "Not as an ending, but as the first breath of what followed.",
+      "",
+      "The memory of ${1:Name} endured.",
+      "",
+      "The world remembered:",
+      "${2:Legacy}",
+      "",
+      "$0"
+    ],
+    "description": "Creates final chapter closings"
+  },
+
+  "Author Notes": {
+    "prefix": "authornotes",
+    "body": [
+      "# Author Notes",
+      "",
+      "Creative Intent:",
+      "${1:Purpose}",
+      "",
+      "Themes Explored:",
+      "- ${2:Theme}",
+      "",
+      "Symbolism:",
+      "${3:Symbols}",
+      "",
+      "Future Development:",
+      "${4:Ideas}",
+      "",
+      "$0"
+    ],
+    "description": "Stores author planning notes"
+  },
+
+  "Revision Marker": {
+    "prefix": "revision",
+    "body": [
+      "<!-- REVISION NOTE -->",
+      "",
+      "Issue:",
+      "${1:Problem}",
+      "",
+      "Solution:",
+      "${2:Fix}",
+      "",
+      "Priority:",
+      "${3:High/Medium/Low}",
+      "",
+      "<!-- END REVISION NOTE -->",
+      "$0"
+    ],
+    "description": "Tracks manuscript revisions"
+  },
+
+  "Canon Lock": {
+    "prefix": "canonlock",
+    "body": [
+      "=== CANON LOCKED ===",
+      "",
+      "Element:",
+      "${1:Lore element}",
+      "",
+      "Established Truth:",
+      "${2:Canon information}",
+      "",
+      "Do Not Alter Without Reason:",
+      "${3:Restriction}",
+      "",
+      "=== END CANON LOCK ===",
+      "$0"
+    ],
+    "description": "Locks important story canon"
+  }
+}
+```
+
+## Foundation Toolkit Complete
+
+The original snippets are now restored through:
+
+### Core Layer
+
+* AI interaction blocks
+* Archive system
+* Knowledge links
+
+### Mythic Layer
+
+* Prophecies
+* Canticles
+* Poems
+* Decrees
+* Scroll fragments
+
+### World Layer
+
+* Characters
+* Realms
+* Artifacts
+* Factions
+* Timelines
+
+### Uriel Layer
+
+* Archangels
+* Cosmic laws
+* Sovereign Schism
+* Destiny records
+
+### Manuscript Layer
+
+* Books
+* Acts
+* Chapters
+* Scenes
+* Endings
+* Revision tracking
+
+This completes the **pre-toolkit foundation**. It can now be merged with Parts VII–XIV (the expanded author system) into the final `uriel.code-snippets` master file.
