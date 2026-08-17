@@ -1,6 +1,6 @@
 import { readFile, writeFile } from 'node:fs/promises';
 
-const prompt = await readFile(new URL('../prompts', import.meta.url), 'utf8');
+const prompt = await readFile(new globalThis.URL('../prompts', import.meta.url), 'utf8');
 const sections = [
   ['character', /## Prompt 11/u, /Add snippets for:/u, /Use clear prefixes/u],
   ['scene', /## Prompt 12/u, /Include:/u, /Prefixes should begin/u],
@@ -78,9 +78,9 @@ for (const snippet of snippets) {
   seen.add(`${snippet.language}:${snippet.prefix}`);
 }
 const toJson = (language) => Object.fromEntries(snippets.filter((snippet) => snippet.language === language).map((snippet) => [snippet.name, { prefix: snippet.prefix, body: snippet.body, description: snippet.description }]));
-await writeFile(new URL('../snippets/catalog-uriel.code-snippets', import.meta.url), `${JSON.stringify(toJson('uriel'), null, 2)}\n`);
-await writeFile(new URL('../snippets/catalog-ais.code-snippets', import.meta.url), `${JSON.stringify(toJson('ais'), null, 2)}\n`);
-console.log(`Generated ${snippets.length} catalog snippets.`);
+await writeFile(new globalThis.URL('../snippets/catalog-uriel.code-snippets', import.meta.url), `${JSON.stringify(toJson('uriel'), null, 2)}\n`);
+await writeFile(new globalThis.URL('../snippets/catalog-ais.code-snippets', import.meta.url), `${JSON.stringify(toJson('ais'), null, 2)}\n`);
+globalThis.console.log(`Generated ${snippets.length} catalog snippets.`);
 
 function template(name, category) {
   if (category === 'ai') return [`${name.toUpperCase()}:`, 'Context: ${1:context}', 'Task: ${2:task}', 'Constraints: ${3:constraints}', 'Output: ${4:output}', '$0'];

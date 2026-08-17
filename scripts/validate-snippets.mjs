@@ -1,13 +1,12 @@
 import { readFile } from 'node:fs/promises';
 import { readdir } from 'node:fs/promises';
-import { join } from 'node:path';
 
-const root = new URL('../snippets/', import.meta.url);
+const root = new globalThis.URL('../snippets/', import.meta.url);
 const files = (await readdir(root)).filter((file) => file.endsWith('.code-snippets'));
 const prefixes = new Map();
 const errors = [];
 for (const file of files) {
-  const text = await readFile(new URL(file, root), 'utf8');
+  const text = await readFile(new globalThis.URL(file, root), 'utf8');
   const parsed = JSON.parse(text.replace(/,\s*([}\]])/gu, '$1'));
   for (const [name, snippet] of Object.entries(parsed)) {
     if (!snippet.description || !snippet.body || !snippet.prefix) errors.push(`${file}: ${name} is incomplete`);
@@ -20,6 +19,6 @@ for (const file of files) {
   }
 }
 if (errors.length) {
-  console.error(errors.join('\n'));
-  process.exitCode = 1;
-} else console.log(`Validated ${prefixes.size} Uriel Snips prefixes.`);
+  globalThis.console.error(errors.join('\n'));
+  globalThis.process.exitCode = 1;
+} else globalThis.console.log(`Validated ${prefixes.size} Uriel Snips prefixes.`);
