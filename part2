@@ -1,0 +1,277 @@
+## Uriel Writing Toolkit — Part II: Character, Relationship & Narrative Engine
+
+Append these snippets **inside the same `.code-snippets` JSON object** after Part I. Do not add another outer `{ }`.
+
+```json
+{
+	"Character Creation Record": {
+		"prefix": "character",
+		"body": [
+			"## ${1:Character Name}",
+			"",
+			"**True Name:** ${2:Hidden Name}",
+			"**Titles:** ${3:Titles}",
+			"**Origin:** ${4:Origin}",
+			"**Alignment:** ${5:Light/Shadow/Balance}",
+			"**Element:** ${6:Element}",
+			"**Symbol:** ${7:Symbol}",
+			"",
+			"### Appearance",
+			"${8:Description}",
+			"",
+			"### Gifts & Abilities",
+			"- ${9:Ability}",
+			"",
+			"### Wounds & Trials",
+			"- ${10:Conflict}",
+			"",
+			"### Destiny",
+			"${11:Prophetic purpose}",
+			"$0"
+		],
+		"description": "Creates a complete mythic character profile"
+	},
+
+	"Uriel Character Arc": {
+		"prefix": "urielfate",
+		"body": [
+			"## The Arc of ${1:Character}",
+			"",
+			"### Before the Awakening",
+			"${2:Original state}",
+			"",
+			"### The Wound",
+			"${3:The betrayal, loss, or fracture}",
+			"",
+			"### The Revelation",
+			"${4:The hidden truth discovered}",
+			"",
+			"### The Transformation",
+			"${5:The new identity forged}",
+			"",
+			"### The Final Choice",
+			"${6:The ultimate decision}",
+			"$0"
+		],
+		"description": "Creates a mythic transformation arc"
+	},
+
+	"Divine Relationship": {
+		"prefix": "relationship",
+		"body": [
+			"[[${1:Entity A}]]",
+			"",
+			"Relationship: ${2:Connection}",
+			"",
+			"Origin:",
+			"${3:How they met or were created}",
+			"",
+			"Conflict:",
+			"${4:Source of tension}",
+			"",
+			"Resolution:",
+			"${5:Future destiny}",
+			"$0"
+		],
+		"description": "Creates relationship lore entries"
+	},
+
+	"Betrayal Chronicle": {
+		"prefix": "betrayal",
+		"body": [
+			"## The Betrayal of ${1:Name}",
+			"",
+			"The oath was broken when ${2:event}.",
+			"",
+			"The hidden motive:",
+			"${3:Truth revealed}",
+			"",
+			"The wound created:",
+			"${4:Consequence}",
+			"",
+			"The judgment to come:",
+			"${5:Future reckoning}",
+			"$0"
+		],
+		"description": "Creates betrayal and conflict narratives"
+	},
+
+	"Redemption Passage": {
+		"prefix": "redemption",
+		"body": [
+			"The fallen one stood before the flame.",
+			"",
+			"Not as a creature of failure, but as one who had endured the furnace of becoming.",
+			"",
+			"The question remained:",
+			"Would ${1:Name} choose destruction or restoration?",
+			"$0"
+		],
+		"description": "Creates redemption scenes"
+	},
+
+	"Enemy Profile": {
+		"prefix": "enemy",
+		"body": [
+			"## The Adversary: ${1:Name}",
+			"",
+			"Former Title:",
+			"${2:Original station}",
+			"",
+			"Fall:",
+			"${3:Cause of corruption}",
+			"",
+			"Power:",
+			"${4:Abilities}",
+			"",
+			"False Belief:",
+			"${5:What they believe}",
+			"",
+			"Ultimate Fear:",
+			"${6:Hidden weakness}",
+			"$0"
+		],
+		"description": "Creates antagonist mythology"
+	},
+
+	"Ally Profile": {
+		"prefix": "ally",
+		"body": [
+			"## Ally of the Flame: ${1:Name}",
+			"",
+			"Purpose:",
+			"${2:Role}",
+			"",
+			"Loyalty:",
+			"${3:Reason for devotion}",
+			"",
+			"Gift:",
+			"${4:Ability or wisdom}",
+			"",
+			"Trial:",
+			"${5:Challenge faced}",
+			"$0"
+		],
+		"description": "Creates companion and ally profiles"
+	},
+
+	"Prophetic Dialogue": {
+		"prefix": "prophecydialogue",
+		"body": [
+			"${1:Speaker}:",
+			"\"${2:Words spoken beneath the heavens}.\"",
+			"",
+			"${3:Witness}:",
+			"\"${4:Response}.\"",
+			"",
+			"The meaning remained sealed until ${5:event}.",
+			"$0"
+		],
+		"description": "Creates prophecy-driven dialogue"
+	},
+
+	"Battle Between Realms": {
+		"prefix": "realmwar",
+		"body": [
+			"## The War of ${1:Realms}",
+			"",
+			"The armies gathered beneath ${2:sky/event}.",
+			"",
+			"Side of Light:",
+			"- ${3:Forces}",
+			"",
+			"Side of Shadow:",
+			"- ${4:Forces}",
+			"",
+			"The battlefield became a mirror of the soul.",
+			"$0"
+		],
+		"description": "Creates cosmic conflict scenes"
+	},
+
+	"Vision Sequence": {
+		"prefix": "vision",
+		"body": [
+			"## The Vision of ${1:Name}",
+			"",
+			"The veil opened.",
+			"",
+			"Before the witness appeared:",
+			"${2:Imagery}",
+			"",
+			"The message carried:",
+			"${3:Revelation}",
+			"",
+			"The vision vanished, but the mark remained.",
+			"$0"
+		],
+		"description": "Creates prophetic visions"
+	},
+
+	"Dream Revelation": {
+		"prefix": "dream",
+		"body": [
+			"In the silence between waking and eternity, the dream began.",
+			"",
+			"${1:Dream imagery}",
+			"",
+			"The hidden meaning:",
+			"${2:Interpretation}",
+			"$0"
+		],
+		"description": "Creates symbolic dream sequences"
+	},
+
+	"Character Voice Test": {
+		"prefix": "voicetest",
+		"body": [
+			"Character: ${1:Name}",
+			"",
+			"Speaking about:",
+			"${2:Topic}",
+			"",
+			"Voice style:",
+			"${3:Tone}",
+			"",
+			"Response:",
+			"\"${4:Dialogue}\"",
+			"$0"
+		],
+		"description": "Tests consistency of character voice"
+	}
+}
+```
+
+Next modules in the toolkit:
+
+**Part III — Cosmic Worldbuilding Database**
+
+* Realms
+* Thrones
+* Orders of angels
+* Fallen houses
+* Artifacts
+* Seals and sigils
+* Laws of creation
+* Timeline system
+* Prophetic chronology
+
+**Part IV — The Sovereign Schism Manuscript Framework**
+
+* Book structure
+* Acts
+* Chapters
+* Scene cards
+* Publisher format
+* Query letter
+* Series bible
+* Character index
+* Lore encyclopedia
+
+**Part V — The Seven Seals & Final Judgment Engine**
+
+* Revelation-style events
+* Cosmic judgment scenes
+* Restoration era
+* New creation passages
+* Final Uriel decree system
