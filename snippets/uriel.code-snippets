@@ -1,0 +1,52 @@
+{
+  "Character Profile": {
+    "prefix": "character",
+    "body": ["CHARACTER:", "  id: ${1:id}", "  name: ${2:name}", "  role: ${3:role}", "  description: ${4:description}", "$0"],
+    "description": "Create a Uriel character record"
+  },
+  "Scene Header": {
+    "prefix": "scene",
+    "body": ["SCENE:", "  id: ${1:id}", "  title: ${2:title}", "  location: ${3:location}", "  objective: ${4:objective}", "$0"],
+    "description": "Create a structured scene"
+  },
+  "Chapter Header": {
+    "prefix": "chapter",
+    "body": ["CHAPTER:", "  number: ${1:number}", "  title: ${2:title}", "  summary: ${3:summary}", "$0"],
+    "description": "Create a chapter structure"
+  },
+  "Knowledge Link": {
+    "prefix": "klink",
+    "body": ["[[${1:Entity Name}]]", "Type: ${2:character}", "Status: ${3:canon}", "Description: ${4:description}", "$0"],
+    "description": "Create a Codex-compatible entity"
+  },
+  "Relationship": {
+    "prefix": "krel",
+    "body": ["[[${1:Source}]] =[${2:relation}]=> [[${3:Target}]]", "$0"],
+    "description": "Create a directional relationship"
+  },
+  "Prophecy": {
+    "prefix": "prophecy",
+    "body": ["PROPHECY:", "  title: ${1:title}", "  text: ${2:text}", "  fulfillment: ${3:fulfillment}", "$0"],
+    "description": "Create a prophecy entry"
+  },
+  "Writing Session": {
+    "prefix": "writingday",
+    "body": ["## Writing Session — ${1:date}", "Objective: ${2:objective}", "Scene written: ${3:scene}", "Next session: ${4:next step}", "$0"],
+    "description": "Start a focused writing session"
+  },
+  "Character Arc": {
+    "prefix": "chararc",
+    "body": ["## Character Arc: ${1:character}", "Starting state: ${2:start}", "Turning point: ${3:turn}", "Ending state: ${4:end}", "$0"],
+    "description": "Plan a character transformation"
+  },
+  "Timeline Event": {
+    "prefix": "timeline",
+    "body": ["EVENT: ${1:event}", "DATE: ${2:date or era}", "BEFORE: ${3:prior event}", "AFTER: ${4:next event}", "$0"],
+    "description": "Create a fictional-calendar timeline event"
+  },
+  "Revision Note": {
+    "prefix": "rev",
+    "body": ["[REVISION] ${1:note}", "Resolution: ${2:next action}", "$0"],
+    "description": "Record a revision task"
+  }
+}

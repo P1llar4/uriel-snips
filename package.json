@@ -1,0 +1,22 @@
+{
+  "name": "uriel-snips",
+  "displayName": "Uriel Snips",
+  "description": "English writing, worldbuilding, AI-session, and manuscript snippets for Uriel authors.",
+  "version": "0.1.0",
+  "publisher": "P1llar4",
+  "license": "MIT",
+  "engines": { "vscode": "^1.90.0" },
+  "categories": ["Snippets", "Other"],
+  "activationEvents": ["onCommand:uriel-snips.openToolkit"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [{ "command": "uriel-snips.openToolkit", "title": "Uriel Snips: Open Toolkit" }],
+    "snippets": [
+      { "language": "uriel", "path": "./snippets/uriel.code-snippets" },
+      { "language": "ais", "path": "./snippets/ais.code-snippets" },
+      { "language": "markdown", "path": "./snippets/markdown.code-snippets" }
+    ]
+  },
+  "scripts": { "build": "tsc -p tsconfig.json", "typecheck": "tsc -p tsconfig.json --noEmit", "validate:snippets": "node scripts/validate-snippets.mjs", "clean": "node -e \"require('fs').rmSync('out', { recursive: true, force: true })\"" },
+  "devDependencies": { "@types/vscode": "^1.90.0", "typescript": "^5.9.0" }
+}

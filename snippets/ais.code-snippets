@@ -1,0 +1,13 @@
+{
+  "System": { "prefix": "system", "body": ["SYSTEM:", "${1:instructions}", "$0"], "description": "Create an AI system block" },
+  "Developer": { "prefix": "developer", "body": ["DEVELOPER:", "${1:instructions}", "$0"], "description": "Create an AI developer block" },
+  "User": { "prefix": "user", "body": ["USER:", "${1:message}", "$0"], "description": "Create an AI user block" },
+  "Assistant": { "prefix": "assistant", "body": ["ASSISTANT:", "${1:response}", "$0"], "description": "Create an AI assistant block" },
+  "Thought": { "prefix": "aith", "body": ["THOUGHT:", "${1:thought}", "$0"], "description": "Create an AI thought block" },
+  "Memory": { "prefix": "memory", "body": ["MEMORY:", "${1:memory}", "$0"], "description": "Create an AI memory block" },
+  "Plan": { "prefix": "plan", "body": ["PLAN:", "${1:steps}", "$0"], "description": "Create an AI plan block" },
+  "Question": { "prefix": "aiq", "body": ["QUESTION:", "${1:question}", "$0"], "description": "Create an AI question block" },
+  "Tool": { "prefix": "tool", "body": ["TOOL:", "name: ${1:name}", "input: ${2:input}", "$0"], "description": "Create an AI tool block" },
+  "Warning": { "prefix": "aiw", "body": ["WARNING:", "${1:warning}", "$0"], "description": "Create an AI warning block" },
+  "Summary": { "prefix": "aisummary", "body": ["SUMMARY:", "${1:summary}", "$0"], "description": "Create an AI summary block" }
+}

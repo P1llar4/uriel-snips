@@ -1,0 +1,5 @@
+{
+  "Writing Session": { "prefix": "writingday", "body": ["## Writing Session — ${1:date}", "Objective: ${2:objective}", "Next session: ${3:next step}", "$0"], "description": "Start a focused Markdown writing session" },
+  "Revision Note": { "prefix": "rev", "body": ["> [!NOTE] Revision: ${1:note}", "Resolution: ${2:next action}", "$0"], "description": "Record a Markdown revision task" },
+  "Table of Contents": { "prefix": "toc", "body": ["## Contents", "", "- [${1:heading}](#${2:anchor})", "$0"], "description": "Start a Markdown table of contents" }
+}
